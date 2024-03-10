@@ -50,7 +50,8 @@ import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
                 "19.02.39",
                 "19.03.35",
                 "19.03.36",
-                "19.04.37",
+                "19.04.38",
+                "19.05.36",
             ],
         ),
     ],
@@ -65,6 +66,8 @@ object HideLayoutComponentsPatch : BytecodePatch(
         "Lapp/revanced/integrations/youtube/patches/components/DescriptionComponentsFilter;"
     private const val CUSTOM_FILTER_CLASS_NAME =
         "Lapp/revanced/integrations/youtube/patches/components/CustomFilter;"
+    private const val KEYWORD_FILTER_CLASS_NAME =
+        "Lapp/revanced/integrations/youtube/patches/components/HideKeywordContentFilter;"
 
     override fun execute(context: BytecodeContext) {
         AddResourcesPatch(this::class)
@@ -111,6 +114,17 @@ object HideLayoutComponentsPatch : BytecodePatch(
             SwitchPreference("revanced_hide_notify_me_button"),
             SwitchPreference("revanced_hide_search_result_recommendations"),
             SwitchPreference("revanced_hide_search_result_shelf_header"),
+        )
+
+        SettingsPatch.PreferenceScreen.FEED.addPreferences(
+            PreferenceScreen(
+                key = "revanced_hide_keyword_content_preference_screen",
+                sorting = Sorting.UNSORTED,
+                preferences = setOf(
+                    SwitchPreference("revanced_hide_keyword_content"),
+                    TextPreference("revanced_hide_keyword_content_phrases", inputType = InputType.TEXT_MULTI_LINE),
+                ),
+            ),
         )
 
         SettingsPatch.PreferenceScreen.GENERAL_LAYOUT.addPreferences(

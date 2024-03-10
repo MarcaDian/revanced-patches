@@ -32,6 +32,7 @@ import app.revanced.patches.youtube.video.videoid.VideoIdPatch
 import app.revanced.util.exception
 import app.revanced.util.getReference
 import app.revanced.util.indexOfFirstInstruction
+import app.revanced.util.resultOrThrow
 import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
@@ -59,10 +60,11 @@ import com.android.tools.smali.dexlib2.iface.reference.TypeReference
                 "19.02.39",
                 "19.03.35",
                 "19.03.36",
-                "19.04.37"
-            ]
-        )
-    ]
+                "19.04.38",
+                "19.05.36",
+            ],
+        ),
+    ],
 )
 @Suppress("unused")
 object ReturnYouTubeDislikePatch : BytecodePatch(
@@ -87,8 +89,6 @@ object ReturnYouTubeDislikePatch : BytecodePatch(
 
     private const val FILTER_CLASS_DESCRIPTOR =
         "Lapp/revanced/integrations/youtube/patches/components/ReturnYouTubeDislikeFilterPatch;"
-
-    private fun MethodFingerprint.resultOrThrow() = result ?: throw exception
 
     override fun execute(context: BytecodeContext) {
         // region Inject newVideoLoaded event handler to update dislikes when a new video is loaded.

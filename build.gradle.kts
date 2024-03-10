@@ -1,4 +1,5 @@
 import org.gradle.kotlin.dsl.support.listFilesOrdered
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.kotlin)
@@ -33,7 +34,13 @@ dependencies {
 }
 
 kotlin {
-    jvmToolchain(11)
+    compilerOptions {
+        jvmTarget.set(JvmTarget.JVM_11)
+    }
+}
+
+java {
+    targetCompatibility = JavaVersion.VERSION_11
 }
 
 tasks {
@@ -61,7 +68,7 @@ tasks {
 
         doLast {
             val d8 = File(System.getenv("ANDROID_HOME")).resolve("build-tools")
-                .listFilesOrdered().last().resolve("d8").absolutePath
+                .listFilesOrdered().last().resolve("d8.bat").absolutePath
 
             val patchesJar = configurations.archives.get().allArtifacts.files.files.first().absolutePath
             val workingDirectory = layout.buildDirectory.dir("libs").get().asFile
@@ -73,7 +80,7 @@ tasks {
 
             exec {
                 workingDir = workingDirectory
-                commandLine = listOf("zip", "-u", patchesJar, "classes.dex")
+                commandLine = listOf("7z", "u", patchesJar, "classes.dex")
             }
         }
     }

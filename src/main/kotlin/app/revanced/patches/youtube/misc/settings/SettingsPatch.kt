@@ -9,11 +9,8 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.annotation.Patch
 import app.revanced.patches.all.misc.packagename.ChangePackageNamePatch
 import app.revanced.patches.all.misc.resources.AddResourcesPatch
-import app.revanced.patches.shared.misc.settings.preference.BasePreferenceScreen
-import app.revanced.patches.shared.misc.settings.preference.InputType
-import app.revanced.patches.shared.misc.settings.preference.IntentPreference
+import app.revanced.patches.shared.misc.settings.preference.*
 import app.revanced.patches.shared.misc.settings.preference.PreferenceScreen.Sorting
-import app.revanced.patches.shared.misc.settings.preference.TextPreference
 import app.revanced.patches.youtube.misc.integrations.IntegrationsPatch
 import app.revanced.patches.youtube.misc.settings.fingerprints.LicenseActivityOnCreateFingerprint
 import app.revanced.patches.youtube.misc.settings.fingerprints.SetThemeFingerprint
@@ -44,6 +41,14 @@ object SettingsPatch :
 
     override fun execute(context: BytecodeContext) {
         AddResourcesPatch(this::class)
+
+        PreferenceScreen.MISC.addPreferences(
+            NonInteractivePreference(
+                "about_author",
+                tag = "app.revanced.integrations.youtube.settings.preference.AboutAuthorPreference",
+                selectable = true
+            )
+        )
 
         PreferenceScreen.MISC.addPreferences(
             TextPreference(
@@ -156,6 +161,7 @@ object SettingsPatch :
         val MISC = Screen(
             key = "revanced_settings_screen_11_misc",
             summaryKey = null,
+            sorting = Sorting.UNSORTED,
         )
         val VIDEO = Screen(
             key = "revanced_settings_screen_12_video",

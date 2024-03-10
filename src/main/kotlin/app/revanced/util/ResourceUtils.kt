@@ -9,7 +9,7 @@ import java.io.InputStream
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption
 
-private val classLoader = object {}.javaClass.classLoader
+val classLoader = object {}.javaClass.classLoader
 
 /**
  * Returns a sequence for all child nodes.

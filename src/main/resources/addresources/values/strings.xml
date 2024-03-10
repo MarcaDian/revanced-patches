@@ -34,6 +34,8 @@
             <string name="revanced_settings_screen_08_swipe_controls_title">Swipe controls</string>
             <string name="revanced_settings_screen_11_misc_title">Misc</string>
             <string name="revanced_settings_screen_12_video_title">Video</string>
+            <string name="about_author_title">Author of the modification</string>
+            <string name="about_author_summary">Mod by MarcaD for 4pda</string>
         </patch>
         <patch id="misc.debugging.DebuggingPatch">
             <string name="revanced_debug_screen_title">Debugging</string>
@@ -170,6 +172,16 @@
             <string name="revanced_custom_filter_toast_invalid_characters">Invalid custom filter (must be ASCII only): %s</string>
             <string name="revanced_custom_filter_toast_invalid_syntax">Invalid custom filter: %s</string>
             <string name="revanced_custom_filter_toast_reset">Custom filter reset to default</string>
+            <string name="revanced_hide_keyword_content_preference_screen_title">Hide keyword content</string>
+            <string name="revanced_hide_keyword_content_preference_screen_summary">Hide feed and search result videos using keyword filters</string>
+            <string name="revanced_hide_keyword_content_title">Enable keyword filtering</string>
+            <string name="revanced_hide_keyword_content_summary_on">Feed/search is filtered to hide content that matches keyword phrases\n\nLimitations\n• Some UI elements may not be hidden\n• Some Shorts may not be hidden\n• Searching for a keyword may show no results</string>
+            <string name="revanced_hide_keyword_content_summary_off">Feed/search results are not filtered</string>
+            <string name="revanced_hide_keyword_content_phrases_title">Keywords to hide</string>
+            <string name="revanced_hide_keyword_content_phrases_summary">Keywords and phrases to hide, separated by new lines.\n\nText specified here automatically include some uppercase and lowercase variations, but some text requires entering the exact casing (ie: LeBlanc, John Doe, etc)</string>
+            <string name="revanced_hide_keyword_toast_invalid_characters" formatted="false">Invalid keyword phrase (must be ASCII only): %s</string>
+            <string name="revanced_hide_keyword_toast_invalid_length" formatted="false">Invalid keyword length (must be at least %s characters): %s</string>
+            <string name="revanced_hide_keyword_toast_reset">Keywords reset to default</string>
         </patch>
         <patch id="ad.general.HideAdsResourcePatch">
             <string name="revanced_hide_general_ads_title">Hide general ads</string>
@@ -226,12 +238,15 @@
             <string name="revanced_remove_viewer_discretion_dialog_summary_off">Dialog will be shown</string>
             <string name="revanced_remove_viewer_discretion_dialog_user_dialog_message">This does not bypass the age restriction. It just accepts it automatically.</string>
         </patch>
-        <patch id="interaction.downloads.ExternalDownloadsResourcePatch">
+        <patch id="interaction.downloads.DownloadsResourcePatch">
             <string name="revanced_external_downloader_screen_title">External downloads</string>
             <string name="revanced_external_downloader_screen_summary">Settings for using an external downloader</string>
             <string name="revanced_external_downloader_title">Show external download button</string>
             <string name="revanced_external_downloader_summary_on">Download button shown in player</string>
             <string name="revanced_external_downloader_summary_off">Download button not shown in player</string>
+            <string name="revanced_external_downloader_action_button_title">Override download action button</string>
+            <string name="revanced_external_downloader_action_button_summary_on">Download button opens your external downloader</string>
+            <string name="revanced_external_downloader_action_button_summary_off">Download button opens the native in-app downloader</string>
             <string name="revanced_external_downloader_name_title">Downloader package name</string>
             <string name="revanced_external_downloader_name_summary">Package name of your installed external downloader app, such as NewPipe or Seal</string>
             <string name="revanced_external_downloader_not_installed_warning">%s is not installed. Please install it.</string>
@@ -946,57 +961,11 @@
             <string name="revanced_slide_to_seek_summary_off">Slide to seek is not enabled</string>
         </patch>
     </app>
-    <app id="twitch">
-        <patch id="ad.audio.AudioAdsPatch">
-            <string name="revanced_block_audio_ads_title">Block audio ads</string>
-            <string name="revanced_block_audio_ads_summary_on">Audio ads are blocked</string>
-            <string name="revanced_block_audio_ads_summary_off">Audio ads are unblocked</string>
-        </patch>
-        <patch id="ad.embedded.EmbeddedAdsPatch">
-            <string name="revanced_embedded_ads_service_unavailable">%s is unavailable. Ads may show. Try switching to another ad block service in settings.</string>
-            <string name="revanced_embedded_ads_service_failed">%s server returned an error. Ads may show. Try switching to another ad block service in settings.</string>
-            <string name="revanced_block_embedded_ads_title">Block embedded video ads</string>
-            <string name="revanced_block_embedded_ads_entry_1">Disabled</string>
-            <string name="revanced_block_embedded_ads_entry_2">Luminous proxy</string>
-            <string name="revanced_block_embedded_ads_entry_3">PurpleAdBlock proxy</string>
-        </patch>
-        <patch id="ad.video.VideoAdsPatch">
-            <string name="revanced_block_video_ads_title">Block video ads</string>
-            <string name="revanced_block_video_ads_summary_on">Video ads are blocked</string>
-            <string name="revanced_block_video_ads_summary_off">Video ads are unblocked</string>
-        </patch>
-        <patch id="chat.antidelete.ShowDeletedMessagesPatch">
-            <string name="revanced_deleted_msg">message deleted</string>
-            <string name="revanced_show_deleted_messages_title">Show deleted messages</string>
-            <string name="revanced_show_deleted_messages_entry_1">Do not show deleted messages</string>
-            <string name="revanced_show_deleted_messages_entry_2">Hide deleted messages behind a spoiler</string>
-            <string name="revanced_show_deleted_messages_entry_3">Show deleted messages as crossed-out text</string>
-        </patch>
-        <patch id="chat.autoclaim.AutoClaimChannelPointsPatch">
-            <string name="revanced_auto_claim_channel_points_title">Automatically claim Channel Points</string>
-            <string name="revanced_auto_claim_channel_points_summary_on">Channel Points are claimed automatically</string>
-            <string name="revanced_auto_claim_channel_points_summary_off">Channel Points are not claimed automatically</string>
-        </patch>
-        <patch id="debug.DebugModePatch">
-            <string name="revanced_twitch_debug_mode_title">Enable Twitch debug mode</string>
-            <string name="revanced_twitch_debug_mode_summary_on">Twitch debug mode is enabled (not recommended)</string>
-            <string name="revanced_twitch_debug_mode_summary_off">Twitch debug mode is disabled</string>
-        </patch>
-        <patch id="misc.settings.SettingsPatch">
-            <string name="revanced_settings">ReVanced Settings</string>
-            <string name="revanced_ads_screen_title">Ads</string>
-            <string name="revanced_ads_screen_summary">Ad blocking settings</string>
-            <string name="revanced_chat_screen_title">Chat</string>
-            <string name="revanced_chat_screen_summary">Chat settings</string>
-            <string name="revanced_misc_screen_title">Misc</string>
-            <string name="revanced_misc_screen_summary">Miscellaneous settings</string>
-            <string name="revanced_general_category_title">General settings</string>
-            <string name="revanced_other_category_title">Other settings</string>
-            <string name="revanced_client_ads_category_title">Client-side ads</string>
-            <string name="revanced_surestream_ads_category_title">Server-side surestream ads</string>
-            <string name="revanced_debug_title">Debug logging</string>
-            <string name="revanced_debug_summary_on">Debug logs are enabled</string>
-            <string name="revanced_debug_summary_off">Debug logs are disabled</string>
-        </patch>
-    </app>
+    <patch id="misc.keeplandscape.KeepLandScapeModePatch">
+        <string name="revanced_keep_landscape_mode_summary_on">Landscape mode is preserved</string>
+        <string name="revanced_keep_landscape_mode_summary_off">Landscape mode is not preserved</string>
+        <string name="revanced_keep_landscape_mode_timeout_summary">The amount of milliseconds the landscape mode is forced</string>
+        <string name="revanced_keep_landscape_mode_timeout_title">Keep landscape mode timeout</string>
+        <string name="revanced_keep_landscape_mode_title">Keep landscape mode</string>
+    </patch>
 </resources>

@@ -36,10 +36,11 @@ import com.android.tools.smali.dexlib2.Opcode
                 "19.02.39",
                 "19.03.35",
                 "19.03.36",
-                "19.04.37"
-            ]
-        )
-    ]
+                "19.04.38",
+                "19.05.36",
+            ],
+        ),
+    ],
 )
 @Suppress("unused")
 object HideCaptionsButtonPatch : BytecodePatch(
