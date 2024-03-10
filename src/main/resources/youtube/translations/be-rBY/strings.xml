@@ -782,9 +782,6 @@
     <string name="revanced_disable_zoom_haptics_title">Адключыць вібрацыю пры маштабаванні</string>
     <string name="revanced_disable_zoom_haptics_summary_on">Вібрацыі пры маштабаванні выключаны</string>
     <string name="revanced_disable_zoom_haptics_summary_off">Вібрацыі пры маштабаванні ўключаны</string>
-    <string name="revanced_hdr_auto_brightness_title">Уключыць аўтаяркасць HDR</string>
-    <string name="revanced_hdr_auto_brightness_summary_on">Аўтаяркасць HDR уключана</string>
-    <string name="revanced_hdr_auto_brightness_summary_off">Аўтаяркасць HDR адключаная</string>
     <string name="revanced_video_quality_default_entry_1">Аўтаматычная якасць</string>
     <string name="revanced_video_quality_default_entry_2">2160p</string>
     <string name="revanced_video_quality_default_entry_3">1440p</string>
@@ -799,9 +796,9 @@
     <string name="revanced_remember_video_quality_last_selected_summary_off">Змены якасці прымяняюцца толькі да бягучага відэа</string>
     <string name="revanced_video_quality_default_wifi_title">Якасць відэа для Wi-Fi сеткі па змаўчанні</string>
     <string name="revanced_video_quality_default_mobile_title">Якасць відэа для мабільнай сеткі па змаўчанні</string>
-    <string name="revanced_remember_video_quality_mobile">пры мабільным злучэнні</string>
-    <string name="revanced_remember_video_quality_wifi">пры WIFI</string>
-    <string name="revanced_remember_video_quality_toast" formatted="false">Якасць відэа па змаўчанні %s зменена на %s</string>
+    <string name="revanced_remember_video_quality_mobile">для моб. сеткі</string>
+    <string name="revanced_remember_video_quality_wifi">для Wi-Fi</string>
+    <string name="revanced_remember_video_quality_toast" formatted="false">Якасць %s зменена на %s</string>
     <string name="revanced_custom_playback_speeds_title">Карыстальніцкія хуткасці прайгравання</string>
     <string name="revanced_custom_playback_speeds_summary">Даданне ці змяненне даступных хуткасцяў прайгравання</string>
     <string name="revanced_custom_playback_speeds_invalid" formatted="false">Карыстальніцкія хуткасці павінны быць меншыя за %s Выкарыстоўваюцца значэнні па змаўчанні.</string>
@@ -810,7 +807,7 @@
     <string name="revanced_remember_playback_speed_last_selected_summary_on">Змены хуткасці прайгравання прымяняюцца да ўсіх відэа</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_off">Змены хуткасці прайгравання прымяняюцца толькі да бягучага відэа</string>
     <string name="revanced_playback_speed_default_title">Хуткасць прайгравання па змаўчанні</string>
-    <string name="revanced_remember_playback_speed_toast" formatted="false">Хуткасць па змаўчанні зменена на %s</string>
+    <string name="revanced_remember_playback_speed_toast" formatted="false">Хуткасць зменена на %s</string>
     <string name="revanced_restore_old_video_quality_menu_title">Аднавіць старое меню якасці відэа</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Адлюстроўваецца старое меню якасці відэа</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Адлюстроўваецца новае меню якасці відэа</string>

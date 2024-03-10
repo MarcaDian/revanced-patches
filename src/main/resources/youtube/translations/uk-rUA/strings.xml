@@ -778,9 +778,6 @@
     <string name="revanced_disable_zoom_haptics_title">Вимкнути вібрацію при масштабуванні</string>
     <string name="revanced_disable_zoom_haptics_summary_on">Вібрації при масштабуванні вимкнуто</string>
     <string name="revanced_disable_zoom_haptics_summary_off">Вібрації при масштабуванні ввімкнуто</string>
-    <string name="revanced_hdr_auto_brightness_title">Увімкнути автояскравість HDR</string>
-    <string name="revanced_hdr_auto_brightness_summary_on">Автояскравість HDR увімкнуто</string>
-    <string name="revanced_hdr_auto_brightness_summary_off">Автояскравість HDR вимкнуто</string>
     <string name="revanced_video_quality_default_entry_1">Автоматична якість</string>
     <string name="revanced_video_quality_default_entry_2">2160p</string>
     <string name="revanced_video_quality_default_entry_3">1440p</string>
@@ -795,9 +792,9 @@
     <string name="revanced_remember_video_quality_last_selected_summary_off">Зміни якості застосовуються лише до поточного відео</string>
     <string name="revanced_video_quality_default_wifi_title">Типова якість відео в Wi-Fi мережі</string>
     <string name="revanced_video_quality_default_mobile_title">Типова якість відео в мобільній мережі</string>
-    <string name="revanced_remember_video_quality_mobile">при мобільному з\'єднанні</string>
-    <string name="revanced_remember_video_quality_wifi">при WIFI</string>
-    <string name="revanced_remember_video_quality_toast" formatted="false">Типова якість відео %s змінена на %s</string>
+    <string name="revanced_remember_video_quality_mobile">в моб. мережі</string>
+    <string name="revanced_remember_video_quality_wifi">в Wi-Fi мережі</string>
+    <string name="revanced_remember_video_quality_toast" formatted="false">Якість %s змінена на %s</string>
     <string name="revanced_custom_playback_speeds_title">Користувацькі швидкості відтворення</string>
     <string name="revanced_custom_playback_speeds_summary">Додавання або зміна доступних швидкостей відтворення</string>
     <string name="revanced_custom_playback_speeds_invalid" formatted="false">Користувацькі швидкості повинні бути менше ніж %s Використовуються значення за замовчуванням.</string>
@@ -806,7 +803,7 @@
     <string name="revanced_remember_playback_speed_last_selected_summary_on">Зміни швидкості відтворення застосовуються до всіх відео</string>
     <string name="revanced_remember_playback_speed_last_selected_summary_off">Зміни швидкості відтворення застосовуються лише до поточного відео</string>
     <string name="revanced_playback_speed_default_title">Стандартна швидкість відтворення</string>
-    <string name="revanced_remember_playback_speed_toast" formatted="false">Типова швидкість змінена на %s</string>
+    <string name="revanced_remember_playback_speed_toast" formatted="false">Швидкість змінена на %s</string>
     <string name="revanced_restore_old_video_quality_menu_title">Відновити старе меню якості відео</string>
     <string name="revanced_restore_old_video_quality_menu_summary_on">Відображається старе меню якості відео</string>
     <string name="revanced_restore_old_video_quality_menu_summary_off">Відображається нове меню якості відео</string>
