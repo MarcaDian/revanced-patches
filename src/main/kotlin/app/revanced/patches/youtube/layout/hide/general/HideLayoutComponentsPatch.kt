@@ -50,8 +50,11 @@ import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
                 "19.02.39",
                 "19.03.35",
                 "19.03.36",
-                "19.04.38",
                 "19.05.36",
+                "19.06.39",
+                "19.07.40",
+                "19.08.36",
+                "19.09.37"
             ],
         ),
     ],
@@ -67,7 +70,7 @@ object HideLayoutComponentsPatch : BytecodePatch(
     private const val CUSTOM_FILTER_CLASS_NAME =
         "Lapp/revanced/integrations/youtube/patches/components/CustomFilter;"
     private const val KEYWORD_FILTER_CLASS_NAME =
-        "Lapp/revanced/integrations/youtube/patches/components/HideKeywordContentFilter;"
+        "Lapp/revanced/integrations/youtube/patches/components/KeywordContentFilter;"
 
     override fun execute(context: BytecodeContext) {
         AddResourcesPatch(this::class)
@@ -124,7 +127,7 @@ object HideLayoutComponentsPatch : BytecodePatch(
                     SwitchPreference("revanced_hide_keyword_content"),
                     TextPreference("revanced_hide_keyword_content_phrases", inputType = InputType.TEXT_MULTI_LINE),
                 ),
-            ),
+            )
         )
 
         SettingsPatch.PreferenceScreen.GENERAL_LAYOUT.addPreferences(
@@ -146,6 +149,7 @@ object HideLayoutComponentsPatch : BytecodePatch(
 
         LithoFilterPatch.addFilter(LAYOUT_COMPONENTS_FILTER_CLASS_DESCRIPTOR)
         LithoFilterPatch.addFilter(DESCRIPTION_COMPONENTS_FILTER_CLASS_NAME)
+        LithoFilterPatch.addFilter(KEYWORD_FILTER_CLASS_NAME)
         LithoFilterPatch.addFilter(CUSTOM_FILTER_CLASS_NAME)
 
         // region Mix playlists

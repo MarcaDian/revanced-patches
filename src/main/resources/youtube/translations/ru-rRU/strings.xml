@@ -162,10 +162,10 @@
     <string name="revanced_hide_keyword_content_preference_screen_title">Скрыть содержимое по ключевым словам</string>
     <string name="revanced_hide_keyword_content_preference_screen_summary">Скрыть канал и видео из результатов поиска с помощью фильтров ключевых слов</string>
     <string name="revanced_hide_keyword_content_title">Включить фильтрацию по ключевым словам</string>
-    <string name="revanced_hide_keyword_content_summary_on">Лента и результаты поиска фильтруются по ключевым фразам\n\nОграничения:\n• Некоторые элементы интерфейса могут не скрываться\n• Некоторые Shorts могут не скрываться\n• Поиск по ключевому слову может не показывать результатов</string>
-    <string name="revanced_hide_keyword_content_summary_off">Лента и результаты поиска не фильтруются</string>
+    <string name="revanced_hide_keyword_content_summary_on">Лента и результаты поиска фильтруются по ключевым словам\n\nОграничения:\n• Некоторые элементы интерфейса могут не скрываться\n• Некоторые Shorts могут не скрываться\n• Поиск по ключевому слову может не показывать результатов</string>
+    <string name="revanced_hide_keyword_content_summary_off">Лента и результаты поиска не фильтруются по ключевым словам</string>
     <string name="revanced_hide_keyword_content_phrases_title">Ключевые слова, которые нужно скрыть</string>
-    <string name="revanced_hide_keyword_content_phrases_summary">Ключевые слова и фразы, которые нужно скрыть, разделены новыми строками.\n\nТекст, указанный здесь, автоматически содержит некоторые варианты прописных и строчных букв, но для некоторых текстов нужно вводить точный регистр (например: LeBlanc , John Doe и т.д.)</string>
+    <string name="revanced_hide_keyword_content_phrases_summary">Ключевые слова и фразы, которые нужно скрыть, разделены новыми строками.\n\nСлова с необычным использованием верхнего или нижнего регистра должны включать регистр (например: LeBlanc, DeAndre, TikTok).</string>
     <string name="revanced_hide_keyword_toast_invalid_length" formatted="false">Недействительная длина ключевого слова (должна по крайней мере %s символов): %s</string>
     <string name="revanced_hide_keyword_toast_reset">Сброс ключевых слов к стандартным</string>
     <string name="revanced_hide_general_ads_title">Скрыть рекламу общего формата</string>

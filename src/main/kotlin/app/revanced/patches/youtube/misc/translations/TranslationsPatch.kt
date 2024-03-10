@@ -27,6 +27,10 @@ import app.revanced.patches.youtube.misc.integrations.IntegrationsPatch
                 "19.03.36",
                 "19.04.38",
                 "19.05.36",
+                "19.06.39",
+                "19.07.40",
+                "19.08.36",
+                "19.09.37"
             ],
         ),
     ],
