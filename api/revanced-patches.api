@@ -525,12 +525,6 @@ public final class app/revanced/patches/youtube/interaction/downloads/DownloadsP
 	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
 }
 
-public final class app/revanced/patches/youtube/interaction/downloads/ExternalDownloadsBytecodePatch : app/revanced/patcher/patch/BytecodePatch {
-	public static final field INSTANCE Lapp/revanced/patches/youtube/interaction/downloads/ExternalDownloadsBytecodePatch;
-	public fun execute (Lapp/revanced/patcher/data/BytecodeContext;)V
-	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
-}
-
 public final class app/revanced/patches/youtube/interaction/seekbar/DisablePreciseSeekingGesturePatch : app/revanced/patcher/patch/BytecodePatch {
 	public static final field INSTANCE Lapp/revanced/patches/youtube/interaction/seekbar/DisablePreciseSeekingGesturePatch;
 	public fun execute (Lapp/revanced/patcher/data/BytecodeContext;)V
@@ -997,12 +991,6 @@ public final class app/revanced/patches/youtube/misc/translations/TranslationsPa
 
 public final class app/revanced/patches/youtube/misc/zoomhaptics/ZoomHapticsPatch : app/revanced/patcher/patch/BytecodePatch {
 	public static final field INSTANCE Lapp/revanced/patches/youtube/misc/zoomhaptics/ZoomHapticsPatch;
-	public fun execute (Lapp/revanced/patcher/data/BytecodeContext;)V
-	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
-}
-
-public final class app/revanced/patches/youtube/video/hdrbrightness/HDRBrightnessPatch : app/revanced/patcher/patch/BytecodePatch {
-	public static final field INSTANCE Lapp/revanced/patches/youtube/video/hdrbrightness/HDRBrightnessPatch;
 	public fun execute (Lapp/revanced/patcher/data/BytecodeContext;)V
 	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
 }
