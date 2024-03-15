@@ -11,7 +11,7 @@
     <string name="revanced_settings_import_success">Импортировано %d настроек</string>
     <string name="revanced_settings_import_failure_parse">Не удалось импортировать: %s</string>
     <string name="gms_core_not_installed_warning">GmsCore не установлен. Установите его</string>
-    <string name="gms_core_not_running_warning">GmsCore не удается запустить. Пожалуйста, следуйте инструкциям \"Don\'t kill my app\" для авторизации.</string>
+    <string name="gms_core_not_running_warning">GmsCore не удается запустить. Следуйте инструкциям \"Don\'t kill my app\" для авторизации.</string>
     <string name="revanced_settings">Настройки Revanced</string>
     <string name="revanced_pref_import_export_title">Импорт / Экспорт</string>
     <string name="revanced_pref_import_export_summary">Импорт / Экспорт настроек в виде текста.\n\nДля сохранения настроек скопируйте текст в окне и сохраните его в текстовом файле.\nДля восстановления настроек вставьте в окно сохраненный ранее текст и нажмите Импортировать</string>

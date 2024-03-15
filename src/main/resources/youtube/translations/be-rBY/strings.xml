@@ -11,7 +11,7 @@
     <string name="revanced_settings_import_success">Імпартавана %d налад</string>
     <string name="revanced_settings_import_failure_parse">Немагчыма імпартаваць: %s</string>
     <string name="gms_core_not_installed_warning">GmsCore не ўсталяваны. Усталюйце яго</string>
-    <string name="gms_core_not_running_warning">GmsCore не ўдаецца запусціць. Калі ласка, прытрымлівайцеся інструкцыям \"Don\'t kill my app\" для аўтарызацыі.</string>
+    <string name="gms_core_not_running_warning">GmsCore не ўдаецца запусціць. Прытрымлівайцеся інструкцыям \"Don\'t kill my app\" для аўтарызацыі.</string>
     <string name="revanced_settings">Налады Revanced</string>
     <string name="revanced_pref_import_export_title">Імпарт / Экспарт</string>
     <string name="revanced_pref_import_export_summary">Імпарт / Экспарт настроек у выглядзе тэксту.\n\nДля захавання настроек скапіруйце тэкст у акне і захавайце яго ў тэкставым файле.\nДля аднаўлення настроек устаўце ў акно захаваны раней тэкст і націсніце Імпартаваць</string>
