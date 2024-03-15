@@ -220,7 +220,7 @@
     <string name="revanced_external_downloader_summary_off">Кнопка знешняга загрузніка не адлюстроўваецца ў плэеры</string>
     <string name="revanced_external_downloader_name_title">Імя пакета загрузніка</string>
     <string name="revanced_external_downloader_name_summary">Імя пакета ўсталяванага вамі знешняга загрузніка. Напрыклад, NewPipe ці YTDLnis </string>
-    <string name="revanced_external_downloader_not_installed_warning">%s не ўсталяваны. Калі ласка, усталюйце яго.</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s не ўсталяваны. Усталюйце яго</string>
     <string name="revanced_external_downloader_action_button_title">Замяніць кнопку \"Спампаваць\"</string>
     <string name="revanced_external_downloader_action_button_summary_on">Кнопка \"Спампаваць\" запускае знешні загрузнік</string>
     <string name="revanced_external_downloader_action_button_summary_off">Кнопка \"Спампаваць\" запускае ўласны загрузнік з праграмы</string>

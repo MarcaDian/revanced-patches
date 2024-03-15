@@ -220,7 +220,7 @@
     <string name="revanced_external_downloader_summary_off">Кнопка внешнего загрузчика не отображается в плеере</string>
     <string name="revanced_external_downloader_name_title">Имя пакета загрузчика</string>
     <string name="revanced_external_downloader_name_summary">Имя пакета установленного вами внешнего загрузчика. Например, NewPipe или YTDLnis</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s не установлен. Пожалуйста, установите его.</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s не установлен. Установите его</string>
     <string name="revanced_external_downloader_action_button_title">Подменить кнопку \"Скачать\"</string>
     <string name="revanced_external_downloader_action_button_summary_on">Кнопка \"Скачать\" запускает внешний загрузчик</string>
     <string name="revanced_external_downloader_action_button_summary_off">Кнопка \"Скачать\" запускает собственный загрузчик из программы</string>

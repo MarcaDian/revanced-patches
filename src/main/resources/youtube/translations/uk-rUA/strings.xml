@@ -217,7 +217,7 @@
     <string name="revanced_external_downloader_summary_off">Кнопка зовнішнього завантажувача не показується в плеєрі</string>
     <string name="revanced_external_downloader_name_title">Ім\'я пакету завантажувача</string>
     <string name="revanced_external_downloader_name_summary">Ім\'я пакета встановленого вами додатку зовнішнього завантажувача. Наприклад NewPipe чи YTDLnis</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s не встановлено. Будь ласка, встановіть його.</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s не встановлено. Встановіть його</string>
     <string name="revanced_external_downloader_action_button_title">Підмінити кнопку \"Завантажити\"</string>
     <string name="revanced_external_downloader_action_button_summary_on">Кнопка \"Завантажити\" запускає зовнішній завантажувач</string>
     <string name="revanced_external_downloader_action_button_summary_off">Кнопка \"Завантажити\" запускає власний завантажувач із програми</string>
