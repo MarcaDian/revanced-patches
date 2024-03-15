@@ -10,7 +10,7 @@
     <string name="revanced_settings_import_reset">Пашыраныя налады скінуты да стандартных</string>
     <string name="revanced_settings_import_success">Імпартавана %d налад</string>
     <string name="revanced_settings_import_failure_parse">Немагчыма імпартаваць: %s</string>
-    <string name="gms_core_not_installed_warning">GmsCore не ўсталяваны. Калі ласка, усталюйце.</string>
+    <string name="gms_core_not_installed_warning">GmsCore не ўсталяваны. Усталюйце яго</string>
     <string name="gms_core_not_running_warning">GmsCore не ўдаецца запусціць. Калі ласка, прытрымлівайцеся інструкцыям \"Don\'t kill my app\" для аўтарызацыі.</string>
     <string name="revanced_settings">Налады Revanced</string>
     <string name="revanced_pref_import_export_title">Імпарт / Экспарт</string>
@@ -220,7 +220,7 @@
     <string name="revanced_external_downloader_summary_off">Кнопка знешняга загрузніка не адлюстроўваецца ў плэеры</string>
     <string name="revanced_external_downloader_name_title">Імя пакета загрузніка</string>
     <string name="revanced_external_downloader_name_summary">Імя пакета ўсталяванага вамі знешняга загрузніка. Напрыклад, NewPipe ці YTDLnis </string>
-    <string name="revanced_external_downloader_not_installed_warning">%s не ўсталяваны. Калі ласка, усталюйце яго.</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s не ўсталяваны. Усталюйце яго</string>
     <string name="revanced_external_downloader_action_button_title">Замяніць кнопку \"Спампаваць\"</string>
     <string name="revanced_external_downloader_action_button_summary_on">Кнопка \"Спампаваць\" запускае знешні загрузнік</string>
     <string name="revanced_external_downloader_action_button_summary_off">Кнопка \"Спампаваць\" запускае ўласны загрузнік з праграмы</string>
