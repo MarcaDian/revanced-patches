@@ -156,7 +156,7 @@
     <string name="revanced_custom_filter_summary_off">Карыстацкі фільтр выключаны</string>
     <string name="revanced_custom_filter_strings_title">Карыстацкі фільтр</string>
     <string name="revanced_custom_filter_strings_summary">Спіс радкоў канструктара шляхоў кампанентаў для фільтрацыі, падзеленых новым радком</string>
-    <string name="revanced_custom_filter_toast_invalid_syntax">Несапраўдны карыстацкі фільтр: %s</string>
+    <string name="revanced_custom_filter_toast_invalid_syntax">Несапраўдны фільтр: %s</string>
     <string name="revanced_hide_keyword_content_screen_title">Фільтр ключавых слоў</string>
     <string name="revanced_hide_keyword_content_screen_summary">Схаваць відэа са стужкі і вынікаў пошуку з дапамогай фільтраў ключавых слоў</string>
     <string name="revanced_hide_keyword_content_home_title">Схаваць відэа на галоўнай</string>
@@ -171,8 +171,8 @@
     <string name="revanced_hide_keyword_content_phrases_title">Ключавыя словы, якія трэба схаваць</string>
     <string name="revanced_hide_keyword_content_phrases_summary">Ключавыя словы і фразы, якія трэба схаваць, падзелены новымі радкамі.\n\n• Даўжыня ключавога слова павінна быць не менш за 3 сімвалы\n• Словы з загалоўнымі літарамі пасярэдзіне павінны ўтрымліваць рэгістр (напрыклад: iPhone, TikTok, LeBlanc)</string>
     <string name="revanced_hide_keyword_content_about_title">Аб фільтры ключавых слоў</string>
-    <string name="revanced_hide_keyword_content_about_summary">Галоўная/Падпіскі/Вынікі пошуку фільтруюцца, каб схаваць відэа па ключавых слоў.\n\nАбмежаванні:\n• Некаторыя элементы інтэрфейсу могуць не хавацца\n• Некаторыя Shorts могуць не хавацца\n• Пошук па ключавым слове можа не паказваць вынікаў</string>
-    <string name="revanced_hide_keyword_toast_invalid_length" formatted="false">Ключавое слова менш за %s сімвала ігнаруецца:%s</string>
+    <string name="revanced_hide_keyword_content_about_summary">Галоўная/Падпіскі/Вынікі пошуку фільтруюцца, каб схаваць відэа па ключавых слоў.\n\nАбмежаванні:\n• Некаторыя Shorts могуць не хавацца\n• Некаторыя элементы інтэрфейсу могуць не хавацца\n• Пошук па ключавым слове можа не паказваць вынікаў</string>
+    <string name="revanced_hide_keyword_toast_invalid_length" formatted="false">Ключавое слова менш за %s-х знакаў: %s</string>
     <string name="revanced_hide_general_ads_title">Схаваць рэкламу агульнага фармату</string>
     <string name="revanced_hide_general_ads_summary_on">Рэклама агульнага фармату ўтоена</string>
     <string name="revanced_hide_general_ads_summary_off">Рэклама агульнага фармату паказваецца</string>
