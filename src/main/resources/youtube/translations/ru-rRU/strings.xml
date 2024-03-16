@@ -169,10 +169,10 @@
     <string name="revanced_hide_keyword_content_search_summary_on">Результаты поиска фильтруются по ключевым словам</string>
     <string name="revanced_hide_keyword_content_search_summary_off">Результаты поиска не фильтруются по ключевым словам</string>
     <string name="revanced_hide_keyword_content_phrases_title">Ключевые слова, которые нужно скрыть</string>
-    <string name="revanced_hide_keyword_content_phrases_summary">Ключевые слова и фразы, которые нужно скрыть, разделены новыми строками.\n\nСлова с заглавными буквами посередине должны содержать регистр (например: iPhone, TikTok, LeBlanc)</string>
+    <string name="revanced_hide_keyword_content_phrases_summary">Ключевые слова и фразы, которые нужно скрыть, разделены новыми строками.\n\n• Длина ключевого слова должна быть не менее 3х символов\n• Слова с заглавными буквами посередине должны содержать регистр (например: iPhone, TikTok, LeBlanc)</string>
     <string name="revanced_hide_keyword_content_about_title">О фильтре ключевых слов</string>
-    <string name="revanced_hide_keyword_content_about_summary">Главная/Подписки/Результаты поиска фильтруются, чтобы скрыть видео по ключевым словам\n\nОграничение:\n• Некоторые элементы интерфейса могут не скрываться\n• Некоторые Shorts могут не скрываться\n•Поиск по ключевому слову может не показывать результатов</string>
-    <string name="revanced_hide_keyword_toast_invalid_length" formatted="false">Ключевое слово должно быть %s+ символа: %s</string>
+    <string name="revanced_hide_keyword_content_about_summary">Главная/Подписки/Результаты поиска фильтруются, чтобы скрыть видео по ключевым словам\n\nОграничения:\n• Некоторые элементы интерфейса могут не скрываться\n• Некоторые Shorts могут не скрываться\n• Поиск по ключевому слову может не показывать результатов</string>
+    <string name="revanced_hide_keyword_toast_invalid_length" formatted="false">Ключевое слово менее %s символа игнорируется:%s</string>
     <string name="revanced_hide_general_ads_title">Скрыть рекламу общего формата</string>
     <string name="revanced_hide_general_ads_summary_on">Реклама общего формата скрыта</string>
     <string name="revanced_hide_general_ads_summary_off">Реклама общего формата показывается</string>
