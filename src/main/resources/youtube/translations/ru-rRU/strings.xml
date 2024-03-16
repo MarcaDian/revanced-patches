@@ -164,10 +164,10 @@
     <string name="revanced_hide_keyword_content_home_title">Скрыть содержимое на главной</string>
     <string name="revanced_hide_keyword_content_home_summary_on">Видео на вкладке /"Главная/" фильтруются по ключевым словам</string>
     <string name="revanced_hide_keyword_content_home_summary_off">Видео на вкладке /"Главная/" не фильтруются по ключевым словам</string>
-    <string name="revanced_hide_keyword_content_subscriptions_title">Скрыть содержание в подписках</string>x
+    <string name="revanced_hide_keyword_content_subscriptions_title">Скрыть содержание в подписках</string>
     <string name="revanced_hide_keyword_content_subscriptions_summary_on">Видео на вкладке /"Подписки/" фильтруются по ключевым словам</string>
     <string name="revanced_hide_keyword_content_subscriptions_summary_off">Видео на вкладке /"Подписки/" не фильтруются по ключевым словам</string>
-    <string name="revanced_hide_keyword_content_search_title">Скрыть содержание в поиске</string>x
+    <string name="revanced_hide_keyword_content_search_title">Скрыть содержание в поиске</string>
     <string name="revanced_hide_keyword_content_search_summary_on">Результаты поиска фильтруются по ключевым словам</string>
     <string name="revanced_hide_keyword_content_search_summary_off">Результаты поиска не фильтруются по ключевым словам</string>
     <string name="revanced_hide_keyword_content_phrases_title">Ключевые слова, которые нужно скрыть</string>

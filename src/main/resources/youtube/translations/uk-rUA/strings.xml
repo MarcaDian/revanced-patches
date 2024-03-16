@@ -163,10 +163,10 @@
     <string name="revanced_hide_keyword_content_home_title">Приховати вміст на головній</string>
     <string name="revanced_hide_keyword_content_home_summary_on">Відео на вкладці /"Головна/" фільтруються за ключовими словами</string>
     <string name="revanced_hide_keyword_content_home_summary_off">Відео на вкладці /"Головна/" не фільтруються за ключовими словами</string>
-    <string name="revanced_hide_keyword_content_subscriptions_title">Приховати вміст в підписках</string>x
+    <string name="revanced_hide_keyword_content_subscriptions_title">Приховати вміст в підписках</string>
     <string name="revanced_hide_keyword_content_subscriptions_summary_on">Відео на вкладці /"Підписки/" фільтруються за ключовими словами</string>
     <string name="revanced_hide_keyword_content_subscriptions_summary_off">Відео на вкладці /"Підписки/" не фільтруються за ключовими словами</string>
-    <string name="revanced_hide_keyword_content_search_title">Приховати вміст в пошуку</string>x
+    <string name="revanced_hide_keyword_content_search_title">Приховати вміст в пошуку</string>
     <string name="revanced_hide_keyword_content_search_summary_on">Результати пошуку фільтруються за ключовими словами</string>
     <string name="revanced_hide_keyword_content_search_summary_off">Результати пошуку не фільтруються за ключовими словами</string>
     <string name="revanced_hide_keyword_content_phrases_title">Ключові слова, які потрібно приховати</string>

@@ -164,10 +164,10 @@
     <string name="revanced_hide_keyword_content_home_title">Схаваць змесціва на галоўнай</string>
     <string name="revanced_hide_keyword_content_home_summary_on">Відэа на ўкладцы /"Галоўная/" фільтруюцца па ключавых словах</string>
     <string name="revanced_hide_keyword_content_home_summary_off">Відэа на ўкладцы /"Галоўная/" не фільтруюцца па ключавых словах</string>
-    <string name="revanced_hide_keyword_content_subscriptions_title">Схаваць змест у падпісках</string>x
+    <string name="revanced_hide_keyword_content_subscriptions_title">Схаваць змест у падпісках</string>
     <string name="revanced_hide_keyword_content_subscriptions_summary_on">Відэа на ўкладцы /"Падпіскі/" фільтруюцца па ключавых словах</string>
     <string name="revanced_hide_keyword_content_subscriptions_summary_off">Відэа на ўкладцы /"Падпіскі/" не фільтруюцца па ключавых словах</string>
-    <string name="revanced_hide_keyword_content_search_title">Схаваць змест у пошуку</string>x
+    <string name="revanced_hide_keyword_content_search_title">Схаваць змест у пошуку</string>
     <string name="revanced_hide_keyword_content_search_summary_on">Вынікі пошуку фільтруюцца па ключавых словах</string>
     <string name="revanced_hide_keyword_content_search_summary_off">Вынікі пошуку не фільтруюцца па ключавых словах</string>
     <string name="revanced_hide_keyword_content_phrases_title">Ключавыя словы, якія трэба схаваць</string>
