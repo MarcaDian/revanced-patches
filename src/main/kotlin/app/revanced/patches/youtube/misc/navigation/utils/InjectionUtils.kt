@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.layout.buttons.navigation.utils
+package app.revanced.patches.youtube.misc.navigation.utils
 
 import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
 import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
@@ -15,7 +15,7 @@ internal object InjectionUtils {
      * @param insertIndex The index to insert the instruction at.
      * [MOVE_RESULT_OBJECT] has to be the previous instruction before [insertIndex].
      */
-    fun MutableMethod.injectHook(hook: String, insertIndex: Int) {
+    fun MutableMethod.injectHook(insertIndex: Int, hook: String) {
         val injectTarget = this
 
         // Register to pass to the hook
