@@ -172,7 +172,7 @@
     <string name="revanced_hide_keyword_content_phrases_summary">Ключавыя словы і фразы, якія трэба схаваць, падзелены новымі радкамі.\n\nСловы з вялікімі літарамі пасярэдзіне павінны ўтрымліваць рэгістр (напрыклад: iPhone, TikTok, LeBlanc)</string>
     <string name="revanced_hide_keyword_content_about_title">Аб фільтры па ключавых словах</string>
     <string name="revanced_hide_keyword_content_about_summary">Галоўная/Падпіскі/Вынікі пошуку фільтруюцца, каб схаваць змесціва па ключавых фразах\n\nАбмежаванне\n• Некаторыя элементы інтэрфейсу могуць не хавацца\n• Некаторыя Shorts могуць не хавацца\n• Пошук па ключавым слове можа не паказваць вынікаў</string>
-    <string name="revanced_hide_keyword_toast_invalid_length" formatted="false">Несапраўдная даўжыня ключавога слова (павінна па меншай меры %s сімвалаў): %s</string>
+    <string name="revanced_hide_keyword_toast_invalid_length" formatted="false">Даўжыня ключавога слова павінна быць %s+ сімвала: %s</string>
     <string name="revanced_hide_general_ads_title">Схаваць рэкламу агульнага фармату</string>
     <string name="revanced_hide_general_ads_summary_on">Рэклама агульнага фармату ўтоена</string>
     <string name="revanced_hide_general_ads_summary_off">Рэклама агульнага фармату паказваецца</string>
