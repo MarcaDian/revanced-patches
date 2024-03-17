@@ -155,26 +155,24 @@
     <string name="revanced_custom_filter_summary_on">Користувацький фільтр увімкнуто</string>
     <string name="revanced_custom_filter_summary_off">Користувацький фільтр вимкнуто</string>
     <string name="revanced_custom_filter_strings_title">Користувацький фільтр</string>
-    <string name="revanced_custom_filter_strings_summary">Список компонентів для фільтрування, розділених новим рядком</string>
-    <string name="revanced_custom_filter_toast_invalid_syntax">Недійсний користувацький фільтр: %s</string>
-
-    <string name="revanced_hide_keyword_content_screen_title">Приховати вміст за ключовими словами</string>
-    <string name="revanced_hide_keyword_content_screen_summary">Приховує відео зі стрічки та результатів пошуку за допомогою фільтрів ключових слів</string>
-    <string name="revanced_hide_keyword_content_home_title">Приховати вміст на головній</string>
-    <string name="revanced_hide_keyword_content_home_summary_on">Відео на вкладці /"Головна/" фільтруються за ключовими словами</string>
-    <string name="revanced_hide_keyword_content_home_summary_off">Відео на вкладці /"Головна/" не фільтруються за ключовими словами</string>
-    <string name="revanced_hide_keyword_content_subscriptions_title">Приховати вміст в підписках</string>
-    <string name="revanced_hide_keyword_content_subscriptions_summary_on">Відео на вкладці /"Підписки/" фільтруються за ключовими словами</string>
-    <string name="revanced_hide_keyword_content_subscriptions_summary_off">Відео на вкладці /"Підписки/" не фільтруються за ключовими словами</string>
-    <string name="revanced_hide_keyword_content_search_title">Приховати вміст в пошуку</string>
+    <string name="revanced_custom_filter_strings_summary">Список рядків конструктора шляхів компонентів для фільтрування, розділених новим рядком</string>
+    <string name="revanced_custom_filter_toast_invalid_syntax">Недійсний фільтр: %s</string>
+    <string name="revanced_hide_keyword_content_screen_title">Фільтр ключових слів</string>
+    <string name="revanced_hide_keyword_content_screen_summary">Приховати відео зі стрічки та результатів пошуку за допомогою фільтрів ключових слів</string>
+    <string name="revanced_hide_keyword_content_home_title">Приховати відео на головній</string>
+    <string name="revanced_hide_keyword_content_home_summary_on">Відео на вкладці \"Головна\" фільтруються за ключовими словами</string>
+    <string name="revanced_hide_keyword_content_home_summary_off">Відео на вкладці \"Головна\" не фільтруються за ключовими словами</string>
+    <string name="revanced_hide_keyword_content_subscriptions_title">Приховати відео в підписках</string>
+    <string name="revanced_hide_keyword_content_subscriptions_summary_on">Відео на вкладці \"Підписки\" фільтруються за ключовими словами</string>
+    <string name="revanced_hide_keyword_content_subscriptions_summary_off">Відео на вкладці \"Підписки\" не фільтруються за ключовими словами</string>
+    <string name="revanced_hide_keyword_content_search_title">Приховати відео в пошуку</string>
     <string name="revanced_hide_keyword_content_search_summary_on">Результати пошуку фільтруються за ключовими словами</string>
     <string name="revanced_hide_keyword_content_search_summary_off">Результати пошуку не фільтруються за ключовими словами</string>
     <string name="revanced_hide_keyword_content_phrases_title">Ключові слова, які потрібно приховати</string>
-    <string name="revanced_hide_keyword_content_phrases_summary">Ключові слова та фрази, які потрібно приховати, розділені новими рядками.\n\nСлова з великими літерами посередині мають містити регістр (наприклад: iPhone, TikTok, LeBlanc)</string>
-    <string name="revanced_hide_keyword_content_about_title">Про фільтр за ключовими словами</string>
-    <string name="revanced_hide_keyword_content_about_summary">Головна/Підписки/Результати пошуку фільтруються, щоб приховати вміст за ключовими фразами\n\nОбмеження\n• Деякі елементи інтерфейсу можуть не приховуватися\n• Деякі Shorts можуть не приховуватися\n• Пошук за ключовим словом може не показувати результатів</string>
-    <string name="revanced_hide_keyword_toast_invalid_length" formatted="false">Недійсна довжина ключового слова (має бути принаймні %s символів): %s</string>
-
+    <string name="revanced_hide_keyword_content_phrases_summary">Ключові слова та фрази, які потрібно приховати, розділені новими рядками.\n\n• Довжина ключового слова повинна бути не менше 3-х символів\n• Слова з великими літерами посередині мають містити регістр (наприклад: iPhone, TikTok, LeBlanc)</string>
+    <string name="revanced_hide_keyword_content_about_title">Про фільтр ключових слів</string>
+    <string name="revanced_hide_keyword_content_about_summary">Головна/Підписки/Результати пошуку фільтруються, щоб приховати відео за ключовими словами.\n\nОбмеження:\n• Деякі Shorts можуть не приховуватися\n• Деякі елементи інтерфейсу можуть не приховуватися\n• Пошук за ключовим словом може не показувати результатів</string>
+    <string name="revanced_hide_keyword_toast_invalid_length" formatted="false">Ключове слово менше %s-х символів: %s</string>
     <string name="revanced_hide_general_ads_title">Приховати загальну рекламу</string>
     <string name="revanced_hide_general_ads_summary_on">Загальну рекламу приховано</string>
     <string name="revanced_hide_general_ads_summary_off">Загальна рекламу показується</string>

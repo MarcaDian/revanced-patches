@@ -30,7 +30,7 @@ import app.revanced.patches.youtube.video.information.VideoInformationPatch
                 "19.06.39",
                 "19.07.40",
                 "19.08.36",
-                "19.09.37"
+                "19.09.38"
             ],
         ),
     ],
