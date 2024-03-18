@@ -10,8 +10,8 @@
     <string name="revanced_settings_import_reset">Расширенные настройки сброшены к стандартным</string>
     <string name="revanced_settings_import_success">Импортировано %d настроек</string>
     <string name="revanced_settings_import_failure_parse">Не удалось импортировать: %s</string>
-    <string name="gms_core_not_installed_warning">GmsCore не установлен. Установите его</string>
-    <string name="gms_core_not_running_warning">GmsCore не удается запустить. Следуйте инструкциям \"Don\'t kill my app\" для авторизации.</string>
+    <string name="gms_core_not_installed_warning">Vanced MicroG не установлен</string>
+    <string name="gms_core_not_running_warning">Vanced MicroG не удается запустить. Следуйте инструкциям \"Don\'t kill my app\"</string>
     <string name="revanced_settings">Настройки Revanced</string>
     <string name="revanced_pref_import_export_title">Импорт / Экспорт</string>
     <string name="revanced_pref_import_export_summary">Импорт / Экспорт настроек в виде текста.\n\nДля сохранения настроек скопируйте текст в окне и сохраните его в текстовом файле.\nДля восстановления настроек вставьте в окно сохраненный ранее текст и нажмите Импортировать</string>
@@ -225,7 +225,7 @@
     <string name="revanced_external_downloader_summary_off">Кнопка внешнего загрузчика не отображается в плеере</string>
     <string name="revanced_external_downloader_name_title">Имя пакета загрузчика</string>
     <string name="revanced_external_downloader_name_summary">Имя пакета установленного вами внешнего загрузчика. Например, NewPipe или YTDLnis</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s не установлен. Установите его</string>
+    <string name="revanced_external_downloader_not_installed_warning">Пакет %s не установлен</string>
     <string name="revanced_external_downloader_action_button_title">Подменить кнопку \"Скачать\"</string>
     <string name="revanced_external_downloader_action_button_summary_on">Кнопка \"Скачать\" запускает внешний загрузчик</string>
     <string name="revanced_external_downloader_action_button_summary_off">Кнопка \"Скачать\" запускает собственный загрузчик из программы</string>

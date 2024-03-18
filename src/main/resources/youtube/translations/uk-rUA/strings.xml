@@ -10,8 +10,8 @@
     <string name="revanced_settings_import_reset">Розширені налаштування скинуті до стандартних</string>
     <string name="revanced_settings_import_success">Імпортовано %d налаштувань</string>
     <string name="revanced_settings_import_failure_parse">Не вдалося імпортувати: %s</string>
-    <string name="gms_core_not_installed_warning">GmsCore не встановлено. Встановіть його</string>
-    <string name="gms_core_not_running_warning">GmsCore не працює. Дотримуйтеся посібника \"Don\'t kill my app\" для GmsCore.</string>
+    <string name="gms_core_not_installed_warning">Vanced MicroG не встановлено</string>
+    <string name="gms_core_not_running_warning">Vanced MicroG не працює. Дотримуйтеся посібника \"Don\'t kill my app\"</string>
     <string name="revanced_settings">Налаштування Revanced</string>
     <string name="revanced_pref_import_export_title">Імпорт / Експорт</string>
     <string name="revanced_pref_import_export_summary">Імпорт / Експорт налаштувань у вигляді тексту.\n\nДля збереження налаштувань скопіюйте текст у вікні та збережіть його в текстовому файлі.\nДля відновлення налаштувань вставте у вікно збережений раніше текст та натисніть Імпортувати</string>
@@ -225,7 +225,7 @@
     <string name="revanced_external_downloader_summary_off">Кнопка зовнішнього завантажувача не показується в плеєрі</string>
     <string name="revanced_external_downloader_name_title">Ім\'я пакету завантажувача</string>
     <string name="revanced_external_downloader_name_summary">Ім\'я пакета встановленого вами додатку зовнішнього завантажувача. Наприклад NewPipe чи YTDLnis</string>
-    <string name="revanced_external_downloader_not_installed_warning">%s не встановлено. Встановіть його</string>
+    <string name="revanced_external_downloader_not_installed_warning">Пакет %s не встановлено</string>
     <string name="revanced_external_downloader_action_button_title">Підмінити кнопку \"Завантажити\"</string>
     <string name="revanced_external_downloader_action_button_summary_on">Кнопка \"Завантажити\" запускає зовнішній завантажувач</string>
     <string name="revanced_external_downloader_action_button_summary_off">Кнопка \"Завантажити\" запускає власний завантажувач із програми</string>
