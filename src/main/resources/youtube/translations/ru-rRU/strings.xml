@@ -171,8 +171,9 @@
     <string name="revanced_hide_keyword_content_phrases_title">Ключевые слова, которые нужно скрыть</string>
     <string name="revanced_hide_keyword_content_phrases_summary">Ключевые слова и фразы, которые нужно скрыть, разделены новыми строками.\n\n• Длина ключевого слова должна быть не менее 3-х символов\n• Слова с заглавными буквами посередине должны содержать регистр (например: iPhone, TikTok, LeBlanc)</string>
     <string name="revanced_hide_keyword_content_about_title">О фильтре ключевых слов</string>
-    <string name="revanced_hide_keyword_content_about_summary">Результаты поиска/Главная/Подписки фильтруются, чтобы скрыть видео по ключевым словам\n\nОграничения:\n• Некоторые Shorts могут не скрываться\n• Некоторые элементы интерфейса могут не скрываться\n• Поиск по ключевому слову может не показывать результатов</string>
-    <string name="revanced_hide_keyword_toast_invalid_length" formatted="false">Ключевое слово менее %s-х символов: %s</string>
+    <string name="revanced_hide_keyword_content_about_summary">Главная/Подписки/Результаты поиска фильтруются, чтобы скрыть видео по ключевым словам\n\nОграничения:\n• Некоторые Shorts могут не скрываться\n• Некоторые элементы интерфейса могут не скрываться\n• Поиск по ключевому слову может не показывать результатов</string>
+    <string name="revanced_hide_keyword_toast_invalid_common" formatted="false">Ключевое слово \'%s\' нельзя использовать</string>
+    <string name="revanced_hide_keyword_toast_invalid_length" formatted="false">Ключевое слово \'%s\' менее %s-х символов</string>
     <string name="revanced_hide_general_ads_title">Скрыть рекламу общего формата</string>
     <string name="revanced_hide_general_ads_summary_on">Реклама общего формата скрыта</string>
     <string name="revanced_hide_general_ads_summary_off">Реклама общего формата показывается</string>

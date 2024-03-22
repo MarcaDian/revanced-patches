@@ -171,8 +171,9 @@
     <string name="revanced_hide_keyword_content_phrases_title">Ключавыя словы, якія трэба схаваць</string>
     <string name="revanced_hide_keyword_content_phrases_summary">Ключавыя словы і фразы, якія трэба схаваць, падзелены новымі радкамі.\n\n• Даўжыня ключавога слова павінна быць не менш за 3 сімвалы\n• Словы з загалоўнымі літарамі пасярэдзіне павінны ўтрымліваць рэгістр (напрыклад: iPhone, TikTok, LeBlanc)</string>
     <string name="revanced_hide_keyword_content_about_title">Аб фільтры ключавых слоў</string>
-    <string name="revanced_hide_keyword_content_about_summary">Вынікі пошуку/Галоўная/Падпіскі фільтруюцца, каб схаваць відэа па ключавых слоў.\n\nАбмежаванні:\n• Некаторыя Shorts могуць не хавацца\n• Некаторыя элементы інтэрфейсу могуць не хавацца\n• Пошук па ключавым слове можа не паказваць вынікаў</string>
-    <string name="revanced_hide_keyword_toast_invalid_length" formatted="false">Ключавое слова менш за %s-х знакаў: %s</string>
+    <string name="revanced_hide_keyword_content_about_summary">Галоўная/Падпіскі/Вынікі пошуку фільтруюцца, каб схаваць відэа па ключавых слоў.\n\nАбмежаванні:\n• Некаторыя Shorts могуць не хавацца\n• Некаторыя элементы інтэрфейсу могуць не хавацца\n• Пошук па ключавым слове можа не паказваць вынікаў</string>
+    <string name="revanced_hide_keyword_toast_invalid_common" formatted="false">Ключавое слова \'%s\' выкарыстоўваць нельга</string>
+    <string name="revanced_hide_keyword_toast_invalid_length" formatted="false">Ключавое слова \'%s\' менш за %s-х знакаў</string>
     <string name="revanced_hide_general_ads_title">Схаваць рэкламу агульнага фармату</string>
     <string name="revanced_hide_general_ads_summary_on">Рэклама агульнага фармату ўтоена</string>
     <string name="revanced_hide_general_ads_summary_off">Рэклама агульнага фармату паказваецца</string>
