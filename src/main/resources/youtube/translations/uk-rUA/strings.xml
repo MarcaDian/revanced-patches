@@ -201,6 +201,7 @@
     <string name="revanced_hide_merchandise_banners_title">Приховати товарні банери</string>
     <string name="revanced_hide_merchandise_banners_summary_on">Товарні банери приховано</string>
     <string name="revanced_hide_merchandise_banners_summary_off">Товарні банери показуються</string>
+    <string name="revanced_hide_fullscreen_ads_feature_not_available_toast">Не вдалося приховати повноекранну рекламу. Вимкнуто для запобігання проблемам</string>
     <string name="revanced_hide_get_premium_title">Приховати рекламу YouTube Premium</string>
     <string name="revanced_hide_get_premium_summary_on">Рекламу YouTube Premium під відеоплеєром приховано</string>
     <string name="revanced_hide_get_premium_summary_off">Реклама YouTube Premium під відеоплеєром показується</string>
