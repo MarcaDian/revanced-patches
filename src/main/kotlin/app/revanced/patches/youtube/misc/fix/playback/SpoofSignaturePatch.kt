@@ -33,7 +33,6 @@ import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
         AddResourcesPatch::class,
     ],
 )
-@Deprecated("This patch will be removed in the future.")
 object SpoofSignaturePatch : BytecodePatch(
     setOf(
         PlayerResponseModelImplGeneralFingerprint,

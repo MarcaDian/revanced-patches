@@ -27,9 +27,10 @@ abstract class BaseGmsCoreSupportResourcePatch(
     internal val gmsCoreVendorOption =
         stringPatchOption(
             key = "gmsCoreVendor",
-            default = "app.revanced",
+            default = "com.mgoogle",
             values =
             mapOf(
+                "Vanced" to "com.mgoogle",
                 "ReVanced" to "app.revanced",
             ),
             title = "GmsCore Vendor",

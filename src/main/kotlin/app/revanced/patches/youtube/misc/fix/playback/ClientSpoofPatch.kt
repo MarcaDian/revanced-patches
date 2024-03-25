@@ -18,7 +18,8 @@ import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 
 @Patch(
     name = "Client spoof",
-    description = "Spoofs the client to allow video playback.",
+    description = "Adds options to spoof the client to allow video playback.",
+    dependencies = [SpoofSignaturePatch::class],
     compatiblePackages = [
         CompatiblePackage("com.google.android.youtube"),
     ],
