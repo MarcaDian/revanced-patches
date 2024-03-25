@@ -8,6 +8,7 @@ import app.revanced.patches.all.misc.packagename.ChangePackageNamePatch
 import app.revanced.patches.all.misc.resources.AddResourcesPatch
 import org.w3c.dom.Element
 import org.w3c.dom.Node
+import java.util.logging.Logger
 
 /**
  * Abstract resource patch that allows Google apps to run without root and under a different package name
@@ -24,24 +25,33 @@ abstract class BaseGmsCoreSupportResourcePatch(
     private val spoofedPackageSignature: String,
     dependencies: Set<PatchClass> = setOf(),
 ) : ResourcePatch(dependencies = setOf(ChangePackageNamePatch::class, AddResourcesPatch::class) + dependencies) {
+    private val logger = Logger.getLogger(name)
+
     internal val gmsCoreVendorOption =
         stringPatchOption(
             key = "gmsCoreVendor",
-            default = "com.mgoogle",
+            default = "app.revanced",
             values =
             mapOf(
-                "Vanced" to "com.mgoogle",
                 "ReVanced" to "app.revanced",
             ),
             title = "GmsCore Vendor",
             description = "The group id of the GmsCore vendor.",
             required = true,
-        ) { it!!.matches(Regex("^[a-z]\\w*(\\.[a-z]\\w*)+\$")) }
+        ) { it!!.matches(Regex(PACKAGE_NAME_REGEX_PATTERN)) }
 
-    protected val gmsCoreVendor by gmsCoreVendorOption
+    protected var gmsCoreVendor by gmsCoreVendorOption
 
     override fun execute(context: ResourceContext) {
         AddResourcesPatch(BaseGmsCoreSupportResourcePatch::class)
+
+        // TODO: Remove this, once ReVanced Manager supports falling back to default patch option values,
+        //  once a patch option value has been removed from a patch.
+        if (gmsCoreVendor!!.lowercase().startsWith(VANCED_VENDOR)) {
+            logger.info("Vanced MicroG is incompatible with ReVanced. Falling back to ReVanced GmsCore.")
+
+            gmsCoreVendor = gmsCoreVendorOption.default
+        }
 
         context.patchManifest()
         context.addSpoofingMetadata()
@@ -116,5 +126,10 @@ abstract class BaseGmsCoreSupportResourcePatch(
                 "<package android:name=\"$gmsCoreVendor.android.gms\"/></queries>",
             ),
         )
+    }
+
+    private companion object {
+        private const val VANCED_VENDOR = "com.mgoogle"
+        private const val PACKAGE_NAME_REGEX_PATTERN = "^[a-z]\\w*(\\.[a-z]\\w*)+\$"
     }
 }
