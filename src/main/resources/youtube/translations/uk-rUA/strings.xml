@@ -10,8 +10,8 @@
     <string name="revanced_settings_import_reset">Розширені налаштування скинуті до стандартних</string>
     <string name="revanced_settings_import_success">Імпортовано %d налаштувань</string>
     <string name="revanced_settings_import_failure_parse">Не вдалося імпортувати: %s</string>
-    <string name="gms_core_not_installed_warning">Vanced MicroG не встановлено</string>
-    <string name="gms_core_not_running_warning">Vanced MicroG не працює. Дотримуйтеся посібника \"Don\'t kill my app\"</string>
+    <string name="gms_core_not_installed_warning">ReVanced GmsCore не встановлено</string>
+    <string name="gms_core_not_running_warning">ReVanced GmsCore не працює. Дотримуйтеся посібника \"Don\'t kill my app\"</string>
     <string name="revanced_settings">Налаштування Revanced</string>
     <string name="revanced_pref_import_export_title">Імпорт / Експорт</string>
     <string name="revanced_pref_import_export_summary">Імпорт / Експорт налаштувань у вигляді тексту.\n\nДля збереження налаштувань скопіюйте текст у вікні та збережіть його в текстовому файлі.\nДля відновлення налаштувань вставте у вікно збережений раніше текст та натисніть Імпортувати</string>
@@ -787,8 +787,8 @@
     <string name="revanced_spoof_storyboard_summary_off">Розкадровка не підроблена\n\nВідомі проблеми:\n• Не працює кінематографічне освітлення\n• Мініатюри панелі прогресу приховано</string>
     <string name="revanced_spoof_storyboard_timeout">Підробка розкадровки тимчасово не доступна (Час очікування API минув)</string>
     <string name="revanced_spoof_storyboard_io_exception">Підробка розкадровки тимчасово не доступна: %s</string>
-    <string name="microg_settings_title">Налаштування MicroG</string>
-    <string name="microg_settings_summary">Відкрити Vanced MicroG для входу в обліковий запис Google</string>
+    <string name="microg_settings_title">Налаштування GmsCore</string>
+    <string name="microg_settings_summary">Відкрити ReVanced GmsCore для входу в обліковий запис Google</string>
     <string name="revanced_bypass_url_redirects_title">Обхід URL переадресації</string>
     <string name="revanced_bypass_url_redirects_summary_on">URL переадресації обходяться</string>
     <string name="revanced_bypass_url_redirects_summary_off">URL переадресації не обходяться</string>

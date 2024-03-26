@@ -10,8 +10,8 @@
     <string name="revanced_settings_import_reset">Пашыраныя налады скінуты да стандартных</string>
     <string name="revanced_settings_import_success">Імпартавана %d налад</string>
     <string name="revanced_settings_import_failure_parse">Немагчыма імпартаваць: %s</string>
-    <string name="gms_core_not_installed_warning">Vanced MicroG не ўсталяваны</string>
-    <string name="gms_core_not_running_warning">Vanced MicroG не ўдаецца запусціць. Прытрымлівайцеся інструкцыям \"Don\'t kill my app\"</string>
+    <string name="gms_core_not_installed_warning">ReVanced GmsCore не ўсталяваны</string>
+    <string name="gms_core_not_running_warning">ReVanced GmsCore не ўдаецца запусціць. Прытрымлівайцеся інструкцыям \"Don\'t kill my app\"</string>
     <string name="revanced_settings">Налады Revanced</string>
     <string name="revanced_pref_import_export_title">Імпарт / Экспарт</string>
     <string name="revanced_pref_import_export_summary">Імпарт / Экспарт настроек у выглядзе тэксту.\n\nДля захавання настроек скапіруйце тэкст у акне і захавайце яго ў тэкставым файле.\nДля аднаўлення настроек устаўце ў акно захаваны раней тэкст і націсніце Імпартаваць</string>
@@ -788,8 +788,8 @@
     <string name="revanced_spoof_storyboard_summary_off">Раскадроўка не падроблена\n\nВядомыя праблемы:\n• Не працуе фонавае падсвятленне\n• Мініяцюры панэлі прагрэсу схаваныя</string>
     <string name="revanced_spoof_storyboard_timeout">Падробка раскадроўкі часова недаступная (Час чакання API скончыўся)</string>
     <string name="revanced_spoof_storyboard_io_exception">Падробка раскадроўкі часова недаступная: %s</string>
-    <string name="microg_settings_title">Налады MicroG</string>
-    <string name="microg_settings_summary">Адкрыць Vanced MicroG для ўваходу ва ўліковы запіс</string>
+    <string name="microg_settings_title">Налады GmsCore</string>
+    <string name="microg_settings_summary">Адкрыць ReVanced GmsCore для ўваходу ва ўліковы запіс</string>
     <string name="revanced_bypass_url_redirects_title">Абыход URL перанакіраванняў</string>
     <string name="revanced_bypass_url_redirects_summary_on">URL перанакіраванні абыходзяцца</string>
     <string name="revanced_bypass_url_redirects_summary_off">URL перанакіраванні не абыходзяць</string>
