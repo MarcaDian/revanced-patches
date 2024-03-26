@@ -22,6 +22,7 @@ import com.android.tools.smali.dexlib2.iface.reference.MethodReference
     compatiblePackages = [
         CompatiblePackage("com.google.android.youtube"),
     ],
+    use = false
 )
 object ClientSpoofPatch : BaseTransformInstructionsPatch<Instruction35cInfo>() {
     private const val ORIGINAL_PACKAGE_NAME = "com.google.android.youtube"
