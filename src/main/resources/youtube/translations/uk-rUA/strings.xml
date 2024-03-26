@@ -424,7 +424,7 @@
     <string name="revanced_hide_shorts_like_button_title">Приховати кнопку \"Подобається\"</string>
     <string name="revanced_hide_shorts_like_button_summary_on">Кнопку \"Подобається\" приховано</string>
     <string name="revanced_hide_shorts_like_button_summary_off">Кнопка \"Подобається\" показується</string>
-    <string name="revanced_hide_shorts_dislike_button_title">Сховати кнопку \"Не подобається\"</string>
+    <string name="revanced_hide_shorts_dislike_button_title">Приховати кнопку \"Не подобається\"</string>
     <string name="revanced_hide_shorts_dislike_button_summary_on">Кнопку \"Не подобається\" приховано</string>
     <string name="revanced_hide_shorts_dislike_button_summary_off">Кнопка \"Не подобається\" показується</string>
     <string name="revanced_hide_shorts_comments_button_title">Приховати кнопку \"Коментарі\"</string>
@@ -442,7 +442,7 @@
     <string name="revanced_hide_shorts_channel_bar_title">Приховати панель каналу</string>
     <string name="revanced_hide_shorts_channel_bar_summary_on">Панель каналу приховано</string>
     <string name="revanced_hide_shorts_channel_bar_summary_off">Панель каналу показується</string>
-    <string name="revanced_hide_shorts_video_title_title">Сховати заголовок відео Shorts</string>
+    <string name="revanced_hide_shorts_video_title_title">Приховати заголовок відео Shorts</string>
     <string name="revanced_hide_shorts_video_title_summary_on">Заголовок відео Shorts приховано</string>
     <string name="revanced_hide_shorts_video_title_summary_off">Заголовок відео Shorts показується</string>
     <string name="revanced_hide_shorts_sound_metadata_label_title">Приховати мітку метаданих звуку</string>

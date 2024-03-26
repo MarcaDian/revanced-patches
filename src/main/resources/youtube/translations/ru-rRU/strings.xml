@@ -129,10 +129,10 @@
     <string name="revanced_hide_chips_shelf_title">Скрыть секцию тегов видео</string>
     <string name="revanced_hide_chips_shelf_summary_on">Секция тегов похожих видео в ленте скрыта</string>
     <string name="revanced_hide_chips_shelf_summary_off">Секция тегов похожих видео в ленте отображена</string>
-    <string name="revanced_hide_info_cards_section_title">Разделы подсказок</string>
+    <string name="revanced_hide_info_cards_section_title">Скрыть разделы подсказок</string>
     <string name="revanced_hide_info_cards_section_summary_on">Разделы подсказок скрыты</string>
     <string name="revanced_hide_info_cards_section_summary_off">Разделы подсказок отображены</string>
-    <string name="revanced_hide_chapters_title">Главы видео</string>
+    <string name="revanced_hide_chapters_title">Скрыть главы видео</string>
     <string name="revanced_hide_chapters_summary_on">Главы видео в описании скрыты</string>
     <string name="revanced_hide_chapters_summary_off">Главы видео в описании отображены</string>
     <string name="revanced_hide_game_section_title">Скрыть игровую секцию</string>
