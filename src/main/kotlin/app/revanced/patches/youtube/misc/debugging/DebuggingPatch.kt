@@ -15,8 +15,7 @@ import app.revanced.patches.youtube.misc.settings.SettingsPatch
     name = "Enable debugging",
     description = "Adds options for debugging.",
     dependencies = [IntegrationsPatch::class, SettingsPatch::class, AddResourcesPatch::class],
-    compatiblePackages = [CompatiblePackage("com.google.android.youtube")],
-    use = false
+    compatiblePackages = [CompatiblePackage("com.google.android.youtube")]
 )
 @Suppress("unused")
 object DebuggingPatch : ResourcePatch() {
