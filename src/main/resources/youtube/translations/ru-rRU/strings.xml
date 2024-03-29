@@ -750,7 +750,7 @@
     <string name="revanced_alt_thumbnail_options_entry_3">DeArrow &amp; Стоп-кадры</string>
     <string name="revanced_alt_thumbnail_options_entry_4">Стоп-кадры</string>
     <string name="revanced_alt_thumbnail_dearrow_about_title">DeArrow</string>
-    <string name="revanced_alt_thumbnail_dearrow_about_summary">DeArrow предоставляет краудсорсинговые превью для видео с YouTube. Эти превью часто более релевантны, чем те, которые предоставляются YouTube\n\nЕсли включено, серверу API будут отправляться только ссылки на видео, и больше никаких других данных. Если видео не имеет превью DeArrow, то отображаются оригинальные или стоп-кадры\n\nНажмите здесь, чтобы узнать больше о DeArrow</string>
+    <string name="revanced_alt_thumbnail_dearrow_about_summary">DeArrow предоставляет краудсорсинговые превью для видео с YouTube. Эти превью часто более релевантны, чем те, которые предоставляются YouTube\nЕсли включено, серверу API будут отправляться только ссылки на видео, и больше никаких других данных. Если видео не имеет превью DeArrow, то отображаются оригинальные или стоп-кадры\n\nНажмите здесь, чтобы узнать больше о DeArrow</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_title">Показывать тост, если не доступен API</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_on">Тост показывается, если DeArrow не доступен</string>
     <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">Тост не показывается, если DeArrow не доступен</string>
