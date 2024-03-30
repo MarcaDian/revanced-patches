@@ -460,9 +460,9 @@
     <string name="revanced_hide_shorts_sound_button_title">Приховати кнопку звуку</string>
     <string name="revanced_hide_shorts_sound_button_summary_on">Кнопку звуку приховано</string>
     <string name="revanced_hide_shorts_sound_button_summary_off">Кнопка звуку показується</string>
-    <string name="revanced_hide_shorts_navigation_bar_title">Приховати панель прогресу</string>
-    <string name="revanced_hide_shorts_navigation_bar_summary_on">Панель прогресу приховано</string>
-    <string name="revanced_hide_shorts_navigation_bar_summary_off">Панель прогресу показується</string>
+    <string name="revanced_hide_shorts_navigation_bar_title">Приховати панель навігації</string>
+    <string name="revanced_hide_shorts_navigation_bar_summary_on">Панель навігації приховано</string>
+    <string name="revanced_hide_shorts_navigation_bar_summary_off">Панель навігації показується</string>
     <string name="revanced_disable_suggested_video_end_screen_title">Вимкнути пропоновані відео кінцевого екрана</string>
     <string name="revanced_disable_suggested_video_end_screen_summary_on">Пропоновані відео кінцевого екрана буде вимкнуто.\n\nВідома проблема: автовідтворення наступного відео не працює</string>
     <string name="revanced_disable_suggested_video_end_screen_summary_off">Пропоновані відео кінцевого екрана показуватимуться</string>

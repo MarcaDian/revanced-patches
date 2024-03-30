@@ -460,9 +460,9 @@
     <string name="revanced_hide_shorts_sound_button_title">Скрыть кнопку звука</string>
     <string name="revanced_hide_shorts_sound_button_summary_on">Кнопка звука скрыта</string>
     <string name="revanced_hide_shorts_sound_button_summary_off">Кнопка звука отображена</string>
-    <string name="revanced_hide_shorts_navigation_bar_title">Скрыть панель прогресса</string>
-    <string name="revanced_hide_shorts_navigation_bar_summary_on">Панель прогресса скрыта</string>
-    <string name="revanced_hide_shorts_navigation_bar_summary_off">Панель прогресса отображена</string>
+    <string name="revanced_hide_shorts_navigation_bar_title">Скрыть панель навигации</string>
+    <string name="revanced_hide_shorts_navigation_bar_summary_on">Панель навигации скрыта</string>
+    <string name="revanced_hide_shorts_navigation_bar_summary_off">Панель навигации отображена</string>
     <string name="revanced_disable_suggested_video_end_screen_title">Отключить предлагаемые видео в конце</string>
     <string name="revanced_disable_suggested_video_end_screen_summary_on">Предлагаемые видео в конце видеоролика будут отключены.\n\nИзвестная проблема: автовоспроизведение следующего видео не работает</string>
     <string name="revanced_disable_suggested_video_end_screen_summary_off">Предлагаемые видео в конце видеоролика будут показываться</string>

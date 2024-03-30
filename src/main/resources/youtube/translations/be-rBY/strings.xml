@@ -460,9 +460,9 @@
     <string name="revanced_hide_shorts_sound_button_title">Схаваць кнопку гуку</string>
     <string name="revanced_hide_shorts_sound_button_summary_on">Кнопка гуку ўтоена</string>
     <string name="revanced_hide_shorts_sound_button_summary_off">Кнопка гуку адлюстравана</string>
-    <string name="revanced_hide_shorts_navigation_bar_title">Схаваць панэль прагрэсу</string>
-    <string name="revanced_hide_shorts_navigation_bar_summary_on">Панэль прагрэсу ўтоена</string>
-    <string name="revanced_hide_shorts_navigation_bar_summary_off">Панэль прагрэсу адлюстравана</string>
+    <string name="revanced_hide_shorts_navigation_bar_title">Схаваць панэль навігацыі</string>
+    <string name="revanced_hide_shorts_navigation_bar_summary_on">Панэль навігацыі ўтоена</string>
+    <string name="revanced_hide_shorts_navigation_bar_summary_off">Панэль навігацыі адлюстравана</string>
     <string name="revanced_disable_suggested_video_end_screen_title">Адключыць прапанаваныя відэа ў канцы</string>
     <string name="revanced_disable_suggested_video_end_screen_summary_on">Прапанаваныя відэа ў канцы відэароліка будуць выключаныя.\n\nВядомая праблема: аўтапрайграванне наступнага відэа не працуе</string>
     <string name="revanced_disable_suggested_video_end_screen_summary_off">Прапанаваныя відэа ў канцы відэароліка будуць паказвацца</string>
