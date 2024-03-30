@@ -11,10 +11,10 @@
     <string name="revanced_settings_import_success">Імпартавана %d налад</string>
     <string name="revanced_settings_import_failure_parse">Немагчыма імпартаваць: %s</string>
     <string name="gms_core_toast_not_installed_message">GmsCore не ўсталяваны. Усталюйце яго.</string>
-    <string name="gms_core_toast_not_whitelisted_message">Сачыце кіраўніцтву \"Don't kill my app\" для GmsCore.</string>
+    <string name="gms_core_toast_not_whitelisted_message">Сачыце кіраўніцтву \"Don\'t kill my app\" для GmsCore.</string>
     <string name="gms_core_dialog_title">Патрабуецца дзеянне</string>
-    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Для GmsCore не выключаная аптымізацыя батарэі.\n\nСачыце кіраўніцтву \"Don't kill my app\" для GmsCore.</string>
-    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">GmsCore не мае дазволу на працу ў фонавым рэжыме.\n\nСачыце кіраўніцтву \"Don't kill my app\" для GmsCore.</string>
+    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Для GmsCore не выключаная аптымізацыя батарэі.\n\nСачыце кіраўніцтву \"Don\'t kill my app\" для GmsCore.</string>
+    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">GmsCore не мае дазволу на працу ў фонавым рэжыме.\n\nСачыце кіраўніцтву \"Don\'t kill my app\" для GmsCore.</string>
     <string name="gms_core_dialog_ok_button_text">Адкрыць вэб-сайт</string>
     <string name="revanced_settings">Налады Revanced</string>
     <string name="revanced_pref_import_export_title">Імпарт / Экспарт</string>
