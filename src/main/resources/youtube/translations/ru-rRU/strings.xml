@@ -10,8 +10,12 @@
     <string name="revanced_settings_import_reset">Расширенные настройки сброшены к стандартным</string>
     <string name="revanced_settings_import_success">Импортировано %d настроек</string>
     <string name="revanced_settings_import_failure_parse">Не удалось импортировать: %s</string>
-    <string name="gms_core_not_installed_warning">ReVanced GmsCore не установлен</string>
-    <string name="gms_core_not_running_warning">ReVanced GmsCore не удается запустить. Следуйте инструкциям \"Don\'t kill my app\"</string>
+    <string name="gms_core_toast_not_installed_message">GmsCore не установлен. Установите его.</string>
+    <string name="gms_core_toast_not_whitelisted_message">Следуйте руководству \"Don\'t kill my app\" для GmsCore.</string>
+    <string name="gms_core_dialog_title">Требуется действие</string>
+    <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Для GmsCore не выключена оптимизация батареи.\n\nСледуйте руководству \"Don\'t kill my app\" для GmsCore.</string>
+    <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">GmsCore не имеет разрешения на работу в фоновом режиме.\n\nСледуйте руководству \"Don\'t kill my app\" для GmsCore.</string>
+    <string name="gms_core_dialog_ok_button_text">Открыть веб-сайт</string>
     <string name="revanced_settings">Настройки Revanced</string>
     <string name="revanced_pref_import_export_title">Импорт / Экспорт</string>
     <string name="revanced_pref_import_export_summary">Импорт / Экспорт настроек в виде текста.\n\nДля сохранения настроек скопируйте текст в окне и сохраните его в текстовом файле.\nДля восстановления настроек вставьте в окно сохраненный ранее текст и нажмите Импортировать</string>
