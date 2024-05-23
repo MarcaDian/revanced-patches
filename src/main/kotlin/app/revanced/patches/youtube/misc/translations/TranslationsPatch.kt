@@ -41,7 +41,6 @@ import app.revanced.patches.youtube.misc.integrations.IntegrationsPatch
 object TranslationsPatch : AbstractTranslationsPatch(
     "youtube",
     arrayOf(
-        "be-rBY",
         "ru-rRU",
         "uk-rUA"
     )
