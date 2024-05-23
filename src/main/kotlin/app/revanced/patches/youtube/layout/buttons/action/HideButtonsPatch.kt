@@ -33,7 +33,6 @@ import app.revanced.patches.youtube.misc.settings.SettingsPatch
                 "18.49.37",
                 "19.01.34",
                 "19.02.39",
-                "19.03.35",
                 "19.03.36",
                 "19.04.38",
                 "19.05.36",
@@ -43,9 +42,9 @@ import app.revanced.patches.youtube.misc.settings.SettingsPatch
                 "19.09.38",
                 "19.10.39",
                 "19.11.43"
-            ],
-        ),
-    ],
+            ]
+        )
+    ]
 )
 @Suppress("unused")
 object HideButtonsPatch : ResourcePatch() {
@@ -66,8 +65,7 @@ object HideButtonsPatch : ResourcePatch() {
                     SwitchPreference("revanced_hide_download_button"),
                     SwitchPreference("revanced_hide_thanks_button"),
                     SwitchPreference("revanced_hide_clip_button"),
-                    SwitchPreference("revanced_hide_playlist_button"),
-                    SwitchPreference("revanced_hide_shop_button")
+                    SwitchPreference("revanced_hide_playlist_button")
                 ),
             )
         )

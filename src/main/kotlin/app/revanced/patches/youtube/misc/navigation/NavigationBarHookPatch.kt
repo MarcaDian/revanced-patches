@@ -10,6 +10,7 @@ import app.revanced.patcher.patch.annotation.Patch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patches.youtube.misc.integrations.IntegrationsPatch
 import app.revanced.patches.youtube.misc.navigation.fingerprints.*
+import app.revanced.patches.youtube.misc.playertype.PlayerTypeHookPatch
 import app.revanced.util.getReference
 import app.revanced.util.indexOfFirstInstruction
 import app.revanced.util.resultOrThrow
@@ -25,6 +26,7 @@ import com.android.tools.smali.dexlib2.util.MethodUtil
     dependencies = [
         IntegrationsPatch::class,
         NavigationBarHookResourcePatch::class,
+        PlayerTypeHookPatch::class // Required to detect the search bar in all situations.
     ],
 )
 @Suppress("unused")
@@ -34,7 +36,9 @@ object NavigationBarHookPatch : BytecodePatch(
         NavigationEnumFingerprint,
         PivotBarButtonsCreateDrawableViewFingerprint,
         PivotBarButtonsCreateResourceViewFingerprint,
+        PivotBarButtonsViewSetSelectedFingerprint,
         NavigationBarHookCallbackFingerprint,
+        MainActivityOnBackPressedFingerprint,
         ActionBarSearchResultsFingerprint,
     ),
 ) {
@@ -67,7 +71,7 @@ object NavigationBarHookPatch : BytecodePatch(
             val navigationEnumClassName = NavigationEnumFingerprint.resultOrThrow().mutableClass.type
             addHook(Hook.SET_LAST_APP_NAVIGATION_ENUM) {
                 opcode == Opcode.INVOKE_STATIC &&
-                        getReference<MethodReference>()?.definingClass == navigationEnumClassName
+                    getReference<MethodReference>()?.definingClass == navigationEnumClassName
             }
 
             // Hook the creation of navigation tab views.
@@ -88,6 +92,29 @@ object NavigationBarHookPatch : BytecodePatch(
             }
         }
 
+        PivotBarButtonsViewSetSelectedFingerprint.resultOrThrow().mutableMethod.apply {
+            val index = PivotBarButtonsViewSetSelectedFingerprint.indexOfSetViewSelectedInstruction(this)
+            val instruction = getInstruction<FiveRegisterInstruction>(index)
+            val viewRegister = instruction.registerC
+            val isSelectedRegister = instruction.registerD
+
+            addInstruction(
+                index + 1,
+                "invoke-static { v$viewRegister, v$isSelectedRegister }, " +
+                        "$INTEGRATIONS_CLASS_DESCRIPTOR->navigationTabSelected(Landroid/view/View;Z)V",
+            )
+        }
+
+        // Hook onto back button pressed.  Needed to fix race problem with
+        // litho filtering based on navigation tab before the tab is updated.
+        MainActivityOnBackPressedFingerprint.resultOrThrow().mutableMethod.apply {
+            addInstruction(
+                0,
+                "invoke-static { p0 }, " +
+                        "$INTEGRATIONS_CLASS_DESCRIPTOR->onBackPressed(Landroid/app/Activity;)V",
+            )
+        }
+
         // Hook the search bar.
 
         // Two different layouts are used at the hooked code.
@@ -103,7 +130,7 @@ object NavigationBarHookPatch : BytecodePatch(
             addInstruction(
                 instructionIndex,
                 "invoke-static { v$viewRegister }, " +
-                        "$INTEGRATIONS_CLASS_DESCRIPTOR->searchBarResultsViewLoaded(Landroid/view/View;)V",
+                    "$INTEGRATIONS_CLASS_DESCRIPTOR->searchBarResultsViewLoaded(Landroid/view/View;)V",
             )
         }
     }
@@ -115,8 +142,8 @@ object NavigationBarHookPatch : BytecodePatch(
             method.addInstruction(
                 0,
                 "invoke-static { p0, p1 }, " +
-                        "$integrationsClassDescriptor->navigationTabCreated" +
-                        "(${INTEGRATIONS_NAVIGATION_BUTTON_DESCRIPTOR}Landroid/view/View;)V",
+                    "$integrationsClassDescriptor->navigationTabCreated" +
+                    "(${INTEGRATIONS_NAVIGATION_BUTTON_DESCRIPTOR}Landroid/view/View;)V",
             )
         }
     }

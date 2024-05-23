@@ -1,10 +1,30 @@
+<!--
+   https://github.com/google/material-design-icons/blob/9beae745bb758f3ad56654fb377ea5cf62be4915/symbols/android/fast_forward/materialsymbolsoutlined/fast_forward_wght200gradN25_24px.xml
+   The icon has been resized
+
+
+Copyright 2022 Google
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp"
-    android:height="24dp"
-    android:tint="#FFFFFF"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+        android:tint="#FFFFFF"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportWidth="24"
+        android:viewportHeight="24">
     <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M 7.5 3.5 L 16.5 3.5 C 19.5 3.5 20.5 3.5 20.5 7.5 L 20.5 16.5 C 20.5 20.5 19.5 20.5 16.5 20.5 L 7.5 20.5 C 4.5 20.5 3.5 20.5 3.5 16.5 L 3.5 7.5 C 3.5 3.5 5.5 3.5 7.5 3.5 Z M 16.5 4.3 L 7.5 4.3 C 5.5 4.3 4.3 4.3 4.3 7.5 L 4.3 16.5 C 4.3 19.7 5.5 19.7 7.5 19.7 L 16.5 19.7 C 18.5 19.7 19.7 19.7 19.7 16.5 L 19.7 7.5 C 19.7 4.3 18.5 4.3 16.5 4.3 Z M 10.5 16 L 14.5 12 L 10.5 8 L 10.5 9.3 L 13.3 12 L 10.5 14.7 Z" />
+            android:fillColor="@android:color/white"
+            android:pathData="M 2,17.799197 V 6.2 l 8.689607,5.799598 z m 11.310393,0 V 6.2 L 22,11.999598 Z M 3.195842,11.999598 Z m 11.310393,0 z M 3.195842,15.581981 8.547075,11.999598 3.195842,8.417214 Z m 11.310393,0 5.351231,-3.582383 -5.351231,-3.582384 z"/>
 </vector>

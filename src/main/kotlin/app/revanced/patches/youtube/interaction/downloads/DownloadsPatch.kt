@@ -15,7 +15,7 @@ import app.revanced.util.resultOrThrow
 @Patch(
     name = "Downloads",
     description = "Adds support to download videos with an external downloader app " +
-            "using the in-app download button or a video player action button.",
+        "using the in-app download button or a video player action button.",
     dependencies = [
         DownloadsResourcePatch::class,
         PlayerControlsBytecodePatch::class,

@@ -16,6 +16,6 @@ internal object NavigationBarHookCallbackFingerprint : MethodFingerprint(
     parameters = listOf(NavigationBarHookPatch.INTEGRATIONS_NAVIGATION_BUTTON_DESCRIPTOR, "Landroid/view/View;"),
     customFingerprint = { methodDef, _ ->
         methodDef.name == "navigationTabCreatedCallback" &&
-                methodDef.definingClass == NavigationBarHookPatch.INTEGRATIONS_CLASS_DESCRIPTOR
+            methodDef.definingClass == NavigationBarHookPatch.INTEGRATIONS_CLASS_DESCRIPTOR
     },
 )

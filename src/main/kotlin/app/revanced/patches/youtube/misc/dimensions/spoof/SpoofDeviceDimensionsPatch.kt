@@ -14,7 +14,7 @@ import app.revanced.util.exception
 
 @Patch(
     name = "Spoof device dimensions",
-    description = "Adds an option to spoof the device dimensions which unlocks higher video qualities if they aren't available on the device.",
+    description = "Adds an option to spoof the device dimensions which can unlock higher video qualities.",
     dependencies = [IntegrationsPatch::class, SettingsPatch::class, AddResourcesPatch::class],
     compatiblePackages = [
         CompatiblePackage(
@@ -28,7 +28,6 @@ import app.revanced.util.exception
                 "18.49.37",
                 "19.01.34",
                 "19.02.39",
-                "19.03.35",
                 "19.03.36",
                 "19.04.38",
                 "19.05.36",
@@ -38,9 +37,9 @@ import app.revanced.util.exception
                 "19.09.38",
                 "19.10.39",
                 "19.11.43"
-            ],
-        ),
-    ],
+            ]
+        )
+    ]
 )
 @Suppress("unused")
 object SpoofDeviceDimensionsPatch : BytecodePatch(

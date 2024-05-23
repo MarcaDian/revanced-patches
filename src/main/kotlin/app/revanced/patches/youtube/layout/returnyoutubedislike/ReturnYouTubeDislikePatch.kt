@@ -58,7 +58,6 @@ import com.android.tools.smali.dexlib2.iface.reference.TypeReference
                 "18.49.37",
                 "19.01.34",
                 "19.02.39",
-                "19.03.35",
                 "19.03.36",
                 "19.04.38",
                 "19.05.36",
@@ -68,9 +67,9 @@ import com.android.tools.smali.dexlib2.iface.reference.TypeReference
                 "19.09.38",
                 "19.10.39",
                 "19.11.43"
-            ],
-        ),
-    ],
+            ]
+        )
+    ]
 )
 @Suppress("unused")
 object ReturnYouTubeDislikePatch : BytecodePatch(

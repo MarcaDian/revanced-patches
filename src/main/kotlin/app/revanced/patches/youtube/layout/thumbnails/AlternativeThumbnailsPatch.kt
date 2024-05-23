@@ -23,7 +23,6 @@ import app.revanced.patches.youtube.layout.thumbnails.fingerprints.cronet.reques
 import app.revanced.patches.youtube.layout.thumbnails.fingerprints.cronet.request.callback.OnSucceededFingerprint
 import app.revanced.patches.youtube.misc.integrations.IntegrationsPatch
 import app.revanced.patches.youtube.misc.navigation.NavigationBarHookPatch
-import app.revanced.patches.youtube.misc.playertype.PlayerTypeHookPatch
 import app.revanced.patches.youtube.misc.settings.SettingsPatch
 import app.revanced.util.resultOrThrow
 import com.android.tools.smali.dexlib2.AccessFlags
@@ -40,8 +39,7 @@ import com.android.tools.smali.dexlib2.immutable.ImmutableMethod
         IntegrationsPatch::class,
         SettingsPatch::class,
         AddResourcesPatch::class,
-        NavigationBarHookPatch::class,
-        PlayerTypeHookPatch::class
+        NavigationBarHookPatch::class
     ],
     compatiblePackages = [
         CompatiblePackage(
@@ -114,7 +112,7 @@ object AlternativeThumbnailsPatch : BytecodePatch(
         loadImageSuccessCallbackMethod.addInstruction(
             loadImageSuccessCallbackIndex++,
             "invoke-static { p1, p2 }, $targetMethodClass->handleCronetSuccess(" +
-                    "Lorg/chromium/net/UrlRequest;Lorg/chromium/net/UrlResponseInfo;)V",
+                "Lorg/chromium/net/UrlRequest;Lorg/chromium/net/UrlResponseInfo;)V",
         )
     }
 
@@ -126,7 +124,7 @@ object AlternativeThumbnailsPatch : BytecodePatch(
         loadImageErrorCallbackMethod.addInstruction(
             loadImageErrorCallbackIndex++,
             "invoke-static { p1, p2, p3 }, $targetMethodClass->handleCronetFailure(" +
-                    "Lorg/chromium/net/UrlRequest;Lorg/chromium/net/UrlResponseInfo;Ljava/io/IOException;)V",
+                "Lorg/chromium/net/UrlRequest;Lorg/chromium/net/UrlResponseInfo;Ljava/io/IOException;)V",
         )
     }
 
