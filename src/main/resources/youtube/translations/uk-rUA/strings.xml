@@ -961,11 +961,10 @@
     <string name="revanced_spoof_client_summary_on">Клієнт підроблений</string>
     <string name="revanced_spoof_client_summary_off">Клієнт не підроблений\n\nВідтворення відео може не працювати</string>
     <string name="revanced_spoof_client_user_dialog_message">Вимкнення цього параметра може призвести до проблем відтворення відео.</string>
-    <!-- It is ideal, but not required, if the text here appears is alphabetically after the text used for 'revanced_client_spoof_title' -->
-    <string name="revanced_spoof_client_use_ios_title">Підробити клієнт на iOS</string>
-    <string name="revanced_spoof_client_use_ios_summary">Підробити клієнт на iOS замість Android Testsuite</string>
-    <string name="revanced_spoof_client_use_ios_summary_on">Клієнт підроблений на iOS клієнт\n\nПобічні ефекти:\n• Відео 60 fps може бути недоступним\n• Немає HDR відео\n• Деякі відео можуть не вантажитися\n• Вища якість відео може бути відсутня</string>
-    <string name="revanced_spoof_client_use_ios_summary_off">Клієнт підроблений на Android Testsuite клієнт (Клієнт iOS використовується для прямих трансляцій)\n\nПобічні ефекти:\n• Субтитри відсутні\n• Жести плеєра можуть не працювати\n• Низька якість мініатюр панелі прогресу Shorts</string>
+    <string name="revanced_spoof_client_use_testsuite_title">Підробити клієнт Android Testsuite</string>
+    <string name="revanced_spoof_client_use_testsuite_summary">Підробити клієнт Android Testsuite</string>
+    <string name="revanced_spoof_client_use_testsuite_summary_on">Клієнт підроблений Android Testsuite клієнт (Клієнт iOS використовується для прямих трансляцій)\n\nПобічні ефекти:\n• Меню \"Швидкість відтворення\" відсутнє\n• Субтитри відсутні\n• Жести плеєра можуть не працювати\n• Низька якість мініатюр панелі прогресу Shorts\n• Історія переглядів може не працювати</string>
+    <string name="revanced_spoof_client_use_testsuite_summary_off">Клієнт підроблений на iOS клієнт\n\nПобічні ефекти:\n• Немає HDR відео\n• Меню \"Швидкість відтворення відсутнє\"</string>
     <string name="revanced_spoof_client_storyboard_timeout">Мініатюри в режимі підробки клієнта не доступні (закінчився час API)</string>
     <string name="revanced_spoof_client_storyboard_io_exception">Мініатюри в режимі підробки клієнта тимчасово не доступні: %s</string>
     <string name="revanced_playback_speed_dialog_button_title">Кнопка швидкості відтворення</string>
