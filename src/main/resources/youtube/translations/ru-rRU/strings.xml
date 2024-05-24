@@ -963,7 +963,7 @@
     <string name="revanced_spoof_client_user_dialog_message">Отключение этой настройки может вызвать проблемы с воспроизведением видео.</string>
     <string name="revanced_spoof_client_use_testsuite_title">Подмена клиента на Android Testsuite</string>
     <string name="revanced_spoof_client_use_testsuite_summary">Подменить клиент на Android Testsuite</string>
-    <string name="revanced_spoof_client_use_testsuite_summary_on">Клиент подменен на Android Testsuite (клиент iOS используется для прямых трансляций)\n\nПобочные эффекты:\n• Меню скорости воспроизведения отсутвует\n• Субтитры отсутсвуют\n• Управление жестами может не работать\n• Низкое качество миниатюр прогресса воспроизведения Shorts\n• История просмотров может не работать</string>
+    <string name="revanced_spoof_client_use_testsuite_summary_on">Клиент подменен на Android Testsuite (клиент iOS используется для стримов)\nПобочные эффекты:\n• Меню скорости воспроизведения отсутвует\n• Субтитры отсутсвуют\n• Управление жестами может не работать\n• Низкое качество миниатюр прогресса Shorts\n• История просмотров может не работать</string>
     <string name="revanced_spoof_client_use_testsuite_summary_off">Клиент подменен на iOS\n\nПобочные эффекты:\n• HDR-видео отсутсвует\n• Меню скорости воспроизведения отсутвует</string>
     <string name="revanced_spoof_client_storyboard_timeout">Миниатюры в режиме подмены клиента недоступны (время API истекло)</string>
     <string name="revanced_spoof_client_storyboard_io_exception">Миниатюры в режиме подмены клиента временно недоступны: %s</string>
