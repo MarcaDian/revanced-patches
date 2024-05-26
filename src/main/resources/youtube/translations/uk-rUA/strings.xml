@@ -961,10 +961,9 @@
     <string name="revanced_spoof_client_summary_on">Клієнт підроблений</string>
     <string name="revanced_spoof_client_summary_off">Клієнт не підроблений\n\nВідтворення відео може не працювати</string>
     <string name="revanced_spoof_client_user_dialog_message">Вимкнення цього параметра може призвести до проблем відтворення відео.</string>
-    <string name="revanced_spoof_client_use_testsuite_title">Підробити клієнт на Android Testsuite</string>
-    <string name="revanced_spoof_client_use_testsuite_summary">Підробити клієнт на Android Testsuite</string>
-    <string name="revanced_spoof_client_use_testsuite_summary_on">Клієнт підроблений на Android Testsuite клієнт (Клієнт iOS використовується для стрімів)\nПобічні ефекти:\n• Меню \"Швидкість відтворення\" відсутнє\n• Субтитри відсутні\n• Жести плеєра можуть не працювати\n• Низька якість мініатюр прогресу Shorts\n• Історія переглядів може не працювати</string>
-    <string name="revanced_spoof_client_use_testsuite_summary_off">Клієнт підроблений на iOS клієнт\n\nПобічні ефекти:\n• Немає HDR відео\n• Меню \"Швидкість відтворення\" відсутнє</string>
+    <string name="revanced_spoof_client_use_ios_title">Підробити клієнт на iOS</string>
+    <string name="revanced_spoof_client_use_ios_summary_on">Клієнт підроблений на iOS\nПобічні ефекти:\n• Немає HDR відео\n• Меню \"Швидкість відтворення\" відсутнє\n• Історія переглядів може не працювати\n• Стріми не відтворюються в режимі аудіо\n• Стріми недоступні на старих пристроях</string>
+    <string name="revanced_spoof_client_use_ios_summary_off">Клієнт підроблений на Android VR\nПобічні ефекти:\n• Немає HDR відео\n• Жести плеєра не працюють\n• Дитячі відео не відтворюються\n• Призупинені відео можуть випадково відновлюватися</string>
     <string name="revanced_spoof_client_storyboard_timeout">Мініатюри в режимі підробки клієнта не доступні (закінчився час API)</string>
     <string name="revanced_spoof_client_storyboard_io_exception">Мініатюри в режимі підробки клієнта тимчасово не доступні: %s</string>
     <string name="revanced_playback_speed_dialog_button_title">Кнопка швидкості відтворення</string>
