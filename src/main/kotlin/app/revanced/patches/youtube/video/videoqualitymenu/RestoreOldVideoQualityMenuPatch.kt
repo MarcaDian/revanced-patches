@@ -62,10 +62,10 @@ object RestoreOldVideoQualityMenuPatch : BytecodePatch(
     setOf(VideoQualityMenuViewInflateFingerprint, VideoQualityMenuOptionsFingerprint)
 ) {
     private const val FILTER_CLASS_DESCRIPTOR =
-        "Lapp/revanced/integrations/youtube/patches/components/VideoQualityMenuFilterPatch;"
+            "Lapp/revanced/integrations/youtube/patches/components/VideoQualityMenuFilterPatch;"
 
     private const val INTEGRATIONS_CLASS_DESCRIPTOR =
-        "Lapp/revanced/integrations/youtube/patches/playback/quality/RestoreOldVideoQualityMenuPatch;"
+            "Lapp/revanced/integrations/youtube/patches/playback/quality/RestoreOldVideoQualityMenuPatch;"
 
     override fun execute(context: BytecodeContext) {
         // region Patch for the old type of the video quality menu.
@@ -99,7 +99,7 @@ object RestoreOldVideoQualityMenuPatch : BytecodePatch(
                 // A condition controls whether to show the three or four items quality menu.
                 // Force the four items quality menu to make the "Advanced" item visible, necessary for the patch.
                 addInstructions(
-                    insertIndex,
+                     insertIndex,
                     """
                         invoke-static { v$register }, $INTEGRATIONS_CLASS_DESCRIPTOR->forceAdvancedVideoQualityMenuCreation(Z)Z
                         move-result v$register
