@@ -536,10 +536,8 @@ public final class app/revanced/patches/shared/misc/settings/preference/TextPref
 	public fun serialize (Lorg/w3c/dom/Document;Lkotlin/jvm/functions/Function1;)Lorg/w3c/dom/Element;
 }
 
-public abstract class app/revanced/patches/shared/translations/AbstractTranslationsPatch : app/revanced/patcher/patch/ResourcePatch {
-	public fun <init> (Ljava/lang/String;[Ljava/lang/String;)V
-	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
-	public fun execute (Lapp/revanced/patcher/data/ResourceContext;)V
+public final class app/revanced/patches/shared/translations/TranslationsUtils {
+	public static final field INSTANCE Lapp/revanced/patches/shared/translations/TranslationsUtils;
 }
 
 public final class app/revanced/patches/youtube/ad/general/HideAdsPatch : app/revanced/patcher/patch/BytecodePatch {
@@ -1040,8 +1038,10 @@ public final class app/revanced/patches/youtube/misc/settings/SettingsResourcePa
 	public fun execute (Lapp/revanced/patcher/data/ResourceContext;)V
 }
 
-public final class app/revanced/patches/youtube/misc/translations/TranslationsPatch : app/revanced/patches/shared/translations/AbstractTranslationsPatch {
+public final class app/revanced/patches/youtube/misc/translations/TranslationsPatch : app/revanced/patcher/patch/ResourcePatch {
 	public static final field INSTANCE Lapp/revanced/patches/youtube/misc/translations/TranslationsPatch;
+	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
+	public fun execute (Lapp/revanced/patcher/data/ResourceContext;)V
 }
 
 public final class app/revanced/patches/youtube/misc/zoomhaptics/ZoomHapticsPatch : app/revanced/patcher/patch/BytecodePatch {
@@ -1135,7 +1135,9 @@ public final class app/revanced/util/BytecodeUtilsKt {
 	public static final fun containsWideLiteralInstructionValue (Lcom/android/tools/smali/dexlib2/iface/Method;J)Z
 	public static final fun findMutableMethodOf (Lapp/revanced/patcher/util/proxy/mutableTypes/MutableClass;Lcom/android/tools/smali/dexlib2/iface/Method;)Lapp/revanced/patcher/util/proxy/mutableTypes/MutableMethod;
 	public static final fun getException (Lapp/revanced/patcher/fingerprint/MethodFingerprint;)Lapp/revanced/patcher/patch/PatchException;
+	public static final fun indexOfFirstInstruction (Lcom/android/tools/smali/dexlib2/iface/Method;ILkotlin/jvm/functions/Function1;)I
 	public static final fun indexOfFirstInstruction (Lcom/android/tools/smali/dexlib2/iface/Method;Lkotlin/jvm/functions/Function1;)I
+	public static final fun indexOfFirstInstructionOrThrow (Lcom/android/tools/smali/dexlib2/iface/Method;ILkotlin/jvm/functions/Function1;)I
 	public static final fun indexOfFirstWideLiteralInstructionValue (Lcom/android/tools/smali/dexlib2/iface/Method;J)I
 	public static final fun indexOfIdResource (Lcom/android/tools/smali/dexlib2/iface/Method;Ljava/lang/String;)I
 	public static final fun indexOfIdResourceOrThrow (Lcom/android/tools/smali/dexlib2/iface/Method;Ljava/lang/String;)I

@@ -12,7 +12,7 @@ import app.revanced.patches.youtube.misc.integrations.IntegrationsPatch
 import app.revanced.patches.youtube.misc.links.fingerprints.ABUriParserFingerprint
 import app.revanced.patches.youtube.misc.links.fingerprints.HTTPUriParserFingerprint
 import app.revanced.patches.youtube.misc.settings.SettingsPatch
-import app.revanced.util.exception
+import app.revanced.util.resultOrThrow
 import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
 
 @Patch(
@@ -38,7 +38,12 @@ import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
                 "19.08.36",
                 "19.09.38",
                 "19.10.39",
-                "19.11.43"
+                "19.11.43",
+                "19.12.41",
+                "19.13.37",
+                "19.14.43",
+                "19.15.36",
+                "19.16.39",
             ]
         )
     ]
@@ -55,11 +60,9 @@ object BypassURLRedirectsPatch : BytecodePatch(
         )
 
         mapOf(
-            ABUriParserFingerprint to 7, // Offset to Uri.parse.
-            HTTPUriParserFingerprint to 0 // Offset to Uri.parse.
-        ).map { (fingerprint, offset) ->
-            (fingerprint.result ?: throw fingerprint.exception) to offset
-        }.forEach { (result, offset) ->
+            ABUriParserFingerprint.resultOrThrow() to 7, // Offset to Uri.parse.
+            HTTPUriParserFingerprint.resultOrThrow() to 0 // Offset to Uri.parse.
+        ).forEach { (result, offset) ->
             result.mutableMethod.apply {
                 val insertIndex = result.scanResult.patternScanResult!!.startIndex + offset
                 val uriStringRegister = getInstruction<FiveRegisterInstruction>(insertIndex).registerC

@@ -22,6 +22,7 @@ import app.revanced.patches.youtube.misc.fix.playback.fingerprints.CreatePlayerR
 import app.revanced.patches.youtube.misc.fix.playback.fingerprints.SetPlayerRequestClientTypeFingerprint
 import app.revanced.patches.youtube.misc.settings.SettingsPatch
 import app.revanced.util.getReference
+import app.revanced.util.indexOfFirstInstructionOrThrow
 import app.revanced.util.resultOrThrow
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
@@ -63,6 +64,11 @@ import com.android.tools.smali.dexlib2.immutable.ImmutableMethodParameter
                 "19.09.38",
                 "19.10.39",
                 "19.11.43",
+                "19.12.41",
+                "19.13.37",
+                "19.14.43",
+                "19.15.36",
+                "19.16.39",
             ],
         ),
     ],
@@ -144,7 +150,7 @@ object SpoofClientPatch : BytecodePatch(
                     .getInstructions().find { instruction ->
                         // requestMessage.clientInfo = clientInfoBuilder.build();
                         instruction.opcode == Opcode.IPUT_OBJECT &&
-                            instruction.getReference<FieldReference>()?.type == CLIENT_INFO_CLASS_DESCRIPTOR
+                                instruction.getReference<FieldReference>()?.type == CLIENT_INFO_CLASS_DESCRIPTOR
                     }?.getReference<FieldReference>() ?: throw PatchException("Could not find clientInfoField")
 
                 // Client info object's client type field.
@@ -162,15 +168,14 @@ object SpoofClientPatch : BytecodePatch(
 
         val clientInfoClientModelField = CreatePlayerRequestBodyWithModelFingerprint.resultOrThrow().let {
             val getClientModelIndex = CreatePlayerRequestBodyWithModelFingerprint.indexOfBuildModelInstruction(it.method)
-            val instructions = it.mutableMethod.getInstructions()
 
             // The next IPUT_OBJECT instruction after getting the client model is setting the client model field.
-            instructions.subList(
-                getClientModelIndex,
-                instructions.size,
-            ).find { instruction ->
-                instruction.opcode == Opcode.IPUT_OBJECT
-            }?.getReference<FieldReference>() ?: throw PatchException("Could not find clientInfoClientModelField")
+            val index = it.mutableMethod.indexOfFirstInstructionOrThrow(getClientModelIndex) {
+                opcode == Opcode.IPUT_OBJECT
+            }
+
+            it.mutableMethod.getInstruction(index).getReference<FieldReference>()
+                ?: throw PatchException("Could not find clientInfoClientModelField")
         }
 
         // endregion
@@ -190,7 +195,7 @@ object SpoofClientPatch : BytecodePatch(
                 addInstruction(
                     checkCastIndex + 1,
                     "invoke-static { v$requestMessageInstanceRegister }," +
-                        " ${result.classDef.type}->$setClientInfoMethodName($clientInfoContainerClassName)V",
+                            " ${result.classDef.type}->$setClientInfoMethodName($clientInfoContainerClassName)V",
                 )
             }
 
