@@ -78,6 +78,9 @@
     <string name="revanced_debug_toast_on_error_summary_on">Тост показується, якщо сталася помилка</string>
     <string name="revanced_debug_toast_on_error_summary_off">Тост не показується, якщо сталася помилка</string>
     <string name="revanced_debug_toast_on_error_user_dialog_message">Вимкнення сповіщень про помилки приховує всі сповіщення про помилки ReVanced.\n\nВи не отримуватимете сповіщення про будь-які несподівані події.</string>
+    <string name="revanced_disable_like_subscribe_glow_title">Вимкнути відблиск кнопок \"Подобається\" / \"Підписатися\"</string>
+    <string name="revanced_disable_like_subscribe_glow_summary_on">Кнопки \"Подобається\" та \"Підписатися\" не відблискуватимуть при згадуванні</string>
+    <string name="revanced_disable_like_subscribe_glow_summary_off">Кнопки \"Подобається\" та \"Підписатися\" відблискуватимуть при згадуванні</string>
     <string name="revanced_hide_gray_separator_title">Приховати сірі роздільники</string>
     <string name="revanced_hide_gray_separator_summary_on">Сірі роздільники між елементами інтерфейсу приховано</string>
     <string name="revanced_hide_gray_separator_summary_off">Сірі роздільники між елементами інтерфейсу показуються</string>
@@ -343,9 +346,9 @@
     <string name="revanced_hide_report_button_summary_on">Кнопку \"Поскаржитися\" приховано</string>
     <string name="revanced_hide_report_button_summary_off">Кнопка \"Поскаржитися\" показується</string>
     <!-- 'Remix' should be translated with the same localized wording that YouTube displays. -->
-    <string name="revanced_hide_remix_button_title">Приховати \"Ремікс\"</string>
-    <string name="revanced_hide_remix_button_summary_on">Кнопку \"Ремікс\" приховано</string>
-    <string name="revanced_hide_remix_button_summary_off">Кнопка \"Ремікс\" показується</string>
+    <string name="revanced_hide_remix_button_title">Приховати \"Реміксувати\"</string>
+    <string name="revanced_hide_remix_button_summary_on">Кнопку \"Реміксувати\" приховано</string>
+    <string name="revanced_hide_remix_button_summary_off">Кнопка \"Реміксувати\" показується</string>
     <!-- 'Download' should be translated with the same localized wording that YouTube displays. -->
     <string name="revanced_hide_download_button_title">Приховати \"Завантажити\"</string>
     <string name="revanced_hide_download_button_summary_on">Кнопку \"Завантажити\" приховано</string>
@@ -394,7 +397,7 @@
     <string name="revanced_switch_create_with_notifications_button_title">Замінити \"Створити\" на \"Сповіщення\"</string>
     <string name="revanced_switch_create_with_notifications_button_summary_on">Кнопку \"Створити\" замінено кнопкою \"Сповіщення\"\n\nПримітка: увімкнення цього параметру також примусово приховує відеорекламу</string>
     <string name="revanced_switch_create_with_notifications_button_summary_off">Кнопку \"Створити\" не замінено кнопкою \"Сповіщення\"</string>
-    <string name="revanced_hide_navigation_button_labels_title">Сховати підписи кнопок навігації</string>
+    <string name="revanced_hide_navigation_button_labels_title">Приховати підписи кнопок навігації</string>
     <string name="revanced_hide_navigation_button_labels_summary_on">Підписи кнопок навігації приховано</string>
     <string name="revanced_hide_navigation_button_labels_summary_off">Підписи кнопок навігації показуються</string>
     <string name="revanced_hide_player_flyout_title">Висувне меню</string>
@@ -542,9 +545,9 @@
     <string name="revanced_hide_shorts_comments_button_summary_on">Кнопку \"Коментарі\" приховано</string>
     <string name="revanced_hide_shorts_comments_button_summary_off">Кнопка \"Коментарі\" показується</string>
     <!-- 'remix' should be translated using the same localized wording YouTube displays for the button. -->
-    <string name="revanced_hide_shorts_remix_button_title">Приховати \"Ремікс\"</string>
-    <string name="revanced_hide_shorts_remix_button_summary_on">Кнопку \"Ремікс\" приховано</string>
-    <string name="revanced_hide_shorts_remix_button_summary_off">Кнопка \"Ремікс\" показується</string>
+    <string name="revanced_hide_shorts_remix_button_title">Приховати \"Реміксувати\"</string>
+    <string name="revanced_hide_shorts_remix_button_summary_on">Кнопку \"Реміксувати\" приховано</string>
+    <string name="revanced_hide_shorts_remix_button_summary_off">Кнопка \"Реміксувати\" показується</string>
     <!-- 'share' should be translated using the same localized wording YouTube displays for the button. -->
     <string name="revanced_hide_shorts_share_button_title">Приховати \"Поділитися\"</string>
     <string name="revanced_hide_shorts_share_button_summary_on">Кнопку \"Поділитися\" приховано</string>
@@ -962,8 +965,8 @@
     <string name="revanced_spoof_client_summary_off">Клієнт не підроблений\n\nВідтворення відео може не працювати</string>
     <string name="revanced_spoof_client_user_dialog_message">Вимкнення цього параметра може призвести до проблем відтворення відео.</string>
     <string name="revanced_spoof_client_use_ios_title">Підробити клієнт на iOS</string>
-    <string name="revanced_spoof_client_use_ios_summary_on">Клієнт підроблений на iOS\nПобічні ефекти:\n• Немає HDR відео\n• Меню \"Швидкість відтворення\" відсутнє\n• Історія переглядів може не працювати\n• Стріми не відтворюються в режимі аудіо\n• Стріми недоступні на старих пристроях</string>
-    <string name="revanced_spoof_client_use_ios_summary_off">Клієнт підроблений на Android VR\nПобічні ефекти:\n• Немає HDR відео\n• Жести плеєра не працюють\n• Дитячі відео не відтворюються\n• Призупинені відео можуть випадково відновлюватися</string>
+    <string name="revanced_spoof_client_use_ios_summary_on">Наразі клієнт підроблений на iOS\n\nПобічні ефекти:\n• Немає HDR відео\n• Меню швидкості відсутнє\n• Історія переглядів може не працювати\n• Прямі трансляції не відтворюються в режимі аудіо\n• Прямі трансляції недоступні на старих пристроях</string>
+    <string name="revanced_spoof_client_use_ios_summary_off">Наразі клієнт підроблений на Android VR\n\nПобічні ефекти:\n• Немає HDR відео\n• Відео для дітей не відтворюються\n• Призупинені відео можуть випадково продовжуватися</string>
     <string name="revanced_spoof_client_storyboard_timeout">Мініатюри в режимі підробки клієнта не доступні (закінчився час API)</string>
     <string name="revanced_spoof_client_storyboard_io_exception">Мініатюри в режимі підробки клієнта тимчасово не доступні: %s</string>
     <string name="revanced_playback_speed_dialog_button_title">Кнопка швидкості відтворення</string>
