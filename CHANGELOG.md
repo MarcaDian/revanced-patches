@@ -1,3 +1,17 @@
+# [4.9.0-dev.5](https://github.com/ReVanced/revanced-patches/compare/v4.9.0-dev.4...v4.9.0-dev.5) (2024-06-01)
+
+
+### Features
+
+* **YouTube:** Support version `19.12`, `19.13`, `19.14`, `19.15` and `19.16` ([#3239](https://github.com/ReVanced/revanced-patches/issues/3239)) ([99b07e0](https://github.com/ReVanced/revanced-patches/commit/99b07e0e18574668f36bb3c962c8d11222114be4))
+
+# [4.9.0-dev.4](https://github.com/ReVanced/revanced-patches/compare/v4.9.0-dev.3...v4.9.0-dev.4) (2024-06-01)
+
+
+### Features
+
+* **Messenger:** Add `Hide inbox subtabs` patch ([#3163](https://github.com/ReVanced/revanced-patches/issues/3163)) ([24e4ebd](https://github.com/ReVanced/revanced-patches/commit/24e4ebd77ad0f349b479926bf3983b72c2683496))
+
 # [4.9.0-dev.3](https://github.com/ReVanced/revanced-patches/compare/v4.9.0-dev.2...v4.9.0-dev.3) (2024-06-01)
 
 
