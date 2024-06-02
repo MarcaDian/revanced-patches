@@ -965,7 +965,7 @@
     <string name="revanced_spoof_client_summary_off">Клиент не подменен\n\nВоспроизведение видео может не работать</string>
     <string name="revanced_spoof_client_user_dialog_message">Отключение этой настройки может вызвать проблемы с воспроизведением видео.</string>
     <string name="revanced_spoof_client_use_ios_title">Подмена клиента на iOS</string>
-    <string name="revanced_spoof_client_use_ios_summary_on">В настоящее время клиент подменен на iOS\n\nПобочные эффекты:\n• Отсутствует HDR видео\n• Отсутствует меню скорости\n• История просмотров может не работать\n• Прямые трансляции не могут воспроизводиться только как аудио\n• Прямые трансляции недоступны на старых устройствах</string>
+    <string name="revanced_spoof_client_use_ios_summary_on">В настоящее время клиент подменен на iOS\n\nПобочные эффекты:\n• Отсутствует HDR видео\n• История просмотров может не работать\n• Прямые трансляции не могут воспроизводиться только как аудио\n• Прямые трансляции недоступны на старых устройствах</string>
     <string name="revanced_spoof_client_use_ios_summary_off">В настоящее время клиент подменен на Android VR\n\nПобочные эффекты:\n• Отсутствует HDR видео\n• Детские видео не воспроизводятся\n• Приостановленные видео могут случайно возобновляться</string>
     <string name="revanced_spoof_client_storyboard_timeout">Миниатюры в режиме подмены клиента недоступны (время API истекло)</string>
     <string name="revanced_spoof_client_storyboard_io_exception">Миниатюры в режиме подмены клиента временно недоступны: %s</string>
