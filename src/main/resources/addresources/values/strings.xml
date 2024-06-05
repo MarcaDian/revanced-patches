@@ -661,6 +661,7 @@
         <patch id="layout.player.overlay.CustomPlayerOverlayOpacityResourcePatch">
             <string name="revanced_player_overlay_opacity_title">Player overlay opacity</string>
             <string name="revanced_player_overlay_opacity_summary">Opacity value between 0-100, where 0 is transparent</string>
+            <string name="revanced_player_overlay_opacity_invalid_toast">Player overlay opacity must be between 0-100</string>
         </patch>
         <patch id="layout.returnyoutubedislike.ReturnYouTubeDislikeResourcePatch">
             <string name="revanced_ryd_settings_title">Return YouTube Dislike</string>
@@ -942,16 +943,33 @@
             <string name="revanced_disable_resuming_shorts_player_summary_on">Shorts player will not resume on app startup</string>
             <string name="revanced_disable_resuming_shorts_player_summary_off">Shorts player will resume on app startup</string>
         </patch>
-        <patch id="layout.tablet.EnableTabletLayoutPatch">
+        <patch id="layout.tablet.TabletLayoutPatch">
             <string name="revanced_tablet_layout_title">Enable tablet layout</string>
             <string name="revanced_tablet_layout_summary_on">Tablet layout is enabled</string>
             <string name="revanced_tablet_layout_summary_off">Tablet layout is disabled</string>
             <string name="revanced_tablet_layout_user_dialog_message">Community posts do not show up on tablet layouts</string>
-        </patch>
-        <patch id="layout.tabletminiplayer.TabletMiniPlayerPatch">
-            <string name="revanced_tablet_miniplayer_title">Enable tablet mini player</string>
-            <string name="revanced_tablet_miniplayer_summary_on">Mini player is enabled</string>
-            <string name="revanced_tablet_miniplayer_summary_off">Mini player is disabled</string>
+        </patch>x
+        <patch id="layout.miniplayer.MiniPlayerPatch">
+            <string name="revanced_mini_player_screen_title">Mini player</string>
+            <string name="revanced_mini_player_screen_summary">Modify the in app minimized player</string>
+            <string name="revanced_mini_player_type_title">Mini player type</string>
+            <string name="revanced_mini_player_type_entry_1">Original</string>
+            <string name="revanced_mini_player_type_entry_2">Phone mini player</string>
+            <string name="revanced_mini_player_type_entry_3">Phone mini player modern</string>
+            <string name="revanced_mini_player_type_entry_4">Tablet mini player</string>
+            <string name="revanced_mini_player_type_entry_5">Tablet mini player modern</string>
+            <string name="revanced_mini_player_modern_hide_expand_close_title">Hide expand and close buttons</string>
+            <string name="revanced_mini_player_modern_hide_expand_close_summary_on">Buttons are hidden\n(swipe mini player to expand or close)</string>
+            <string name="revanced_mini_player_modern_hide_expand_close_summary_off">Expand and close buttons are shown</string>
+            <string name="revanced_mini_player_modern_hide_sub_text_title">Hide sub texts</string>
+            <string name="revanced_mini_player_modern_hide_sub_text_summary_on">Sub texts are hidden</string>
+            <string name="revanced_mini_player_modern_hide_sub_text_summary_off">Sub texts are shown</string>
+            <string name="revanced_mini_player_modern_hide_rewind_forward_title">Hide skip forward and back buttons</string>
+            <string name="revanced_mini_player_modern_hide_rewind_forward_summary_on">Skip forward and back are hidden</string>
+            <string name="revanced_mini_player_modern_hide_rewind_forward_summary_off">Skip forward and back are shown</string>
+            <string name="revanced_mini_player_modern_opacity_title">Modern mini player overlay opacity</string>
+            <string name="revanced_mini_player_modern_opacity_summary">Opacity value between 0-100, where 0 is transparent</string>
+            <string name="revanced_mini_player_modern_opacity_invalid_toast">Mini player overlay opacity must be between 0-100</string>
         </patch>
         <patch id="layout.theme.ThemeBytecodePatch">
             <string name="revanced_gradient_loading_screen_title">Enable gradient loading screen</string>
@@ -1101,7 +1119,7 @@
             <string name="revanced_spoof_client_summary_off">Client is not spoofed\n\nVideo playback may not work</string>
             <string name="revanced_spoof_client_user_dialog_message">Turning off this setting may cause video playback issues.</string>
             <string name="revanced_spoof_client_use_ios_title">Spoof client to iOS</string>
-            <string name="revanced_spoof_client_use_ios_summary_on">Client is currently spoofed to iOS\n\nSide effects include:\n• No HDR video\n• Watch history may not work\n• Live streams cannot play as audio only\n• Live streams not available on older devices</string>
+            <string name="revanced_spoof_client_use_ios_summary_on">Client is currently spoofed to iOS\n\nSide effects include:\n• No HDR video\n• Watch history may not work\n• Higher video qualities may be missing\n• Live streams cannot play as audio only\n• Live streams not available on Android 8.0</string>
             <string name="revanced_spoof_client_use_ios_summary_off">Client is currently spoofed to Android VR\n\nSide effects include:\n• No HDR video\n• Kids videos do not playback\n• Paused videos can randomly resume</string>
             <string name="revanced_spoof_client_storyboard_timeout">Spoof client thumbnails not available (API timed out)</string>
             <string name="revanced_spoof_client_storyboard_io_exception">Spoof client thumbnails temporarily not available: %s</string>
