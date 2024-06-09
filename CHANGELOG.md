@@ -1,3 +1,31 @@
+# [4.10.0-dev.6](https://github.com/ReVanced/revanced-patches/compare/v4.10.0-dev.5...v4.10.0-dev.6) (2024-06-09)
+
+
+### Features
+
+* **YouTube - Comments:** Add `Hide Thanks button` and `Hide 'Comments by members' header` options ([#3317](https://github.com/ReVanced/revanced-patches/issues/3317)) ([9c4c4f0](https://github.com/ReVanced/revanced-patches/commit/9c4c4f05a762d745404101bbc3925ab4eba2deb8))
+
+# [4.10.0-dev.5](https://github.com/ReVanced/revanced-patches/compare/v4.10.0-dev.4...v4.10.0-dev.5) (2024-06-09)
+
+
+### Bug Fixes
+
+* **YouTube - Client spoof:** Correctly play more livestreams using Android VR ([#3316](https://github.com/ReVanced/revanced-patches/issues/3316)) ([c05264a](https://github.com/ReVanced/revanced-patches/commit/c05264af3944cbfe8d9aa34fb0e0fddb05a1d42f))
+
+# [4.10.0-dev.4](https://github.com/ReVanced/revanced-patches/compare/v4.10.0-dev.3...v4.10.0-dev.4) (2024-06-08)
+
+
+### Features
+
+* **Boost for Reddit:** Add `Fix audio missing in video downloads` patch ([#3287](https://github.com/ReVanced/revanced-patches/issues/3287)) ([a9258d4](https://github.com/ReVanced/revanced-patches/commit/a9258d48d3ddf8552ab56219677a3b31ee553666))
+
+# [4.10.0-dev.3](https://github.com/ReVanced/revanced-patches/compare/v4.10.0-dev.2...v4.10.0-dev.3) (2024-06-08)
+
+
+### Features
+
+* **Boost For Reddit:** Add `Fix /s/ links` patch ([#3154](https://github.com/ReVanced/revanced-patches/issues/3154)) ([5fa9fd2](https://github.com/ReVanced/revanced-patches/commit/5fa9fd2dfef43838d7311a967a3e805256a5d116))
+
 # [4.10.0-dev.2](https://github.com/ReVanced/revanced-patches/compare/v4.10.0-dev.1...v4.10.0-dev.2) (2024-06-08)
 
 
