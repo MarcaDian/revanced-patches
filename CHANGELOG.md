@@ -1,3 +1,24 @@
+# [4.10.0-dev.10](https://github.com/ReVanced/revanced-patches/compare/v4.10.0-dev.9...v4.10.0-dev.10) (2024-06-18)
+
+
+### Bug Fixes
+
+* Correct invalid string name ([b84494f](https://github.com/ReVanced/revanced-patches/commit/b84494f4e26e040ada69ed7a516f331f2d47da87))
+
+# [4.10.0-dev.9](https://github.com/ReVanced/revanced-patches/compare/v4.10.0-dev.8...v4.10.0-dev.9) (2024-06-17)
+
+
+### Bug Fixes
+
+* **YouTube - Hide description components:** Replace `Hide game section` and `Hide music section` with `Hide attributes section` ([#3327](https://github.com/ReVanced/revanced-patches/issues/3327)) ([0198a43](https://github.com/ReVanced/revanced-patches/commit/0198a436f97b127a2a5dd283644254f9a0ae3e43))
+
+# [4.10.0-dev.8](https://github.com/ReVanced/revanced-patches/compare/v4.10.0-dev.7...v4.10.0-dev.8) (2024-06-17)
+
+
+### Features
+
+* **YouTube - Comments:** Add `Hide 'Create a Short' button` option ([#3333](https://github.com/ReVanced/revanced-patches/issues/3333)) ([be9e244](https://github.com/ReVanced/revanced-patches/commit/be9e24420fda80903e44e2e2278ea4904ecac4e1))
+
 # [4.10.0-dev.7](https://github.com/ReVanced/revanced-patches/compare/v4.10.0-dev.6...v4.10.0-dev.7) (2024-06-15)
 
 
