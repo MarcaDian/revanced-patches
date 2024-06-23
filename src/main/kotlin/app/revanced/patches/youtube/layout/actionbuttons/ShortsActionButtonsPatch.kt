@@ -18,6 +18,7 @@ import app.revanced.util.copyResources
             "com.google.android.youtube"
         ),
     ],
+    use = false,
 )
 
 @Suppress("unused")
