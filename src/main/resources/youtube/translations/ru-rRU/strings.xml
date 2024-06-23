@@ -230,6 +230,7 @@
     <string name="revanced_hide_keyword_content_about_summary">Вкладки \"Главная\", \"Подписки\" и результаты поиска фильтруются для скрытия контента, соответствующего ключевым фразам\n\nОграничения\n• Некоторые Shorts могут быть не скрыты\n• Некоторые компоненты пользовательского интерфейса могут быть не скрыты\n• Поиск по ключевому слову может не дать результатов</string>
     <string name="revanced_hide_keyword_toast_invalid_common">Недопустимое ключевое слово. Невозможно использовать: \'%s\' в качестве фильтра</string>
     <string name="revanced_hide_keyword_toast_invalid_length">Недопустимое ключевое слово. \'%1$s\' содержит менее %2$d символов</string>
+    <string name="revanced_hide_keyword_toast_invalid_broad">Ключевое слово \'%1$s\' всеобьятное и скроет все видео</string>
     <string name="revanced_hide_general_ads_title">Реклама общего формата</string>
     <string name="revanced_hide_general_ads_summary_on">Реклама общего формата скрыта</string>
     <string name="revanced_hide_general_ads_summary_off">Реклама общего формата отображена</string>
