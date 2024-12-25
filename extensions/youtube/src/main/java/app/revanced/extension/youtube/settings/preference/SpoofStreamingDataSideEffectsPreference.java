@@ -77,8 +77,10 @@ public class SpoofStreamingDataSideEffectsPreference extends Preference {
         Logger.printDebug(() -> "Updating spoof stream side effects preference");
         setEnabled(BaseSettings.SPOOF_VIDEO_STREAMS.get());
 
-        String key = "revanced_spoof_video_streams_about_"
-                + clientType.name().toLowerCase();
+        String key = "revanced_spoof_video_streams_about_" +
+                (clientType == ClientType.IOS_UNPLUGGED
+                        ? "ios_tv"
+                        : "android");
         setTitle(str(key + "_title"));
         setSummary(str(key + "_summary"));
     }

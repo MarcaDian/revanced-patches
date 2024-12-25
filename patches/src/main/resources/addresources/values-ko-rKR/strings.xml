@@ -25,7 +25,7 @@ Second \"item\" text"</string>
   <string name="revanced_check_environment_failed_title">환경 검사에 실패함</string>
   <string name="revanced_check_environment_dialog_open_official_source_button">공식 홈페이지 열기</string>
   <string name="revanced_check_environment_dialog_ignore_button">닫기</string>
-  <string name="revanced_check_environment_failed_message">&lt;h5&gt;이 앱은 사용자가 패치하지 않은 것 같습니다.&lt;/h5&gt;&lt;br&gt;이 앱은 제대로 작동하지 않을 수 있으며, &lt;b&gt;사용 시 해롭거나 심지어 위험할 수도 있습니다&lt;/b&gt;.&lt;br&gt;&lt;br&gt;이러한 검사는 이 앱이 사전에 패치되었거나 다른 사람으로부터 받은 것임을 의미합니다:&lt;br&gt;&lt;br&gt;&lt;small&gt;%1$s&lt;/small&gt;&lt;br&gt;검증되고 안전한 앱을 사용하고 있는지 확인하려면 &lt;b&gt;이 앱을 제거하고 직접 패치하는 것&lt;/b&gt;을 강력히 권장합니다.&lt;p&gt;&lt;br&gt;이 경고는 두 번만 표시됩니다.</string>
+  <string name="revanced_check_environment_failed_message">&lt;h5&gt;이 앱은 사용자가 패치하지 않은 것 같습니다.&lt;/h5&gt;&lt;br&gt;이 앱은 제대로 작동하지 않을 수 있으며, &lt;b&gt;사용 시 해롭거나 심지어 위험할 수도 있습니다&lt;/b&gt;.&lt;br&gt;&lt;br&gt;이러한 검사는 이 앱이 사전에 패치되었거나 다른 사람으로부터 받은 것임을 의미합니다:&lt;br&gt;&lt;br&gt;&lt;small&gt;%1$s&lt;/small&gt;&lt;br&gt;검증되고 안전한 앱을 사용하고 있는지 확인하려면 &lt;b&gt;이 앱을 제거하고 직접 패치하는 것&lt;/b&gt;을 강력히 권장합니다.&lt;p&gt;&lt;br&gt;이 경고는 두 번만 표시됩니다</string>
   <string name="revanced_check_environment_not_same_patching_device">다른 기기에서 패치됨</string>
   <string name="revanced_check_environment_manager_not_expected_installer">ReVanced Manager에 의해 설치되지 않음</string>
   <string name="revanced_check_environment_not_near_patch_time">10분 이상 전에 패치됨</string>
@@ -63,11 +63,11 @@ Second \"item\" text"</string>
 
 앱이 실행하려면 이 과정이 필요합니다"</string>
   <string name="gms_core_dialog_open_website_text">웹사이트 열기</string>
-  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"MicroG GmsCore를 배터리 최적화 목록에서 제외하여 앱 문제를 방지할 수 있습니다
+  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">"MicroG GmsCore 앱 배터리 최적화를 비활성화(제한 없음)하여 앱 문제를 방지할 수 있습니다.
 
-MicroG를 배터리 최적화 목록에서 제외하더라도, 배터리 사용량에 부정적인 영향을 미치지 않습니다
+MicroG 앱 배터리 최적화를 비활성화(제한 없음)하더라도, 배터리 사용량에 부정적인 영향을 미치지 않습니다.
 
-배터리 최적화 목록에서 제외하려면 '계속하기' 버튼을 누르세요"</string>
+앱 배터리 최적화를 비활성화(제한 없음)하려면 '계속하기' 버튼을 누르세요."</string>
   <string name="gms_core_dialog_continue_text">계속하기</string>
   </patch>
   </app>
@@ -452,8 +452,8 @@ MicroG를 배터리 최적화 목록에서 제외하더라도, 배터리 사용�
   </patch>
   <patch id="layout.autocaptions.autoCaptionsPatch">
   <string name="revanced_auto_captions_title">자동 자막 비활성화하기</string>
-  <string name="revanced_auto_captions_summary_on">자막 사용이 강제된 동영상에서 자막을 비활성화합니다</string>
-  <string name="revanced_auto_captions_summary_off">자막 사용이 강제된 동영상에서 자막을 활성화합니다</string>
+  <string name="revanced_auto_captions_summary_on">자동 자막을 비활성화합니다</string>
+  <string name="revanced_auto_captions_summary_off">자동 자막을 활성화합니다</string>
   </patch>
   <patch id="layout.buttons.action.hideButtonsPatch">
   <string name="revanced_hide_buttons_screen_title">액션 버튼</string>
@@ -1077,7 +1077,7 @@ MicroG를 배터리 최적화 목록에서 제외하더라도, 배터리 사용�
   <string name="revanced_miniplayer_screen_title">미니 플레이어</string>
   <string name="revanced_miniplayer_screen_summary">앱 내에서 최소화된 플레이어의 스타일을 변경할 수 있습니다</string>
   <string name="revanced_miniplayer_type_title">미니 플레이어 유형</string>
-  <string name="revanced_miniplayer_type_entry_0">비활성화됨</string>
+  <string name="revanced_miniplayer_type_entry_0">사용 안함</string>
   <string name="revanced_miniplayer_type_entry_1">기본값</string>
   <string name="revanced_miniplayer_type_entry_2">최소화</string>
   <string name="revanced_miniplayer_type_entry_3">태블릿</string>
@@ -1290,22 +1290,26 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요"</string>
 동영상 재생 문제가 발생할 수 있습니다"</string>
   <string name="revanced_spoof_video_streams_user_dialog_message">이 설정을 비활성화하면 동영상 재생 문제가 발생할 수 있습니다</string>
   <string name="revanced_spoof_video_streams_client_type_title">기본 클라이언트</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_title">AVC (H.264) 강제로 활성화하기</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_summary_on">동영상 코덱을 AVC (H.264)로 강제 활성화합니다</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">동영상 코덱을 자동으로 활성화합니다</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">"이 기능을 활성화하면 배터리 수명이 향상되고 재생 끊김 현상이 해결될 수 있습니다
+  <!-- 'no auth' means no authentication -->
+  <string name="revanced_spoof_video_streams_client_type_android_vr_no_auth">Android VR (인증 안됨)</string>
+  <string name="revanced_spoof_video_streams_ios_force_avc_title">iOS AVC (H.264) 강제로 활성화하기</string>
+  <string name="revanced_spoof_video_streams_ios_force_avc_summary_on">동영상 코덱을 AVC (H.264)로 강제로 활성화합니다</string>
+  <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">동영상 코덱을 자동으로 결정합니다</string>
+  <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">"이 설정를 활성화하면 배터리 수명이 향상되고, 동영상 재생 끊김 문제가 해결될 수 있습니다
 
-AVC의 최대 화질 값은 1080p이며, OPUS 오디오 코덱을 사용할 수 없고, 동영상 재생 시 VP9 또는 AV1보다 더 많은 모바일 데이터가 사용되오니 주의하세요"</string>
-  <string name="revanced_spoof_video_streams_about_ios_title">\'iOS로 변경\'의 알려진 문제점</string>
-  <string name="revanced_spoof_video_streams_about_ios_summary">"• 비공개 Kids 동영상이 재생되지 않을 수 있습니다
+AVC의 최대 해상도는 1080p이고, OPUS 코덱을 사용할 수 없으며, 동영상을 재생했을 경우에는 VP9 또는 AV1보다 더 많은 모바일 데이터를 사용되오니 주의하세요"</string>
+  <string name="revanced_spoof_video_streams_about_ios_tv_title">iOS TV 클라이언트 변경에 따른 문제점</string>
+  <string name="revanced_spoof_video_streams_about_ios_tv_summary">"• 동영상 또는 회원 전용 동영상과 같은 유료 동영상이 재생되지 않을 수 있습니다
 • 동영상이 1초 일찍 종료될 수 있습니다"</string>
-  <string name="revanced_spoof_video_streams_about_android_vr_title">\'Android VR로 변경\'의 알려진 문제점</string>
-  <string name="revanced_spoof_video_streams_about_android_vr_summary">"• 어린이 동영상은 재생되지 않을 수 있습니다
-• 오디오 트랙 메뉴가 없습니다
+  <string name="revanced_spoof_video_streams_about_android_title">Android 계열 클라이언트 변경에 따른 문제점</string>
+  <string name="revanced_spoof_video_streams_about_android_summary">"• 오디오 트랙 메뉴가 표시되지 않습니다
 • 안정적인 볼륨을 사용할 수 없습니다
-• 원본 오디오를 강제로 사용할 수 없습니다"</string>
-  <string name="revanced_spoof_video_streams_language_title">기본 오디오 트랙 언어</string>
-  <string name="revanced_spoof_video_streams_language_DEFAULT">앱 언어</string>
+• 원본 오디오 트랙를 강제로 활성화할 수 없습니다."</string>
+  <string name="revanced_spoof_streaming_data_stats_for_nerds_title">통계에서 표시하기</string>
+  <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">전문 통계에서 기본 클라이언트가 표시됩니다</string>
+  <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">전문 통계에서 기본 클라이언트가 표시되지 않습니다</string>
+  <string name="revanced_spoof_video_streams_language_title">Android VR 기본 오디오 스트림 언어</string>
+  <string name="revanced_spoof_video_streams_language_DEFAULT">계정 언어</string>
   <string name="revanced_spoof_video_streams_language_AR">아랍어</string>
   <string name="revanced_spoof_video_streams_language_AZ">아제르바니잔어</string>
   <string name="revanced_spoof_video_streams_language_BG">불가리아어</string>
@@ -1341,8 +1345,7 @@ AVC의 최대 화질 값은 1080p이며, OPUS 오디오 코덱을 사용할 수 
   <string name="revanced_spoof_video_streams_language_OR">오리야어</string>
   <string name="revanced_spoof_video_streams_language_PA">펀잡어</string>
   <string name="revanced_spoof_video_streams_language_PL">폴란드어</string>
-  <string name="revanced_spoof_video_streams_language_PT_BR">포르투갈어 (브라질)</string>
-  <string name="revanced_spoof_video_streams_language_PT_PT">포르투갈어 (포르트갈)</string>
+  <string name="revanced_spoof_video_streams_language_PT">포르투갈어</string>
   <string name="revanced_spoof_video_streams_language_RO">루마니아어</string>
   <string name="revanced_spoof_video_streams_language_RU">러시아어</string>
   <string name="revanced_spoof_video_streams_language_SK">슬로바키아어</string>
@@ -1370,7 +1373,7 @@ AVC의 최대 화질 값은 1080p이며, OPUS 오디오 코덱을 사용할 수 
   <string name="revanced_embedded_ads_service_unavailable">%s 를 차단할 수 없기 때문에 광고가 표시될 것입니다. 설정에서 다른 광고 차단 서비스로 전환해 보세요</string>
   <string name="revanced_embedded_ads_service_failed">%s 에서 오류가 발생했기 때문에 광고가 표시될 것입니다. 설정에서 다른 광고 차단 서비스로 전환해 보세요</string>
   <string name="revanced_block_embedded_ads_title">광고 차단 Proxy 서버 사용하기</string>
-  <string name="revanced_block_embedded_ads_entry_1">사용하지 않기</string>
+  <string name="revanced_block_embedded_ads_entry_1">사용 안함</string>
   <string name="revanced_block_embedded_ads_entry_2">Luminous Proxy</string>
   <string name="revanced_block_embedded_ads_entry_3">PurpleAdBlock Proxy</string>
   </patch>

@@ -10,6 +10,7 @@ import app.revanced.patcher.patch.BytecodePatchContext
 import app.revanced.patcher.patch.bytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
 import app.revanced.patches.all.misc.resources.addResourcesPatch
+import app.revanced.util.findInstructionIndicesReversedOrThrow
 import app.revanced.util.getReference
 import app.revanced.util.indexOfFirstInstructionOrThrow
 import app.revanced.util.insertFeatureFlagBooleanOverride
@@ -207,6 +208,25 @@ fun spoofVideoStreamsPatch(
                     """,
             )
         }
+
+        // endregion
+
+        // region Append spoof info.
+
+        nerdsStatsVideoFormatBuilderFingerprint.method.apply {
+            findInstructionIndicesReversedOrThrow(Opcode.RETURN_OBJECT).forEach { index ->
+                val register = getInstruction<OneRegisterInstruction>(index).registerA
+
+                addInstructions(
+                    index,
+                    """
+                        invoke-static { v$register }, $EXTENSION_CLASS_DESCRIPTOR->appendSpoofedClient(Ljava/lang/String;)Ljava/lang/String;
+                        move-result-object v$register
+                    """
+                )
+            }
+        }
+
         // endregion
 
         // region Fix iOS livestream current time.

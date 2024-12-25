@@ -20,6 +20,7 @@ val spoofVideoStreamsPatch = spoofVideoStreamsPatch({
             "19.43.41",
             "19.45.38",
             "19.46.42",
+            "19.47.53",
         ),
     )
 
@@ -40,16 +41,17 @@ val spoofVideoStreamsPatch = spoofVideoStreamsPatch({
                     "revanced_spoof_video_streams_client_type",
                     summaryKey = null,
                 ),
+                NonInteractivePreference(
+                    // Requires a key and title but the actual text is chosen at runtime.
+                    key = "revanced_spoof_video_streams_about_android",
+                    tag = "app.revanced.extension.youtube.settings.preference.SpoofStreamingDataSideEffectsPreference"
+                ),
                 ListPreference(
                     "revanced_spoof_video_streams_language",
                     summaryKey = null
                 ),
                 SwitchPreference("revanced_spoof_video_streams_ios_force_avc"),
-                NonInteractivePreference(
-                    // Requires a key and title but the actual text is chosen at runtime.
-                    key = "revanced_spoof_video_streams_about_android_vr",
-                    tag = "app.revanced.extension.youtube.settings.preference.SpoofStreamingDataSideEffectsPreference"
-                ),
+                SwitchPreference("revanced_spoof_streaming_data_stats_for_nerds"),
             ),
         ),
     )

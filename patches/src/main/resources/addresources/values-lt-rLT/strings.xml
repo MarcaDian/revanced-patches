@@ -1289,22 +1289,26 @@ Gali būti atrakinta aukštesnės vaizdo įrašų kokybės, bet galite patirti v
 Vaizdo įrašo atkūrimas gali neveikti"</string>
   <string name="revanced_spoof_video_streams_user_dialog_message">Išjungus šį nustatymą, gali kilti vaizdo įrašų atkūrimo problemų.</string>
   <string name="revanced_spoof_video_streams_client_type_title">Numatytasis klientas</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_title">Priversti AVC (H.264)</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_summary_on">Vaizdo kodekas priverstinai nustatytas į AVC (H.264)</string>
+  <!-- 'no auth' means no authentication -->
+  <string name="revanced_spoof_video_streams_client_type_android_vr_no_auth">Android VR (be leidimo)</string>
+  <string name="revanced_spoof_video_streams_ios_force_avc_title">Priverstinė iOS AVC (H.264)</string>
+  <string name="revanced_spoof_video_streams_ios_force_avc_summary_on">Vaizdo kodekas yra priverstinai nustatytas kaip AVC (H.264)</string>
   <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">Vaizdo kodekas nustatomas automatiškai</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">"Įjungus šį nustatymą, gali pagerėti baterijos veikimo laikas ir būti ištaisytas vaizdo įrašo atkūrimo strigimas.
+  <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">"Įjungus šią funkciją gali pagerėti baterijos veikimo laikas ir nebebus vaizdo strigimo.
 
-AVC maksimalus rezoliucija yra 1080p, Opus garso kodekas nėra prieinamas, o vaizdo įrašo atkūrimas naudoja daugiau interneto duomenų nei VP9 arba AV1."</string>
-  <string name="revanced_spoof_video_streams_about_ios_title">iOS apgaulės šalutiniai poveikiai</string>
-  <string name="revanced_spoof_video_streams_about_ios_summary">"• Privatūs vaikų vaizdo įrašai gali neveikti
-• Vaizdo įrašai baigiasi 1 sekunde anksčiau"</string>
-  <string name="revanced_spoof_video_streams_about_android_vr_title">Android VR apgaulės šalutiniai poveikiai</string>
-  <string name="revanced_spoof_video_streams_about_android_vr_summary">"• Vaikų vaizdo įrašai gali neatsidarys
-• Trūksta garso takelio meniu
-• Stabilaus garso nėra
-• Nėra galimybės priverstinai nustatyti originalaus garso"</string>
-  <string name="revanced_spoof_video_streams_language_title">Numatytoji garso srauto kalba</string>
-  <string name="revanced_spoof_video_streams_language_DEFAULT">Programėlės kalba</string>
+AVC didžiausia skiriamoji geba yra 1080 p, „Opus“ garso kodekas negalimas, o vaizdo įrašo atkūrimas sunaudos daugiau interneto duomenų nei naudojant VP9 arba AV1."</string>
+  <string name="revanced_spoof_video_streams_about_ios_tv_title">iOS TV apsimetinėjimo šalutiniai poveikiai</string>
+  <string name="revanced_spoof_video_streams_about_ios_tv_summary">"• Filmai arba mokami vaizdo įrašai gali būti nerodomi
+• Vaizdo įrašai baigiasi 1 sek. anksčiau"</string>
+  <string name="revanced_spoof_video_streams_about_android_title">Android apsimetinėjimo šalutiniai poveikiai</string>
+  <string name="revanced_spoof_video_streams_about_android_summary">"• Trūksta garso takelio meniu
+• Nėra stabilaus garso
+• Negalima priverstinai naudoti originalo garso"</string>
+  <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Rodyti statistinėje informacijoje \"tik profesionalams\"</string>
+  <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Kliento tipas rodomas statistinėje informacijoje \"tik profesionalams\"</string>
+  <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Klientas paslėptas statistinėje informacijoje \"tik profesionalams\"</string>
+  <string name="revanced_spoof_video_streams_language_title">VR numatytoji srautinio garso kalba</string>
+  <string name="revanced_spoof_video_streams_language_DEFAULT">Paskyros kalba</string>
   <string name="revanced_spoof_video_streams_language_AR">Arabų</string>
   <string name="revanced_spoof_video_streams_language_AZ">Azerbaidžaniečių</string>
   <string name="revanced_spoof_video_streams_language_BG">Bulgarų</string>
@@ -1340,8 +1344,7 @@ AVC maksimalus rezoliucija yra 1080p, Opus garso kodekas nėra prieinamas, o vai
   <string name="revanced_spoof_video_streams_language_OR">Odisų</string>
   <string name="revanced_spoof_video_streams_language_PA">Pandžabų</string>
   <string name="revanced_spoof_video_streams_language_PL">Lenkų</string>
-  <string name="revanced_spoof_video_streams_language_PT_BR">Portugalų (Brazilija)</string>
-  <string name="revanced_spoof_video_streams_language_PT_PT">Portugalų (Portugalija)</string>
+  <string name="revanced_spoof_video_streams_language_PT">Portugalų</string>
   <string name="revanced_spoof_video_streams_language_RO">Rumunų</string>
   <string name="revanced_spoof_video_streams_language_RU">Rusų</string>
   <string name="revanced_spoof_video_streams_language_SK">Slovakų</string>

@@ -4,14 +4,12 @@ import java.util.Locale;
 
 public enum AudioStreamLanguage {
     /**
-     * YouTube default.
-     * Can be the original language or can be app language,
-     * depending on what YouTube decides to pick as the default.
+     * The current app language.
      */
     DEFAULT,
 
     // Language codes found in locale_config.xml
-    // Region specific variants of Chinese/English/Spanish/French have been removed.
+    // All region specific variants have been removed.
     AF,
     AM,
     AR,
@@ -65,8 +63,7 @@ public enum AudioStreamLanguage {
     OR,
     PA,
     PL,
-    PT_BR,
-    PT_PT,
+    PT,
     RO,
     RU,
     SI,
@@ -88,26 +85,22 @@ public enum AudioStreamLanguage {
     ZH,
     ZU;
 
-    private final String iso639_1;
+    private final String language;
 
     AudioStreamLanguage() {
-        String name = name();
-        final int regionSeparatorIndex = name.indexOf('_');
-        if (regionSeparatorIndex >= 0) {
-            iso639_1 = name.substring(0, regionSeparatorIndex).toLowerCase(Locale.US)
-                    + name.substring(regionSeparatorIndex);
-        } else {
-            iso639_1 = name().toLowerCase(Locale.US);
-        }
+        language = name().toLowerCase(Locale.US);
     }
 
-    public String getIso639_1() {
+    /**
+     * @return The 2 letter ISO 639_1 language code.
+     */
+    public String getLanguage() {
         // Changing the app language does not force the app to completely restart,
         // so the default needs to be the current language and not a static field.
         if (this == DEFAULT) {
-            return Locale.getDefault().toLanguageTag();
+            return Locale.getDefault().getLanguage();
         }
 
-        return iso639_1;
+        return language;
     }
 }

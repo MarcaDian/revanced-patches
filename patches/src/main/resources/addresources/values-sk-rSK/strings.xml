@@ -1276,22 +1276,26 @@ Povolením tejto možnosti môžete odomknúť vyššie kvality videa"</string>
 Prehrávanie videa nemusí fungovať"</string>
   <string name="revanced_spoof_video_streams_user_dialog_message">Vypnutie tohto nastavenia môže spôsobiť problémy s prehrávaním videa.</string>
   <string name="revanced_spoof_video_streams_client_type_title">Predvolený klient</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_title">Vynútiť AVC (H.264)</string>
+  <!-- 'no auth' means no authentication -->
+  <string name="revanced_spoof_video_streams_client_type_android_vr_no_auth">Android VR (bez autorizácie)</string>
+  <string name="revanced_spoof_video_streams_ios_force_avc_title">Vynútiť iOS AVC (H.264)</string>
   <string name="revanced_spoof_video_streams_ios_force_avc_summary_on">Video kodek je vynútený na AVC (H.264)</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">Video kodek je urçovaný automaticky</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">"Povolením tejto možnosti sa môže zlepšiť výdrž batérie a opraviť zadrhávanie prehrávania.
+  <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">Video kodek sa určuje automaticky</string>
+  <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">"Povolenie tejto možnosti môže zlepšiť výdrž batérie a opraviť sekanie prehrávania.
 
-AVC má maximálne rozlíšenie 1080p, zvukový kodek Opus nie je dostupný a prehrávanie videa bude používať viac internetových dát ako VP9 alebo AV1."</string>
-  <string name="revanced_spoof_video_streams_about_ios_title">Vedľajšie účinky falošného prehrávača pre iOS</string>
-  <string name="revanced_spoof_video_streams_about_ios_summary">"• Soukromá videa pro děti se nemusí přehrát
-• Videa končí o 1 sekundu dříve"</string>
-  <string name="revanced_spoof_video_streams_about_android_vr_title">Vedľajťie účinky falošného prehrávača pre VR na Androide</string>
-  <string name="revanced_spoof_video_streams_about_android_vr_summary">"• Detské videá sa nemusia prehrávať
-• Chýba ponuka zvukových stôp
-• Stabilná hlasitosť nie je k dispozícii
-• Vynútený pôvodný zvuk nie je k dispozícii"</string>
-  <string name="revanced_spoof_video_streams_language_title">Predvolený jazyk zvukového streamu</string>
-  <string name="revanced_spoof_video_streams_language_DEFAULT">Jazyk aplikácie</string>
+AVC má maximálne rozlíšenie 1080p, zvukový kodek Opus nie je k dispozícii a prehrávanie videa bude využívať viac internetových dát ako VP9 alebo AV1."</string>
+  <string name="revanced_spoof_video_streams_about_ios_tv_title">Vedľajšie účinky spoofingu televízie iOS</string>
+  <string name="revanced_spoof_video_streams_about_ios_tv_summary">"• Filmy alebo platené videá sa nemusia prehrávať
+• Videá končia o 1 sekundu skôr"</string>
+  <string name="revanced_spoof_video_streams_about_android_title">Vedľajšie účinky spoofingu Androidu</string>
+  <string name="revanced_spoof_video_streams_about_android_summary">"• Chýba ponuka zvukových stôp
+• Nie je k dispozícii stabilná hlasitosť
+• Výber originálneho zvuku nie je k dispozícii"</string>
+  <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Zobraziť v štatistike pre expertov</string>
+  <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Typ klienta sa zobrazuje v štatistikách pre expertov</string>
+  <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Klient je skrytý v štatistikách pre expertov</string>
+  <string name="revanced_spoof_video_streams_language_title">Predvolený jazyk zvukovej stopy VR</string>
+  <string name="revanced_spoof_video_streams_language_DEFAULT">Jazyk účtu</string>
   <string name="revanced_spoof_video_streams_language_AR">Arabčina</string>
   <string name="revanced_spoof_video_streams_language_AZ">Azerbajdžančina</string>
   <string name="revanced_spoof_video_streams_language_BG">Bulharčina</string>
@@ -1327,8 +1331,7 @@ AVC má maximálne rozlíšenie 1080p, zvukový kodek Opus nie je dostupný a pr
   <string name="revanced_spoof_video_streams_language_OR">Orijčina</string>
   <string name="revanced_spoof_video_streams_language_PA">Pandžábčina</string>
   <string name="revanced_spoof_video_streams_language_PL">Poľština</string>
-  <string name="revanced_spoof_video_streams_language_PT_BR">Portugalčina (Brazília)</string>
-  <string name="revanced_spoof_video_streams_language_PT_PT">Portugalčina (Portugalsko)</string>
+  <string name="revanced_spoof_video_streams_language_PT">Portugalčina</string>
   <string name="revanced_spoof_video_streams_language_RO">Rumunčina</string>
   <string name="revanced_spoof_video_streams_language_RU">Ruština</string>
   <string name="revanced_spoof_video_streams_language_SK">Slovenčina</string>

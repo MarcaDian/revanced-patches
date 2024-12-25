@@ -1289,21 +1289,25 @@ Selle lubamine võib avada kõrgema video kvaliteedi"</string>
 Video taasesitus ei pruugi toimida"</string>
   <string name="revanced_spoof_video_streams_user_dialog_message">Selle seade keelamine võib põhjustada videote taasesituse probleeme.</string>
   <string name="revanced_spoof_video_streams_client_type_title">Vaikimisi klient</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_title">Sunni AVC (H.264)</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_summary_on">Videokodek on sunnitud AVC (H.264)</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">Videokodek määratakse automaatselt</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">"Selle lubamine võib parandada aku kestvust ja parandada video taasesituse peatumise probleemi.
+  <!-- 'no auth' means no authentication -->
+  <string name="revanced_spoof_video_streams_client_type_android_vr_no_auth">Android VR (autentimata)</string>
+  <string name="revanced_spoof_video_streams_ios_force_avc_title">Sunnitud iOS AVC (H.264) kodek</string>
+  <string name="revanced_spoof_video_streams_ios_force_avc_summary_on">Video kodek on sunnitud AVC (H.264) kodeki</string>
+  <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">Video kodek määratakse automaatselt</string>
+  <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">"Funktsiooni sisselülitamine võib parandada aku kestvust ja videotaasesituse katkemist.
 
-AVC-l on maksimaalne resolutsioon 1080p, Opus-heli kodeerijat pole saadaval ja video taasesitus kasutab rohkem interneti andmeid kui VP9 või AV1."</string>
-  <string name="revanced_spoof_video_streams_about_ios_title">iOS-i võltsimise kõrvalmõjud</string>
-  <string name="revanced_spoof_video_streams_about_ios_summary">"• Privaatseid lastevideoid ei pruugita esitada
+AVC-l on maksimaalne eraldusvõime 1080p, Opus-i heli kodek pole saadaval ning video taasesitus kasutab rohkem internetiandmeid kui VP9 või AV1."</string>
+  <string name="revanced_spoof_video_streams_about_ios_tv_title">iOS TV pettuse kõrvalmõjud</string>
+  <string name="revanced_spoof_video_streams_about_ios_tv_summary">"• Filmid või tasulised videod ei pruugi taasesitada
 • Videod lõpevad 1 sekund varem"</string>
-  <string name="revanced_spoof_video_streams_about_android_vr_title">Android VR spoofing-i kõrvalmõjud</string>
-  <string name="revanced_spoof_video_streams_about_android_vr_summary">"• Laste videod ei pruugi mängida
-• Heliriba menüü pole saadaval
-• Stabiilne helitugevus pole saadaval
-• Originaalheli pole saadaval"</string>
-  <string name="revanced_spoof_video_streams_language_title">Vaikimisi helivoolu keel</string>
+  <string name="revanced_spoof_video_streams_about_android_title">Androidi pettuse kõrvalmõjud</string>
+  <string name="revanced_spoof_video_streams_about_android_summary">"• Heliraja menüü puudub
+• Stabiilset helitugevust pole saadaval
+• Sunnitud originaalheli pole saadaval"</string>
+  <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Kuva statistikas \"Nerdide jaoks\"</string>
+  <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Klienditüüp on statistikas \"Nerdide jaoks\" nähtav</string>
+  <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Klient on statistikas \"Nerdide jaoks\" peidetud</string>
+  <string name="revanced_spoof_video_streams_language_title">VR vaikeväärtus heli voo keelele</string>
   <string name="revanced_spoof_video_streams_language_DEFAULT">Rakenduse keel</string>
   <string name="revanced_spoof_video_streams_language_AR">Araabia keel</string>
   <string name="revanced_spoof_video_streams_language_AZ">Aserbaidžaani keel</string>
@@ -1340,8 +1344,7 @@ AVC-l on maksimaalne resolutsioon 1080p, Opus-heli kodeerijat pole saadaval ja v
   <string name="revanced_spoof_video_streams_language_OR">Odia</string>
   <string name="revanced_spoof_video_streams_language_PA">Pandžabi</string>
   <string name="revanced_spoof_video_streams_language_PL">Poola</string>
-  <string name="revanced_spoof_video_streams_language_PT_BR">Portugali (Brasiilia)</string>
-  <string name="revanced_spoof_video_streams_language_PT_PT">Portugali (Portugal)</string>
+  <string name="revanced_spoof_video_streams_language_PT">Portugali</string>
   <string name="revanced_spoof_video_streams_language_RO">Rumeenia</string>
   <string name="revanced_spoof_video_streams_language_RU">Vene</string>
   <string name="revanced_spoof_video_streams_language_SK">Slovakkia</string>

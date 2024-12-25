@@ -36,20 +36,40 @@ import app.revanced.extension.shared.spoof.ClientType;
 public class StreamingDataRequest {
 
     private static final ClientType[] CLIENT_ORDER_TO_USE;
+
+    static {
+        ClientType[] allClientTypes = ClientType.values();
+        ClientType preferredClient = BaseSettings.SPOOF_VIDEO_STREAMS_CLIENT_TYPE.get();
+
+        CLIENT_ORDER_TO_USE = new ClientType[allClientTypes.length];
+        CLIENT_ORDER_TO_USE[0] = preferredClient;
+
+        int i = 1;
+        for (ClientType c : allClientTypes) {
+            if (c != preferredClient) {
+                CLIENT_ORDER_TO_USE[i++] = c;
+            }
+        }
+    }
+
     private static final String AUTHORIZATION_HEADER = "Authorization";
+
     private static final String[] REQUEST_HEADER_KEYS = {
             AUTHORIZATION_HEADER, // Available only to logged-in users.
             "X-GOOG-API-FORMAT-VERSION",
             "X-Goog-Visitor-Id"
     };
+
     /**
      * TCP connection and HTTP read timeout.
      */
     private static final int HTTP_TIMEOUT_MILLISECONDS = 10 * 1000;
+
     /**
      * Any arbitrarily large value, but must be at least twice {@link #HTTP_TIMEOUT_MILLISECONDS}
      */
     private static final int MAX_MILLISECONDS_TO_WAIT_FOR_FETCH = 20 * 1000;
+
     private static final Map<String, StreamingDataRequest> cache = Collections.synchronizedMap(
             new LinkedHashMap<>(100) {
                 /**
@@ -67,22 +87,15 @@ public class StreamingDataRequest {
                 }
             });
 
-    static {
-        ClientType[] allClientTypes = ClientType.values();
-        ClientType preferredClient = BaseSettings.SPOOF_VIDEO_STREAMS_CLIENT_TYPE.get();
+    private static volatile ClientType lastSpoofedClientType;
 
-        CLIENT_ORDER_TO_USE = new ClientType[allClientTypes.length];
-        CLIENT_ORDER_TO_USE[0] = preferredClient;
-
-        int i = 1;
-        for (ClientType c : allClientTypes) {
-            if (c != preferredClient) {
-                CLIENT_ORDER_TO_USE[i++] = c;
-            }
-        }
+    public static String getLastSpoofedClientName() {
+        ClientType client = lastSpoofedClientType;
+        return client == null ? "Unknown" : client.friendlyName;
     }
 
     private final String videoId;
+
     private final Future<ByteBuffer> future;
 
     private StreamingDataRequest(String videoId, Map<String, String> playerHeaders) {
@@ -178,7 +191,9 @@ public class StreamingDataRequest {
                     // gzip encoding doesn't response with content length (-1),
                     // but empty response body does.
                     if (connection.getContentLength() == 0) {
-                        Logger.printDebug(() -> "Received empty response for video: " + videoId);
+                        if (BaseSettings.DEBUG.get()) {
+                            Logger.printException(() -> "Ignoring empty client: " + clientType);
+                        }
                     } else {
                         try (InputStream inputStream = new BufferedInputStream(connection.getInputStream());
                              ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
@@ -188,6 +203,7 @@ public class StreamingDataRequest {
                             while ((bytesRead = inputStream.read(buffer)) >= 0) {
                                 baos.write(buffer, 0, bytesRead);
                             }
+                            lastSpoofedClientType = clientType;
 
                             return ByteBuffer.wrap(baos.toByteArray());
                         }
@@ -198,7 +214,8 @@ public class StreamingDataRequest {
             }
         }
 
-        handleConnectionError("Could not fetch any client streams", null, debugEnabled);
+        lastSpoofedClientType = null;
+        handleConnectionError("Could not fetch any client streams", null, true);
         return null;
     }
 

@@ -126,7 +126,7 @@ Nećete biti obavešteni ni o kakvim neočekivanim događajima."</string>
   <string name="revanced_hide_channel_watermark_summary_on">Vodeni žig kanala je skriven</string>
   <string name="revanced_hide_channel_watermark_summary_off">Vodeni žig kanala je prikazan</string>
   <string name="revanced_hide_horizontal_shelves_title">Sakrij horizontalne police</string>
-  <string name="revanced_hide_horizontal_shelves_summary_on">"Police su skrivene, kao što su:
+  <string name="revanced_hide_horizontal_shelves_summary_on">"Horizontalne police su skrivene:
 • Najnovije vesti
 • Nastavite da gledate
 • Istražite više kanala
@@ -278,8 +278,8 @@ Nećete biti obavešteni ni o kakvim neočekivanim događajima."</string>
   <string name="revanced_hide_comments_timestamp_and_emoji_buttons_summary_off">Dugmad za vremensku oznaku i emodžije su prikazana</string>
   <!-- https://logos.fandom.com/wiki/YouTube/Yoodles -->
   <string name="revanced_hide_doodles_title">Sakrij YouTube Doodles</string>
-  <string name="revanced_hide_doodles_summary_on">YouTube Doodles u traci za pretragu je skriven</string>
-  <string name="revanced_hide_doodles_summary_off">YouTube Doodles u traci za pretragu je prikazan</string>
+  <string name="revanced_hide_doodles_summary_on">Doodles na traci za pretragu je skriven</string>
+  <string name="revanced_hide_doodles_summary_off">Doodles na traci za pretragu je prikazan</string>
   <string name="revanced_hide_doodles_user_dialog_message">"YouTube Doodles se prikazuje nekoliko dana svake godine.
 
 Ako se Doodle trenutno prikazuje u vašem regionu i ova opcija skrivanja je uključena, traka filtera ispod trake za pretragu takođe će biti skrivena."</string>
@@ -802,16 +802,16 @@ Ograničenje: Nesviđanja se možda neće pojaviti u režimu bez arhiviranja"</s
   </patch>
   <patch id="layout.seekbar.seekbarThumbnailsPatch">
   <string name="revanced_seekbar_thumbnails_high_quality_title">Omogući visokokvalitetne sličice</string>
-  <string name="revanced_seekbar_thumbnails_high_quality_summary_on">Sličice na traci za premotavanje su visokog kvaliteta</string>
-  <string name="revanced_seekbar_thumbnails_high_quality_summary_off">Sličice na traci za premotavanje su srednjeg kvaliteta</string>
-  <string name="revanced_seekbar_thumbnails_high_quality_legacy_summary_on">Sličice na traci za premotavanje u režimu celog ekrana su visokog kvaliteta</string>
-  <string name="revanced_seekbar_thumbnails_high_quality_legacy_summary_off">Sličice na traci za premotavanje u režimu celog ekrana su srednjeg kvaliteta</string>
-  <string name="revanced_seekbar_thumbnails_high_quality_dialog_message">"Ovo će takođe vratiti sličice na strimovima uživo koji nemaju sličice na traci za premotavanje.
+  <string name="revanced_seekbar_thumbnails_high_quality_summary_on">Sličice trake za premotavanje su visokog kvaliteta</string>
+  <string name="revanced_seekbar_thumbnails_high_quality_summary_off">Sličice trake za premotavanje su srednjeg kvaliteta</string>
+  <string name="revanced_seekbar_thumbnails_high_quality_legacy_summary_on">Sličice trake za premotavanje u režimu celog ekrana su visokog kvaliteta</string>
+  <string name="revanced_seekbar_thumbnails_high_quality_legacy_summary_off">Sličice trake za premotavanje u režimu celog ekrana su srednjeg kvaliteta</string>
+  <string name="revanced_seekbar_thumbnails_high_quality_dialog_message">"Ovo će takođe vratiti sličice na strimovima uživo koji nemaju sličice trake za premotavanje.
 
-Sličice na traci za premotavanje će koristiti isti kvalitet kao trenutni video.
+Sličice trake za premotavanje će koristiti isti kvalitet kao trenutni video.
 
 Ova funkcija najbolje radi sa kvalitetom videa od 720p ili nižim i kada koristite veoma brzu internet vezu."</string>
-  <string name="revanced_restore_old_seekbar_thumbnails_title">Vrati stare sličice na traci za premotavanje</string>
+  <string name="revanced_restore_old_seekbar_thumbnails_title">Vrati stare sličice trake za premotavanje</string>
   <string name="revanced_restore_old_seekbar_thumbnails_summary_on">Sličice trake za premotavanje će se pojaviti iznad nje</string>
   <string name="revanced_restore_old_seekbar_thumbnails_summary_off">Sličice trake za premotavanje će se pojaviti u režimu celog ekrana</string>
   </patch>
@@ -888,8 +888,8 @@ Vaš korisnički ID je kao lozinka i nikada ga ne treba deliti."</string>
   <string name="revanced_sb_segments_highlight_sum">Deo videa koji većina ljudi traži</string>
   <string name="revanced_sb_segments_intro">Pauza/Uvodna animacija</string>
   <string name="revanced_sb_segments_intro_sum">Interval bez stvarnog sadržaja. Može biti pauza, statični kadar ili ponavljajuća animacija. Ne uključuje prelaze koji sadrže informacije</string>
-  <string name="revanced_sb_segments_outro">Završne kartice/Krediti</string>
-  <string name="revanced_sb_segments_outro_sum">Krediti ili kada se pojave YouTube završne kartice. Nije za zaključke sa informacijama</string>
+  <string name="revanced_sb_segments_outro">Završne kartice/Zasluge</string>
+  <string name="revanced_sb_segments_outro_sum">Zasluge ili kada se pojave YouTube završne kartice. Nije za zaključke sa informacijama</string>
   <string name="revanced_sb_segments_preview">Pregled/Rekapitulacija/Najava</string>
   <string name="revanced_sb_segments_preview_sum">Kolekcija klipova koji pokazuju šta sledi ili šta se desilo u videu ili u drugim videima serijе, gde se sve informacije ponavljaju na drugom mestu</string>
   <string name="revanced_sb_segments_filler">Popunjavanje/Šale</string>
@@ -1287,21 +1287,25 @@ Ako ovo omogućite, mogu biti otključani viši kvaliteti videa"</string>
 Reprodukcija videa možda neće raditi"</string>
   <string name="revanced_spoof_video_streams_user_dialog_message">Isključivanje ove opcije će možda izazvati probleme sa reprodukcijom videa.</string>
   <string name="revanced_spoof_video_streams_client_type_title">Podrazumevani klijent</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_title">Prisili AVC (H.264)</string>
+  <!-- 'no auth' means no authentication -->
+  <string name="revanced_spoof_video_streams_client_type_android_vr_no_auth">Android VR (bez autentifikacije)</string>
+  <string name="revanced_spoof_video_streams_ios_force_avc_title">Prisili na AVC (H.264) na iOS-u</string>
   <string name="revanced_spoof_video_streams_ios_force_avc_summary_on">Video kodek je prisilno podešen na AVC (H.264)</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">Video kodek je određen automatski</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">"Ako ovo omogućite, možda će se produžiti trajanje baterije i popraviti zastoj pri reprodukciji.
+  <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">Video kodek se određuje automatski</string>
+  <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">"Omogućavanje ovoga može poboljšati trajanje baterije i popraviti zastoje pri reprodukciji.
 
 AVC ima maksimalnu rezoluciju od 1080p, audio kodek Opus nije dostupan, a reprodukcija videa će koristiti više internet podataka nego VP9 ili AV1."</string>
-  <string name="revanced_spoof_video_streams_about_ios_title">Neželjeni efekti lažiranja na iOS</string>
-  <string name="revanced_spoof_video_streams_about_ios_summary">"• Privatni dečji videi se možda neće puštati
-• Videi će se završiti 1 sekundu ranije"</string>
-  <string name="revanced_spoof_video_streams_about_android_vr_title">Neželjeni efekti lažiranja na Android VR</string>
-  <string name="revanced_spoof_video_streams_about_android_vr_summary">"• Dečiji video možda neće biti pušteni
-• Menija za zvučnu numeru nedostaje
-• Dostupno stabilna jačina zvuka
-• Forsiranje originalnog zvuka nije dostupno"</string>
-  <string name="revanced_spoof_video_streams_language_title">Podrazumevani jezik audio strima</string>
+  <string name="revanced_spoof_video_streams_about_ios_tv_title">Neželjeni efekti lažiranja na iOS TV</string>
+  <string name="revanced_spoof_video_streams_about_ios_tv_summary">"• Filmovi ili plaćeni videi se možda neće puštati
+• Videi će se završavati 1 sekundu ranije"</string>
+  <string name="revanced_spoof_video_streams_about_android_title">Neželjeni efekti lažiranja na Android</string>
+  <string name="revanced_spoof_video_streams_about_android_summary">"• Meni „Audio snimak” nedostaje
+• Ujednačena jačina zvuka nije dostupna
+• Opcija „Prisili originalan zvuk” nije dostupna"</string>
+  <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Prikaži u „Statistici za znalce”</string>
+  <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Tip klijenta je prikazan u „Statistici za znalce”</string>
+  <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Tip klijenta je skriven u „Statistici za znalce”</string>
+  <string name="revanced_spoof_video_streams_language_title">Podrazumevani jezik audio strima za VR</string>
   <string name="revanced_spoof_video_streams_language_DEFAULT">Jezik aplikacije</string>
   <string name="revanced_spoof_video_streams_language_AR">Arapski</string>
   <string name="revanced_spoof_video_streams_language_AZ">Azerbejdžanski</string>
@@ -1338,8 +1342,7 @@ AVC ima maksimalnu rezoluciju od 1080p, audio kodek Opus nije dostupan, a reprod
   <string name="revanced_spoof_video_streams_language_OR">Odija</string>
   <string name="revanced_spoof_video_streams_language_PA">Pandžapski</string>
   <string name="revanced_spoof_video_streams_language_PL">Poljski</string>
-  <string name="revanced_spoof_video_streams_language_PT_BR">Portugalski (Brazil)</string>
-  <string name="revanced_spoof_video_streams_language_PT_PT">Portugalski (Portugalija)</string>
+  <string name="revanced_spoof_video_streams_language_PT">Portugalski</string>
   <string name="revanced_spoof_video_streams_language_RO">Rumunski</string>
   <string name="revanced_spoof_video_streams_language_RU">Ruski</string>
   <string name="revanced_spoof_video_streams_language_SK">Slovački</string>

@@ -1286,22 +1286,16 @@ Abilitare questa opzione può sbloccare qualità video più elevate"</string>
 La riproduzione video potrebbe non funzionare"</string>
   <string name="revanced_spoof_video_streams_user_dialog_message">Disattivando questa impostazione potrebbe causare problemi di riproduzione video.</string>
   <string name="revanced_spoof_video_streams_client_type_title">Client predefinito</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_title">Forza AVC (H.264)</string>
+  <!-- 'no auth' means no authentication -->
+  <string name="revanced_spoof_video_streams_ios_force_avc_title">Forzare AVC (H.264) iOS</string>
   <string name="revanced_spoof_video_streams_ios_force_avc_summary_on">Il codec video è forzato ad AVC (H.264)</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">Il codec video viene determinato automaticamente</string>
-  <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">"Abilitare questa opzione potrebbe migliorare la durata della batteria e risolvere i rallentamenti nella riproduzione.
+  <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">Il codec video è determinato automaticamente</string>
+  <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">"L'abilitazione di questa opzione potrebbe migliorare la durata della batteria e risolvere i problemi di stuttering durante la riproduzione.
 
-AVC ha una risoluzione massima di 1080p, il codec audio Opus non è disponibile e la riproduzione video utilizzerà più dati rispetto a VP9 o AV1."</string>
-  <string name="revanced_spoof_video_streams_about_ios_title">Effetti collaterali simulazione iOS</string>
-  <string name="revanced_spoof_video_streams_about_ios_summary">"• I video per bambini privati potrebbero non essere riproducibili
+AVC ha una risoluzione massima di 1080p, il codec audio Opus non è disponibile e la riproduzione video utilizzerà più dati Internet rispetto a VP9 o AV1."</string>
+  <string name="revanced_spoof_video_streams_about_ios_tv_summary">"• I film o i video a pagamento potrebbero non essere riproducibili
 • I video terminano 1 secondo prima"</string>
-  <string name="revanced_spoof_video_streams_about_android_vr_title">Effetti collaterali simulazione Android VR</string>
-  <string name="revanced_spoof_video_streams_about_android_vr_summary">"• I video per bambini potrebbero non essere riproducibili
-• Il menu della traccia audio è mancante
-• Il volume stabile non è disponibile
-• Forzare l'audio originale non è disponibile"</string>
-  <string name="revanced_spoof_video_streams_language_title">Lingua predefinita del flusso audio</string>
-  <string name="revanced_spoof_video_streams_language_DEFAULT">Lingua app</string>
+  <string name="revanced_spoof_video_streams_language_DEFAULT">Lingua dell\'account</string>
   <string name="revanced_spoof_video_streams_language_AR">Arabo</string>
   <string name="revanced_spoof_video_streams_language_AZ">Azerbaigiano</string>
   <string name="revanced_spoof_video_streams_language_BG">Bulgaro</string>
@@ -1337,8 +1331,6 @@ AVC ha una risoluzione massima di 1080p, il codec audio Opus non è disponibile 
   <string name="revanced_spoof_video_streams_language_OR">Odia</string>
   <string name="revanced_spoof_video_streams_language_PA">Punjabi</string>
   <string name="revanced_spoof_video_streams_language_PL">Polacco</string>
-  <string name="revanced_spoof_video_streams_language_PT_BR">Portoghese (Brasile)</string>
-  <string name="revanced_spoof_video_streams_language_PT_PT">Portoghese (Portogallo)</string>
   <string name="revanced_spoof_video_streams_language_RO">Rumeno</string>
   <string name="revanced_spoof_video_streams_language_RU">Russo</string>
   <string name="revanced_spoof_video_streams_language_SK">Slovacco</string>

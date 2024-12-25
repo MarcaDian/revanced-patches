@@ -1,3 +1,121 @@
+## [5.7.2](https://github.com/ReVanced/revanced-patches/compare/v5.7.1...v5.7.2) (2024-12-24)
+
+
+### Bug Fixes
+
+* **YouTube - Hide layout components:** Don't hide Shorts channel bar when toggling for video player ([9af6412](https://github.com/ReVanced/revanced-patches/commit/9af6412d92ec31e612eaabba6578453da0fc61d6))
+* **YouTube - Spoof video streams:** Add iOS TV client, restore iOS 'force AVC', show client type in stats for nerds ([#4202](https://github.com/ReVanced/revanced-patches/issues/4202)) ([ab29f80](https://github.com/ReVanced/revanced-patches/commit/ab29f808a9f55b5ab0055533c1a6de549b0631a6))
+
+## [5.7.2-dev.2](https://github.com/ReVanced/revanced-patches/compare/v5.7.2-dev.1...v5.7.2-dev.2) (2024-12-23)
+
+
+### Bug Fixes
+
+* **YouTube - Hide layout components:** Don't hide Shorts channel bar when toggling for video player ([9af6412](https://github.com/ReVanced/revanced-patches/commit/9af6412d92ec31e612eaabba6578453da0fc61d6))
+
+## [5.7.2-dev.1](https://github.com/ReVanced/revanced-patches/compare/v5.7.1...v5.7.2-dev.1) (2024-12-23)
+
+
+### Bug Fixes
+
+* **YouTube - Spoof video streams:** Add iOS TV client, restore iOS 'force AVC', show client type in stats for nerds ([#4202](https://github.com/ReVanced/revanced-patches/issues/4202)) ([ab29f80](https://github.com/ReVanced/revanced-patches/commit/ab29f808a9f55b5ab0055533c1a6de549b0631a6))
+
+## [5.7.1](https://github.com/ReVanced/revanced-patches/compare/v5.7.0...v5.7.1) (2024-12-23)
+
+
+### Bug Fixes
+
+* **YouTube - SponsorBlock:** Show a toast and not a dialog if segment submitted successfully ([134b189](https://github.com/ReVanced/revanced-patches/commit/134b189791113dcf1a1cb7c87b8a0954f432730c))
+* **YouTube - Spoof video streams:** Use 2 letter device language code ([33ff997](https://github.com/ReVanced/revanced-patches/commit/33ff9972000581aca92262f984efb114eeeb9537))
+* **YouTube - Spoof video streams:** Use Android VR authentication if using default audio language ([#4191](https://github.com/ReVanced/revanced-patches/issues/4191)) ([98773cc](https://github.com/ReVanced/revanced-patches/commit/98773cc7d46e5c9c7715b82c8006f1ccbcc5443c))
+* **YouTube - Theme:** Use dark theme color for status and navigation bar ([0240efe](https://github.com/ReVanced/revanced-patches/commit/0240efe33e5444625ca2b760c861c9046d3dc836))
+* **YouTube:** Do not reset playback speed to 1.0x after closing comment thread (Fixes stock YouTube bug) ([#4195](https://github.com/ReVanced/revanced-patches/issues/4195)) ([dda788c](https://github.com/ReVanced/revanced-patches/commit/dda788c58c789d4f91646ea8e8a8077f590ab6b3))
+
+## [5.7.1-dev.5](https://github.com/ReVanced/revanced-patches/compare/v5.7.1-dev.4...v5.7.1-dev.5) (2024-12-22)
+
+
+### Bug Fixes
+
+* **YouTube - Spoof video streams:** Use 2 letter device language code ([33ff997](https://github.com/ReVanced/revanced-patches/commit/33ff9972000581aca92262f984efb114eeeb9537))
+
+## [5.7.1-dev.4](https://github.com/ReVanced/revanced-patches/compare/v5.7.1-dev.3...v5.7.1-dev.4) (2024-12-22)
+
+
+### Bug Fixes
+
+* **YouTube:** Do not reset playback speed to 1.0x after closing comment thread (Fixes stock YouTube bug) ([#4195](https://github.com/ReVanced/revanced-patches/issues/4195)) ([dda788c](https://github.com/ReVanced/revanced-patches/commit/dda788c58c789d4f91646ea8e8a8077f590ab6b3))
+
+## [5.7.1-dev.3](https://github.com/ReVanced/revanced-patches/compare/v5.7.1-dev.2...v5.7.1-dev.3) (2024-12-22)
+
+
+### Bug Fixes
+
+* **YouTube - SponsorBlock:** Show a toast and not a dialog if segment submitted successfully ([134b189](https://github.com/ReVanced/revanced-patches/commit/134b189791113dcf1a1cb7c87b8a0954f432730c))
+
+## [5.7.1-dev.2](https://github.com/ReVanced/revanced-patches/compare/v5.7.1-dev.1...v5.7.1-dev.2) (2024-12-22)
+
+
+### Bug Fixes
+
+* **YouTube - Theme:** Use dark theme color for status and navigation bar ([0240efe](https://github.com/ReVanced/revanced-patches/commit/0240efe33e5444625ca2b760c861c9046d3dc836))
+
+## [5.7.1-dev.1](https://github.com/ReVanced/revanced-patches/compare/v5.7.0...v5.7.1-dev.1) (2024-12-22)
+
+
+### Bug Fixes
+
+* **YouTube - Spoof video streams:** Use Android VR authentication if using default audio language ([#4191](https://github.com/ReVanced/revanced-patches/issues/4191)) ([98773cc](https://github.com/ReVanced/revanced-patches/commit/98773cc7d46e5c9c7715b82c8006f1ccbcc5443c))
+
+# [5.7.0](https://github.com/ReVanced/revanced-patches/compare/v5.6.0...v5.7.0) (2024-12-22)
+
+
+### Bug Fixes
+
+* **YouTube - Force original audio:** Use correct availability for settings UI ([a7eedcb](https://github.com/ReVanced/revanced-patches/commit/a7eedcb4cca6b7b12629c478c24c0899c80e3615))
+* **YouTube - Spoof video stream:** Remove UI client type setting.  Allow setting default audio language. ([#4184](https://github.com/ReVanced/revanced-patches/issues/4184)) ([99f3f29](https://github.com/ReVanced/revanced-patches/commit/99f3f29c649bf7693c05bbce2bb49bd53e05f050))
+* **YouTube - Spoof video streams:** Remove iOS, add clients Android TV and Android Creator ([#4180](https://github.com/ReVanced/revanced-patches/issues/4180)) ([86abfb2](https://github.com/ReVanced/revanced-patches/commit/86abfb2b0d4675f0a1cb9ab244783075bfe89281))
+* **YouTube:** Change fingerprints to support a wider range of target versions ([8a09174](https://github.com/ReVanced/revanced-patches/commit/8a09174def205a26ce49cb7815097e235069526a))
+
+
+### Features
+
+* **YouTube:** Support version `19.47.53` ([#4182](https://github.com/ReVanced/revanced-patches/issues/4182)) ([2089e61](https://github.com/ReVanced/revanced-patches/commit/2089e613d36c45352db7d852aaee0087b1c3e1a4))
+
+# [5.7.0-dev.1](https://github.com/ReVanced/revanced-patches/compare/v5.6.1-dev.4...v5.7.0-dev.1) (2024-12-21)
+
+
+### Features
+
+* **YouTube:** Support version `19.47.53` ([#4182](https://github.com/ReVanced/revanced-patches/issues/4182)) ([2089e61](https://github.com/ReVanced/revanced-patches/commit/2089e613d36c45352db7d852aaee0087b1c3e1a4))
+
+## [5.6.1-dev.4](https://github.com/ReVanced/revanced-patches/compare/v5.6.1-dev.3...v5.6.1-dev.4) (2024-12-21)
+
+
+### Bug Fixes
+
+* **YouTube - Spoof video stream:** Remove UI client type setting.  Allow setting default audio language. ([#4184](https://github.com/ReVanced/revanced-patches/issues/4184)) ([99f3f29](https://github.com/ReVanced/revanced-patches/commit/99f3f29c649bf7693c05bbce2bb49bd53e05f050))
+
+## [5.6.1-dev.3](https://github.com/ReVanced/revanced-patches/compare/v5.6.1-dev.2...v5.6.1-dev.3) (2024-12-21)
+
+
+### Bug Fixes
+
+* **YouTube - Force original audio:** Use correct availability for settings UI ([a7eedcb](https://github.com/ReVanced/revanced-patches/commit/a7eedcb4cca6b7b12629c478c24c0899c80e3615))
+
+## [5.6.1-dev.2](https://github.com/ReVanced/revanced-patches/compare/v5.6.1-dev.1...v5.6.1-dev.2) (2024-12-21)
+
+
+### Bug Fixes
+
+* **YouTube - Spoof video streams:** Remove iOS, add clients Android TV and Android Creator ([#4180](https://github.com/ReVanced/revanced-patches/issues/4180)) ([86abfb2](https://github.com/ReVanced/revanced-patches/commit/86abfb2b0d4675f0a1cb9ab244783075bfe89281))
+
+## [5.6.1-dev.1](https://github.com/ReVanced/revanced-patches/compare/v5.6.0...v5.6.1-dev.1) (2024-12-21)
+
+
+### Bug Fixes
+
+* **YouTube:** Change fingerprints to support a wider range of target versions ([8a09174](https://github.com/ReVanced/revanced-patches/commit/8a09174def205a26ce49cb7815097e235069526a))
+
 # [5.6.0](https://github.com/ReVanced/revanced-patches/compare/v5.5.1...v5.6.0) (2024-12-20)
 
 

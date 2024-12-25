@@ -122,6 +122,13 @@ internal val hlsCurrentTimeFingerprint = fingerprint {
     }
 }
 
+internal val nerdsStatsVideoFormatBuilderFingerprint = fingerprint {
+    accessFlags(AccessFlags.PUBLIC, AccessFlags.STATIC)
+    returns("Ljava/lang/String;")
+    parameters("L")
+    strings("codecs=\"")
+}
+
 internal val patchIncludedExtensionMethodFingerprint = fingerprint {
     accessFlags(AccessFlags.PRIVATE, AccessFlags.STATIC)
     returns("Z")
