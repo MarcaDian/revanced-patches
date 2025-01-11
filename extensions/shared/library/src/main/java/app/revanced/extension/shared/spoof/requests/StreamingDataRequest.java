@@ -182,7 +182,7 @@ public class StreamingDataRequest {
         // Retry with different client if empty response body is received.
         int i = 0;
         for (ClientType clientType : CLIENT_ORDER_TO_USE) {
-            // Show an error if the last client type fails, or if the debug is enabled then show for all attempts.
+            // Show an error if the last client type fails, or if debug is enabled then show for all attempts.
             final boolean showErrorToast = (++i == CLIENT_ORDER_TO_USE.length) || debugEnabled;
 
             HttpURLConnection connection = send(clientType, videoId, playerHeaders, showErrorToast);
@@ -191,8 +191,8 @@ public class StreamingDataRequest {
                     // gzip encoding doesn't response with content length (-1),
                     // but empty response body does.
                     if (connection.getContentLength() == 0) {
-                        if (BaseSettings.DEBUG.get()) {
-                            Logger.printException(() -> "Ignoring empty client: " + clientType);
+                        if (BaseSettings.DEBUG.get() && BaseSettings.DEBUG_TOAST_ON_ERROR.get()) {
+                            Utils.showToastShort("Ignoring empty spoof stream client: " + clientType);
                         }
                     } else {
                         try (InputStream inputStream = new BufferedInputStream(connection.getInputStream());

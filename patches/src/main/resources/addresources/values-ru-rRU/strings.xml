@@ -43,6 +43,62 @@ Second \"item\" text"</string>
   <string name="revanced_settings_import_reset">Настройки ReVanced сброшены по умолчанию</string>
   <string name="revanced_settings_import_success">Импортировано %d настроек</string>
   <string name="revanced_settings_import_failure_parse">Не удалось импортировать: %s</string>
+  <string name="revanced_language_title">Язык ReVanced</string>
+  <string name="revanced_language_user_dialog_message">"Переводы для некоторых языков могут отсутствовать или быть неполными.
+
+Чтобы перевести новые языки, посетите translate.revanced.app"</string>
+  <string name="revanced_language_DEFAULT">Язык приложения</string>
+  <string name="revanced_language_AR">Арабский</string>
+  <string name="revanced_language_AZ">Азербайджанский</string>
+  <string name="revanced_language_BG">Болгарский</string>
+  <string name="revanced_language_BN">Бенгальский</string>
+  <string name="revanced_language_CA">Каталонский</string>
+  <string name="revanced_language_CS">Чешский</string>
+  <string name="revanced_language_DA">Датский</string>
+  <string name="revanced_language_DE">Немецкий</string>
+  <string name="revanced_language_EL">Греческий</string>
+  <string name="revanced_language_EN">Английский</string>
+  <string name="revanced_language_ES">Испанский</string>
+  <string name="revanced_language_ET">Эстонский</string>
+  <string name="revanced_language_FA">Фарси</string>
+  <string name="revanced_language_FI">Финский</string>
+  <string name="revanced_language_FR">Французкий</string>
+  <string name="revanced_language_GU">Гуджарати</string>
+  <string name="revanced_language_HI">Хинди</string>
+  <string name="revanced_language_HR">Хорватский</string>
+  <string name="revanced_language_HU">Венгерский</string>
+  <string name="revanced_language_ID">Индонезийский</string>
+  <string name="revanced_language_IT">Итальянский</string>
+  <string name="revanced_language_JA">Японский</string>
+  <string name="revanced_language_KK">Казахский</string>
+  <string name="revanced_language_KO">Корейский</string>
+  <string name="revanced_language_LT">Литовский</string>
+  <string name="revanced_language_LV">Латышский</string>
+  <string name="revanced_language_MK">Македонский</string>
+  <string name="revanced_language_MN">Монгольский</string>
+  <string name="revanced_language_MR">Маратхи</string>
+  <string name="revanced_language_MS">Малайский</string>
+  <string name="revanced_language_MY">Бирманский</string>
+  <string name="revanced_language_NL">Нидерландский</string>
+  <string name="revanced_language_OR">Одиа</string>
+  <string name="revanced_language_PA">Панджаби</string>
+  <string name="revanced_language_PL">Польский</string>
+  <string name="revanced_language_PT">Португальский</string>
+  <string name="revanced_language_RO">Румынский</string>
+  <string name="revanced_language_RU">Русский</string>
+  <string name="revanced_language_SK">Словацкий</string>
+  <string name="revanced_language_SL">Словенский</string>
+  <string name="revanced_language_SR">Сербский</string>
+  <string name="revanced_language_SV">Шведский</string>
+  <string name="revanced_language_SW">Суахили</string>
+  <string name="revanced_language_TA">Тамильский</string>
+  <string name="revanced_language_TE">Телугу</string>
+  <string name="revanced_language_TH">Тайский</string>
+  <string name="revanced_language_TR">Турецкий</string>
+  <string name="revanced_language_UK">Украинский</string>
+  <string name="revanced_language_UR">Урду</string>
+  <string name="revanced_language_VI">Вьетнамский</string>
+  <string name="revanced_language_ZH">Китайский</string>
   <string name="revanced_pref_import_export_title">Импорт и экспорт настроек</string>
   <string name="revanced_pref_import_export_summary">Восстановление и сохранение настроек ReVanced</string>
   <!-- Settings about dialog. -->
@@ -208,8 +264,8 @@ Second \"item\" text"</string>
   <string name="revanced_hide_quick_actions_summary_on">Быстрые действия в полноэкранном режиме скрыты</string>
   <string name="revanced_hide_quick_actions_summary_off">Быстрые действия в полноэкранном режиме отображены</string>
   <string name="revanced_hide_related_videos_title">Похожие видео</string>
-  <string name="revanced_hide_related_videos_summary_on">Похожие видео в быстрых действиях в полноэкранном режиме скрыты</string>
-  <string name="revanced_hide_related_videos_summary_off">Похожие видео в быстрых действиях в полноэкранном режиме  отображены</string>
+  <string name="revanced_hide_related_videos_summary_on">Похожие видео в быстрых действиях скрыты</string>
+  <string name="revanced_hide_related_videos_summary_off">Похожие видео в быстрых действиях отображены</string>
   <string name="revanced_hide_image_shelf_title">Секция изображений</string>
   <string name="revanced_hide_image_shelf_summary_on">Секция изображений в результатах поиска скрыта</string>
   <string name="revanced_hide_image_shelf_summary_off">Секция изображений в результатах поиска отображена</string>
@@ -333,10 +389,10 @@ Second \"item\" text"</string>
   <string name="revanced_hide_general_ads_summary_on">Реклама общего формата скрыта</string>
   <string name="revanced_hide_general_ads_summary_off">Реклама общего формата отображена</string>
   <string name="revanced_hide_fullscreen_ads_title">Полноэкранная реклама</string>
-  <string name="revanced_hide_fullscreen_ads_summary_on">"Полноэкранная реклама при запуске приложения скрыта
+  <string name="revanced_hide_fullscreen_ads_summary_on">"Полноэкранная реклама скрыта
 
 Данная опция доступна только для старых устройств"</string>
-  <string name="revanced_hide_fullscreen_ads_summary_off">Полноэкранная реклама при запуске приложения отображена</string>
+  <string name="revanced_hide_fullscreen_ads_summary_off">Полноэкранная реклама отображена</string>
   <string name="revanced_hide_buttoned_ads_title">Видеообъявления</string>
   <string name="revanced_hide_buttoned_ads_summary_on">Видеообъявления скрыты</string>
   <string name="revanced_hide_buttoned_ads_summary_off">Видеообъявления отображены</string>
@@ -446,6 +502,9 @@ Second \"item\" text"</string>
   <string name="revanced_swipe_overlay_background_alpha_summary">Видимость фона оверлея при выполнении жестов</string>
   <string name="revanced_swipe_threshold_title">Порог величины жеста</string>
   <string name="revanced_swipe_threshold_summary">Минимальная амплитуда движения, распознаваемого как жест</string>
+  <string name="revanced_swipe_change_video_title">Переключение видео жестом</string>
+  <string name="revanced_swipe_change_video_summary_on">Жест в полноэкранном режиме переключит на следующее/предыдущее видео</string>
+  <string name="revanced_swipe_change_video_summary_off">Жест в полноэкранном режиме не переключит на следующее/предыдущее видео</string>
   </patch>
   <patch id="layout.autocaptions.autoCaptionsPatch">
   <string name="revanced_auto_captions_title">Автоматические субтитры</string>
@@ -629,15 +688,18 @@ Second \"item\" text"</string>
   <string name="revanced_shorts_player_screen_summary">Скрыть или отобразить компоненты в плеере Shorts</string>
   <!-- 'home' should be translated using the same localized wording YouTube displays for the home tab. -->
   <string name="revanced_hide_shorts_home_title">Shorts в ленте \"Главной\"</string>
-  <string name="revanced_hide_shorts_home_summary_on">Shorts в ленте \"Главной\" скрыты</string>
-  <string name="revanced_hide_shorts_home_summary_off">Shorts в ленте \"Главной\" отображены</string>
+  <string name="revanced_hide_shorts_home_summary_on">Shorts в ленте \"Главной\" и похожих видео скрыты</string>
+  <string name="revanced_hide_shorts_home_summary_off">Shorts в ленте \"Главной\" и похожих видео отображены</string>
   <!-- 'subscription' should be translated using the same localized wording YouTube displays for the subscription tab. -->
   <string name="revanced_hide_shorts_subscriptions_title">Shorts в ленте \"Подписок\"</string>
   <string name="revanced_hide_shorts_subscriptions_summary_on">Shorts в ленте \"Подписок\" скрыты</string>
   <string name="revanced_hide_shorts_subscriptions_summary_off">Shorts в ленте \"Подписок\" отображены</string>
   <string name="revanced_hide_shorts_search_title">Shorts в результатах поиска</string>
-  <string name="revanced_hide_shorts_search_summary_on">Shorts в результатах поиска скрыты</string>
-  <string name="revanced_hide_shorts_search_summary_off">Shorts в результатах поиска отображены</string>
+  <string name="revanced_hide_shorts_search_summary_on">Скрыты в результатах поиска</string>
+  <string name="revanced_hide_shorts_search_summary_off">Отображены в результатах поиска</string>
+  <string name="revanced_hide_shorts_history_title">Shorts в истории просмотров</string>
+  <string name="revanced_hide_shorts_history_summary_on">Скрыты в истории просмотров</string>
+  <string name="revanced_hide_shorts_history_summary_off">Отображены в истории просмотров</string>
   <!-- 'join' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="revanced_hide_shorts_join_button_title">Кнопка \"Присоединиться\"</string>
   <string name="revanced_hide_shorts_join_button_summary_on">Кнопка \"Присоединиться\" в Shorts скрыта</string>
@@ -739,10 +801,17 @@ Second \"item\" text"</string>
   <string name="revanced_hide_player_popup_panels_summary_on">Автоматически всплывающие панели в плеере скрыты</string>
   <string name="revanced_hide_player_popup_panels_summary_off">Автоматически всплывающие панели в плеере отображены</string>
   </patch>
+  <patch id="layout.player.fullscreen.exitFullscreenPatch">
+  <string name="revanced_exit_fullscreen_title">Выход из полноэкранного режима по окончании видео</string>
+  <string name="revanced_exit_fullscreen_entry_1">Отключено</string>
+  <string name="revanced_exit_fullscreen_entry_2">Портрет</string>
+  <string name="revanced_exit_fullscreen_entry_3">Ландшафт</string>
+  <string name="revanced_exit_fullscreen_entry_4">Портрет и ландшафт</string>
+  </patch>
   <patch id="layout.player.fullscreen.openVideosFullscreen">
-  <string name="revanced_open_videos_fullscreen_portrait_title">Видео в полноэкранном портрете</string>
-  <string name="revanced_open_videos_fullscreen_portrait_summary_on">Видео открываются в полноэкранном портретном режиме</string>
-  <string name="revanced_open_videos_fullscreen_portrait_summary_off">Видео не открываются в полноэкранном портретном режиме</string>
+  <string name="revanced_open_videos_fullscreen_portrait_title">Видео в портретной ориентации</string>
+  <string name="revanced_open_videos_fullscreen_portrait_summary_on">Видео открываются в полноэкранной портретной ориентации</string>
+  <string name="revanced_open_videos_fullscreen_portrait_summary_off">Видео не открываются в полноэкранной портретной ориентации</string>
   </patch>
   <patch id="layout.player.overlay.customPlayerOverlayOpacityResourcePatch">
   <string name="revanced_player_overlay_opacity_title">Непрозрачность оверлея плеера</string>
@@ -776,7 +845,7 @@ Second \"item\" text"</string>
   <string name="revanced_ryd_toast_on_connection_error_summary_on">Всплывающее уведомление при недоступности Return YouTube Dislike отображено</string>
   <string name="revanced_ryd_toast_on_connection_error_summary_off">Всплывающее уведомление при недоступности Return YouTube Dislike скрыто</string>
   <string name="revanced_ryd_about">Информация</string>
-  <string name="revanced_ryd_attribution_summary">Данные предоставлены Return YouTube Dislike API. Нажмите для получения дополнительной информации</string>
+  <string name="revanced_ryd_attribution_summary">Данные предоставлены Return YouTube Dislike API. Нажмите для дополнительной информации</string>
   <!-- Statistic strings are shown in the settings only when ReVanced debug mode is enabled. Typical users will never see these. -->
   <string name="revanced_ryd_statistics_category_title">Статистика Return YouTube Dislike API этого устройства</string>
   <string name="revanced_ryd_statistics_getFetchCallResponseTimeAverage_title">Время ответа API, среднее</string>
@@ -804,8 +873,8 @@ Second \"item\" text"</string>
   <string name="revanced_seekbar_thumbnails_high_quality_title">Миниатюры высокого качества</string>
   <string name="revanced_seekbar_thumbnails_high_quality_summary_on">Миниатюры полосы прогресса высокого качества</string>
   <string name="revanced_seekbar_thumbnails_high_quality_summary_off">Миниатюры полосы прогресса среднего качества</string>
-  <string name="revanced_seekbar_thumbnails_high_quality_legacy_summary_on">Полноэкранные миниатюры полосы прогресса высокого качества</string>
-  <string name="revanced_seekbar_thumbnails_high_quality_legacy_summary_off">Полноэкранные миниатюры полосы прогресса среднего качества</string>
+  <string name="revanced_seekbar_thumbnails_high_quality_legacy_summary_on">Полноэкранные миниатюры полосы прогресса имеют высокое качество</string>
+  <string name="revanced_seekbar_thumbnails_high_quality_legacy_summary_off">Полноэкранные миниатюры полосы прогресса имеют среднее качество</string>
   <string name="revanced_seekbar_thumbnails_high_quality_dialog_message">"Данная опция также восстановит миниатюры в прямых трансляциях, которые не имеют миниатюр полосы прогресса.
 
 Миниатюры полосы прогресса будут использовать такое же качество, как и текущее видео.
@@ -1006,7 +1075,24 @@ Second \"item\" text"</string>
   <string name="revanced_sb_reset_color">Сбросить цвет</string>
   <string name="revanced_sb_reset">Сброс</string>
   <string name="revanced_sb_about">Информация</string>
-  <string name="revanced_sb_about_api_sum">Данные предоставлены SponsorBlock API. Нажмите для получения дополнительной информации и просмотра загрузок для других платформ</string>
+  <string name="revanced_sb_about_api_sum">Данные предоставлены SponsorBlock API. Нажмите для дополнительной информации и просмотра загрузок для других платформ</string>
+  </patch>
+  <patch id="layout.formfactor.changeFormFactorPatch">
+  <string name="revanced_change_form_factor_title">Макет интерфейса</string>
+  <string name="revanced_change_form_factor_entry_1">По умолчанию</string>
+  <string name="revanced_change_form_factor_entry_2">Телефонный</string>
+  <string name="revanced_change_form_factor_entry_3">Планшетный</string>
+  <string name="revanced_change_form_factor_entry_4">Автомобильный</string>
+  <string name="revanced_change_form_factor_user_dialog_message">"Изменения включают:
+
+Планшетный макет
+• Посты сообщества скрыты
+
+Автомобильный макет
+• Меню истории просмотров скрыто
+• Вкладка \"Навигатор\" восстановлена
+• Shorts открываются в стандартном плеере
+• Лента организована по темам и каналам"</string>
   </patch>
   <patch id="layout.spoofappversion.spoofAppVersionPatch">
   <string name="revanced_spoof_app_version_title">Подмена версии приложения</string>
@@ -1021,6 +1107,7 @@ Second \"item\" text"</string>
                  This is because the 'General layout' menu uses alphabetic sorting, and it functionally works better if the spoof target selector appears below the 'Spoof app version' UI switch -->
   <string name="revanced_spoof_app_version_target_title">Подмена версии приложения на</string>
   <string name="revanced_spoof_app_version_target_entry_1">19.35.36 - Восстановление старых иконок плеера Shorts</string>
+  <string name="revanced_spoof_app_version_target_entry_2">19.26.42 - Восстановление старых иконок панелей навигации и инструментов</string>
   <!-- 'RYD' is 'Return YouTube Dislike' -->
   <string name="revanced_spoof_app_version_target_legacy_entry_1">18.33.40 - Восстановление Return Youtube Dislike в режиме инкогнито Shorts</string>
   <string name="revanced_spoof_app_version_target_legacy_entry_2">18.20.39 - Восстановление расширенного меню скорости и качества видео</string>
@@ -1053,8 +1140,8 @@ Second \"item\" text"</string>
   <patch id="layout.shortsplayer.shortsPlayerTypePatch">
   <string name="revanced_shorts_player_type_title">Открывать Shorts с</string>
   <string name="revanced_shorts_player_type_shorts">Плеер Shorts</string>
-  <string name="revanced_shorts_player_type_regular_player">Обычный плеер</string>
-  <string name="revanced_shorts_player_type_regular_player_fullscreen">Обычный плеер в полноэкранном режиме</string>
+  <string name="revanced_shorts_player_type_regular_player">Стандартный плеер</string>
+  <string name="revanced_shorts_player_type_regular_player_fullscreen">Стандартный полноэкранный плеер</string>
   </patch>
   <patch id="layout.shortsautoplay.shortsAutoplayPatch">
   <string name="revanced_shorts_autoplay_title">Автопроигрывание Shorts</string>
@@ -1063,12 +1150,6 @@ Second \"item\" text"</string>
   <string name="revanced_shorts_autoplay_background_title">Автопроигрывание Shorts в фоне</string>
   <string name="revanced_shorts_autoplay_background_summary_on">Shorts будут автоматически воспроизводиться одно за другим в фоновом режиме</string>
   <string name="revanced_shorts_autoplay_background_summary_off">Shorts будут повторяться в фоновом режиме</string>
-  </patch>
-  <patch id="layout.tablet.enableTabletLayoutPatch">
-  <string name="revanced_tablet_layout_title">Планшетный интерфейс</string>
-  <string name="revanced_tablet_layout_summary_on">Планшетный интерфейс включен</string>
-  <string name="revanced_tablet_layout_summary_off">Планшетный интерфейс отключен</string>
-  <string name="revanced_tablet_layout_user_dialog_message">Публикации сообщества не отображаются в планшетном интерфейсе</string>
   </patch>
   <patch id="layout.miniplayer.miniplayerPatch">
   <string name="revanced_miniplayer_screen_title">Мини-плеер</string>
@@ -1159,7 +1240,7 @@ Second \"item\" text"</string>
 
 При активации URL-адреса видео (и никакие другие данные) будут отправлены на сервер API. При отсутствии миниатюр DeArrow в видео отображаются оригинальные или миниатюры захвата кадра
 
-Нажмите для получения дополнительной информации о DeArrow"</string>
+Нажмите для дополнительной информации о DeArrow"</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_title">Уведомление при недоступности API</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_on">Всплывающее уведомление при недоступности DeArrow отображено</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">Всплывающее уведомление при недоступности DeArrow скрыто</string>
@@ -1234,6 +1315,7 @@ Second \"item\" text"</string>
   <string name="revanced_force_original_audio_title">Принудительно оригинальный звук</string>
   <string name="revanced_force_original_audio_summary_on">Используется оригинальный звук</string>
   <string name="revanced_force_original_audio_summary_off">Используется звук по умолчанию</string>
+  <string name="revanced_force_original_audio_not_available">Для использования данной опции измените подмену видеопотока на тип клиента iOS</string>
   </patch>
   <patch id="video.quality.rememberVideoQualityPatch">
   <!-- Translations should use the same text as revanced_custom_playback_speeds_auto -->
@@ -1253,7 +1335,7 @@ Second \"item\" text"</string>
   <string name="revanced_playback_speed_dialog_button_summary_off">Кнопка выбора скорости скрыта</string>
   </patch>
   <patch id="video.speed.custom.customPlaybackSpeedPatch">
-  <string name="revanced_custom_speed_menu_title">Пользовательское меню скорости воспроизведения</string>
+  <string name="revanced_custom_speed_menu_title">Пользовательское меню скорости</string>
   <string name="revanced_custom_speed_menu_summary_on">Пользовательское меню скорости воспроизведения отображено</string>
   <string name="revanced_custom_speed_menu_summary_off">Пользовательское меню скорости воспроизведения скрыто</string>
   <string name="revanced_custom_playback_speeds_title">Скорости воспроизведения</string>
@@ -1297,69 +1379,20 @@ Second \"item\" text"</string>
   <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">"Включение данной опции может улучшить время автономной работы и устранить прерывания при воспроизведении.
 
 Максимальное разрешение видео в формате AVC составляет 1080p. Аудиокодек Opus недоступен. Воспроизведение видео будет потреблять больше интернет трафика, чем VP9 или AV1."</string>
-  <string name="revanced_spoof_video_streams_about_ios_tv_title">Побочные эффекты подмены на iOS TV</string>
+  <string name="revanced_spoof_video_streams_about_ios_tv_title">Побочные эффекты подмены на iOS</string>
   <string name="revanced_spoof_video_streams_about_ios_tv_summary">"• Фильмы и платные видео могут не воспроизводиться
+• Стабильный уровень громкости недоступен
 • Видео заканчиваются на 1 секунду раньше"</string>
   <string name="revanced_spoof_video_streams_about_android_title">Побочные эффекты подмены на Android</string>
   <string name="revanced_spoof_video_streams_about_android_summary">"• Меню выбора звуковой дорожки отсутствует
 • Функция воспроизведения видео с постоянной громкостью недоступна
 • Принудительное использование оригинального звука недоступно"</string>
+  <string name="revanced_spoof_video_streams_about_no_av1">• Нет видеокодека AV1</string>
+  <string name="revanced_spoof_video_streams_about_no_hdr">• Нет HDR-видео</string>
   <string name="revanced_spoof_streaming_data_stats_for_nerds_title">Отображение в «Статистике для сисадминов»</string>
   <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_on">Тип клиента в «Статистике для сисадминов» отображен</string>
   <string name="revanced_spoof_streaming_data_stats_for_nerds_summary_off">Тип клиента в «Статистике для сисадминов» скрыт</string>
   <string name="revanced_spoof_video_streams_language_title">Язык аудиопотока по умолчанию для VR</string>
-  <string name="revanced_spoof_video_streams_language_DEFAULT">Язык учетной записи</string>
-  <string name="revanced_spoof_video_streams_language_AR">Арабский</string>
-  <string name="revanced_spoof_video_streams_language_AZ">Азербайджанский</string>
-  <string name="revanced_spoof_video_streams_language_BG">Болгарский</string>
-  <string name="revanced_spoof_video_streams_language_BN">Бенгальский</string>
-  <string name="revanced_spoof_video_streams_language_CA">Каталонский</string>
-  <string name="revanced_spoof_video_streams_language_CS">Чешский</string>
-  <string name="revanced_spoof_video_streams_language_DA">Датский</string>
-  <string name="revanced_spoof_video_streams_language_DE">Немецкий</string>
-  <string name="revanced_spoof_video_streams_language_EL">Греческий</string>
-  <string name="revanced_spoof_video_streams_language_EN">Английский</string>
-  <string name="revanced_spoof_video_streams_language_ES">Испанский</string>
-  <string name="revanced_spoof_video_streams_language_ET">Эстонский</string>
-  <string name="revanced_spoof_video_streams_language_FA">Персидский</string>
-  <string name="revanced_spoof_video_streams_language_FI">Финский</string>
-  <string name="revanced_spoof_video_streams_language_FR">Французский</string>
-  <string name="revanced_spoof_video_streams_language_GU">Гуджарати</string>
-  <string name="revanced_spoof_video_streams_language_HI">Хинди</string>
-  <string name="revanced_spoof_video_streams_language_HR">Хорватский</string>
-  <string name="revanced_spoof_video_streams_language_HU">Венгерский</string>
-  <string name="revanced_spoof_video_streams_language_ID">Индонезийский</string>
-  <string name="revanced_spoof_video_streams_language_IT">Итальянский</string>
-  <string name="revanced_spoof_video_streams_language_JA">Японский</string>
-  <string name="revanced_spoof_video_streams_language_KK">Казахский</string>
-  <string name="revanced_spoof_video_streams_language_KO">Корейский</string>
-  <string name="revanced_spoof_video_streams_language_LT">Литовский</string>
-  <string name="revanced_spoof_video_streams_language_LV">Латышский</string>
-  <string name="revanced_spoof_video_streams_language_MK">Македонский</string>
-  <string name="revanced_spoof_video_streams_language_MN">Монгольский</string>
-  <string name="revanced_spoof_video_streams_language_MR">Маратхи</string>
-  <string name="revanced_spoof_video_streams_language_MS">Малайский</string>
-  <string name="revanced_spoof_video_streams_language_MY">Бирманский</string>
-  <string name="revanced_spoof_video_streams_language_NL">Голландский</string>
-  <string name="revanced_spoof_video_streams_language_OR">Одиа</string>
-  <string name="revanced_spoof_video_streams_language_PA">Панджаби</string>
-  <string name="revanced_spoof_video_streams_language_PL">Польский</string>
-  <string name="revanced_spoof_video_streams_language_PT">Португальский</string>
-  <string name="revanced_spoof_video_streams_language_RO">Румынский</string>
-  <string name="revanced_spoof_video_streams_language_RU">Русский</string>
-  <string name="revanced_spoof_video_streams_language_SK">Словацкий</string>
-  <string name="revanced_spoof_video_streams_language_SL">Словенский</string>
-  <string name="revanced_spoof_video_streams_language_SR">Сербский</string>
-  <string name="revanced_spoof_video_streams_language_SV">Шведский</string>
-  <string name="revanced_spoof_video_streams_language_SW">Суахили</string>
-  <string name="revanced_spoof_video_streams_language_TA">Тамильский</string>
-  <string name="revanced_spoof_video_streams_language_TE">Телугу</string>
-  <string name="revanced_spoof_video_streams_language_TH">Тайский</string>
-  <string name="revanced_spoof_video_streams_language_TR">Турецкий</string>
-  <string name="revanced_spoof_video_streams_language_UK">Украинский</string>
-  <string name="revanced_spoof_video_streams_language_UR">Урду</string>
-  <string name="revanced_spoof_video_streams_language_VI">Вьетнамский</string>
-  <string name="revanced_spoof_video_streams_language_ZH">Китайский</string>
   </patch>
   </app>
   <app id="twitch">
